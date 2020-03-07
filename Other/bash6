@@ -1,0 +1,4979 @@
+
+Last login: Sat Feb  8 10:26:21 on ttys000
+You have new mail.
+Bine ai venit Diana!
+|10:39:48|diana@Dianas-iMac:[~]> ls -al
+total 144
+drwxrwxrwx+ 41 diana  staff   1394 Feb  8 10:26 .
+drwxr-xr-x   7 diana  staff    238 May  5  2019 ..
+-r--------   1 diana  staff      7 Mar  3  2016 .CFUserTextEncoding
+-rw-r--r--@  1 diana  staff  14340 Feb  8 09:56 .DS_Store
+drwx------  15 diana  staff    510 Feb  6 23:52 .Trash
+-rw-------   1 diana  staff      0 Jul 19  2018 .Xauthority
+drwxr-xr-x   5 diana  staff    170 Sep 29  2018 .android
+-rw-r--r--   1 diana  staff  26660 Feb  8 10:26 .bash_history
+-rw-r--r--   1 diana  staff    553 Jan 18 12:16 .bash_profile
+drwxr-xr-x  40 diana  staff   1360 Feb  8 10:39 .bash_sessions
+drwxr-xr-x   3 diana  staff    102 May 29  2019 .cache
+drwxr-xr-x   6 diana  staff    204 Dec 28 12:25 .config
+drwx------   3 diana  staff    102 May 25  2016 .cups
+drwxr-xr-x   3 diana  staff    102 Feb  2 16:34 .dvisvgm
+drwxr-xr-x   5 diana  staff    170 Nov  9 11:04 .ipython
+-rw-------   1 diana  staff    483 Dec 28 12:14 .joe_state
+drwxr-xr-x   3 diana  staff    102 Jan 18 12:37 .jupyter
+-rw-------   1 diana  staff     35 Feb  8 10:26 .lesshst
+drwxr-xr-x  11 diana  staff    374 Jan 12  2017 .litwrl
+drwxr-xr-x   3 diana  staff    102 Jul  4  2016 .local
+drwxr-xr-x   3 diana  staff    102 Jun 27  2019 .mono
+drwxr-xr-x   6 diana  staff    204 Jul  5  2019 .oracle_jre_usage
+-rw-------   1 diana  staff     25 Dec 28 11:16 .python_history
+-rw-------   1 diana  staff   1024 Jul 19  2018 .rnd
+drwxr-xr-x   4 diana  staff    136 Dec 21 00:30 .vscode
+drwxrwxrwx   9 diana  staff    306 Jan 13 22:13 Applications
+drwxr-xr-x   9 diana  staff    306 May 22  2019 Calibre Library
+drwxrwxr-x@  4 diana  staff    136 Sep  7  2017 Creative Cloud Files
+drwx------+  3 diana  staff    102 Feb  6 23:52 Desktop
+drwx------+  8 diana  staff    272 Feb  3 23:15 Documents
+drwx------+  3 diana  staff    102 Feb  2 20:41 Downloads
+drwx------@ 80 diana  staff   2720 Feb  3 00:57 Library
+drwxr-xr-x   2 diana  staff     68 Feb 25  2018 MacKeeper Backups
+drwx------+  4 diana  staff    136 Jun 26  2019 Movies
+drwx------+  7 diana  staff    238 Jan 27  2018 Music
+drwx------+  9 diana  staff    306 Feb  2 20:41 Pictures
+drwxr-xrwx+  5 diana  staff    170 Mar  3  2016 Public
+drwxr-xr-x   4 diana  staff    136 Feb  2 14:58 Security
+drwxr-xr-x   3 diana  staff    102 Jul 23  2019 Twitch
+drwxr-xr-x   3 diana  staff    102 Jul  4  2016 VirtualBox VMs
+-rw-r--r--   1 diana  staff     13 Dec 21 11:59 diana.txt
+|10:40:05|diana@Dianas-iMac:[~]> 
+|10:46:01|diana@Dianas-iMac:[~]> ls -l
+total 8
+drwxrwxrwx   9 diana  staff   306 Jan 13 22:13 Applications
+drwxr-xr-x   9 diana  staff   306 May 22  2019 Calibre Library
+drwxrwxr-x@  4 diana  staff   136 Sep  7  2017 Creative Cloud Files
+drwx------+  3 diana  staff   102 Feb  6 23:52 Desktop
+drwx------+  8 diana  staff   272 Feb  3 23:15 Documents
+drwx------+  3 diana  staff   102 Feb  2 20:41 Downloads
+drwx------@ 80 diana  staff  2720 Feb  3 00:57 Library
+drwxr-xr-x   2 diana  staff    68 Feb 25  2018 MacKeeper Backups
+drwx------+  4 diana  staff   136 Jun 26  2019 Movies
+drwx------+  7 diana  staff   238 Jan 27  2018 Music
+drwx------+  9 diana  staff   306 Feb  2 20:41 Pictures
+drwxr-xrwx+  5 diana  staff   170 Mar  3  2016 Public
+drwxr-xr-x   4 diana  staff   136 Feb  2 14:58 Security
+drwxr-xr-x   3 diana  staff   102 Jul 23  2019 Twitch
+drwxr-xr-x   3 diana  staff   102 Jul  4  2016 VirtualBox VMs
+-rw-r--r--   1 diana  staff    13 Dec 21 11:59 diana.txt
+|10:46:13|diana@Dianas-iMac:[~]> ls -a
+.			.bash_sessions		.litwrl			Creative Cloud Files	Public
+..			.cache			.local			Desktop			Security
+.CFUserTextEncoding	.config			.mono			Documents		Twitch
+.DS_Store		.cups			.oracle_jre_usage	Downloads		VirtualBox VMs
+.Trash			.dvisvgm		.python_history		Library			diana.txt
+.Xauthority		.ipython		.rnd			MacKeeper Backups
+.android		.joe_state		.vscode			Movies
+.bash_history		.jupyter		Applications		Music
+.bash_profile		.lesshst		Calibre Library		Pictures
+|10:46:24|diana@Dianas-iMac:[~]> pwd
+/Users/diana
+|10:47:16|diana@Dianas-iMac:[~]> cd /
+|10:47:29|diana@Dianas-iMac:[/]> pwd
+/
+|10:47:32|diana@Dianas-iMac:[/]> ls -a
+.				Library				installer.failurerequests
+..				Network				net
+.DS_Store			System				opt
+.DocumentRevisions-V100		Users				private
+.Spotlight-V100			Volumes				sbin
+.Trashes			bin				tmp
+.file				cores				usr
+.fseventsd			dev				var
+.vol				etc
+Applications			home
+|10:47:38|diana@Dianas-iMac:[/]> ls -al
+total 69
+drwxr-xr-x   30 root   wheel  1088 Jul 18  2018 .
+drwxr-xr-x   30 root   wheel  1088 Jul 18  2018 ..
+-rw-rw-r--    1 root   admin  8196 Dec 21 11:47 .DS_Store
+d--x--x--x    9 root   wheel   306 Feb  2 20:38 .DocumentRevisions-V100
+drwx------    5 root   wheel   170 Mar  3  2016 .Spotlight-V100
+d-wx-wx-wt    2 root   wheel    68 Mar  3  2016 .Trashes
+----------    1 root   admin     0 Feb 26  2016 .file
+drwx------  229 root   wheel  7786 Feb  8 08:56 .fseventsd
+drwxr-xr-x@   2 root   wheel    68 Aug  1  2015 .vol
+drwxrwxr-x+  72 root   admin  2448 Feb  2 20:39 Applications
+drwxr-xr-x+  63 root   wheel  2142 Feb  1 19:26 Library
+drwxr-xr-x@   2 root   wheel    68 Sep 16  2015 Network
+drwxr-xr-x@   4 root   wheel   136 Jul 18  2018 System
+drwxr-xr-x    7 diana  staff   238 May  5  2019 Users
+drwxrwxrwt@   3 root   admin   102 Feb  8 00:38 Volumes
+drwxr-xr-x@  39 root   wheel  1326 Jul 18  2018 bin
+drwxrwxr-t@   2 root   admin    68 Sep 16  2015 cores
+dr-xr-xr-x    3 root   wheel  4295 Feb  2 20:37 dev
+lrwxr-xr-x@   1 root   wheel    11 Mar  3  2016 etc -> private/etc
+dr-xr-xr-x    2 root   wheel     1 Feb  2 20:37 home
+-rw-r--r--@   1 root   wheel   313 Aug  1  2015 installer.failurerequests
+dr-xr-xr-x    2 root   wheel     1 Feb  2 20:37 net
+drwxr-xr-x    3 root   wheel   102 Sep 26  2016 opt
+drwxr-xr-x@   6 root   wheel   204 Mar  3  2016 private
+drwxr-xr-x@  59 root   wheel  2006 Jul 18  2018 sbin
+lrwxr-xr-x@   1 root   wheel    11 Mar  3  2016 tmp -> private/tmp
+drwxr-xr-x@  13 root   wheel   442 Feb 23  2019 usr
+lrwxr-xr-x@   1 root   wheel    11 Mar  3  2016 var -> private/var
+|10:47:41|diana@Dianas-iMac:[/]> cd Library
+|10:48:06|diana@Dianas-iMac:[Library]> pwd
+/Library
+|10:48:09|diana@Dianas-iMac:[Library]> ls -al
+total 0
+drwxr-xr-x+  63 root  wheel  2142 Feb  1 19:26 .
+drwxr-xr-x   30 root  wheel  1088 Jul 18  2018 ..
+-rw-r--r--    1 root  wheel     0 Aug  1  2015 .localized
+drwxr-xr-x   24 root  admin   816 Jan  5 15:46 Application Support
+drwxr-xr-x    8 root  wheel   272 Jan 14  2016 Audio
+drwxr-xr-x    3 root  wheel   102 Aug 16  2015 Bundles
+drwxrwxrwt   10 root  admin   340 Feb  2 20:41 Caches
+drwxr-xr-x    2 root  wheel    68 Aug  1  2015 ColorPickers
+drwxr-xr-x    4 root  wheel   136 Mar  3  2016 ColorSync
+drwxr-xr-x    2 root  wheel    68 Aug 16  2015 Components
+drwxr-xr-x    3 root  wheel   102 Aug  1  2015 Compositions
+drwxr-xr-x    2 root  wheel    68 Aug 16  2015 Contextual Menu Items
+drwxr-xr-x    3 root  wheel   102 Dec 11  2015 CoreMediaIO
+drwxr-xr-x   57 root  wheel  1938 Aug 26  2015 Desktop Pictures
+drwxr-xr-x    3 root  admin   102 Dec  5  2016 Developer
+drwxr-xr-x   28 root  wheel   952 Jan 14  2016 Dictionaries
+drwxr-xr-x    3 root  wheel   102 Sep 24  2015 DirectoryServices
+drwxr-xr-x    8 root  wheel   272 Jul  3  2016 Documentation
+drwxr-xr-x   18 root  wheel   612 Aug 16 20:03 Extensions
+drwxr-xr-x    4 root  wheel   136 Mar  3  2016 Filesystems
+drwxrwxr-t  220 root  admin  7480 Jul 19  2018 Fonts
+drwxr-xr-x   11 root  wheel   374 Aug 12 01:28 Frameworks
+drwxr-xr-x    4 root  wheel   136 Jan 14  2016 Graphics
+drwxr-xr-x    7 root  wheel   238 Jan 14  2016 Image Capture
+drwxr-xr-x    2 root  wheel    68 Sep 24  2015 Input Methods
+drwxr-xr-x    7 root  wheel   238 Oct 27  2016 Internet Plug-Ins
+drwxrwxr-x    4 root  wheel   136 Aug 29  2016 Java
+drwxr-xr-x    2 root  wheel    68 Aug  1  2015 Keyboard Layouts
+drwxr-xr-x    6 root  wheel   204 Feb  2 20:37 Keychains
+drwxr-xr-x   10 root  wheel   340 Jan  5 15:46 LaunchAgents
+drwxr-xr-x   12 root  wheel   408 Jan 21 00:40 LaunchDaemons
+drwxr-xr-x    7 root  wheel   238 Sep 17  2016 Logs
+drwxr-xr-x    2 root  wheel    68 Mar 16  2019 Managed Preferences
+drwxr-xr-x    3 root  wheel   102 Nov 17  2015 Messages
+drwxr-xr-x   37 root  wheel  1258 Jan 14  2016 Modem Scripts
+drwxr-xr-x    5 root  wheel   170 Sep 24  2015 OpenDirectory
+drwxr-xr-x    6 root  wheel   204 Mar  3  2016 PDF Services
+drwxr-xr-x    4 root  wheel   136 Aug  1  2015 Perl
+drwxr-xr-x    4 root  wheel   136 Jan 21 00:40 PreferencePanes
+drwxr-xr-x   45 root  wheel  1530 Feb  8 07:58 Preferences
+drwxr-xr-x    7 root  admin   238 Feb  8 00:38 Printers
+drwxr-xr-t    4 root  wheel   136 Jan 21 00:40 PrivilegedHelperTools
+drwxr-xr-x    4 root  wheel   136 Jan 14  2016 Python
+drwxr-xr-x    4 root  wheel   136 Jan 14  2016 QuickLook
+drwxr-xr-x    4 root  wheel   136 Jan 14  2016 QuickTime
+drwxrwxr-x    4 root  admin   136 Mar  3  2016 Receipts
+drwxr-xr-x    4 root  wheel   136 Jan 14  2016 Ruby
+drwxr-xr-x    3 root  wheel   102 Jan 14  2016 Sandbox
+drwxr-xr-x    3 root  wheel   102 Jan 14  2016 Screen Savers
+drwxr-xr-x    3 root  wheel   102 Sep 17  2016 ScriptingAdditions
+drwxr-xr-x   10 root  wheel   340 Jan 14  2016 Scripts
+drwxr-xr-x    4 root  wheel   136 May 22  2019 Security
+drwxr-xr-x    3 root  wheel   102 Mar  3  2016 Speech
+drwxr-xr-x    5 root  wheel   170 Jan 14  2016 Spotlight
+drwxr-xr-x    2 root  wheel    68 Aug  1  2015 StartupItems
+drwxr-xr-x    2 root  wheel    68 Aug  1  2015 SystemProfiler
+drwxr-xr-x    9 root  wheel   306 Feb  2 15:35 TeX
+drwxr-xr-x    6 root  wheel   204 Feb  6 06:58 Updates
+drwxr-xr-x    8 root  wheel   272 Aug 26  2015 User Pictures
+drwxr-xr-x    4 root  wheel   136 Jan 14  2016 Video
+drwxr-xr-x    5 root  wheel   170 Aug  1  2015 WebServer
+drwxr-xr-x   18 root  wheel   612 Jan 14  2016 Widgets
+drwxr-xr-x    3 root  wheel   102 Aug  1  2015 iTunes
+|10:48:14|diana@Dianas-iMac:[Library]> cd Fonts
+|10:48:24|diana@Dianas-iMac:[Fonts]> pwd
+/Library/Fonts
+|10:48:27|diana@Dianas-iMac:[Fonts]> ls -al
+total 1311200
+drwxrwxr-t  220 root  admin      7480 Jul 19  2018 .
+drwxr-xr-x+  63 root  wheel      2142 Feb  1 19:26 ..
+-rw-r--r--    1 root  wheel    124996 Aug  1  2015 Al Nile.ttc
+-rw-r--r--    1 root  wheel     76572 Aug  1  2015 Al Tarikh.ttc
+-rw-r--r--    1 root  wheel    178720 Aug  1  2015 AlBayan.ttc
+-rw-r--r--    1 root  wheel   2906024 Oct 24  2015 AmericanTypewriter.ttc
+-rw-r--r--    1 root  wheel    109700 Oct 24  2015 Andale Mono.ttf
+-rw-r--r--    1 root  wheel    335572 Oct 24  2015 Apple Chancery.ttf
+-rw-r--r--    1 root  wheel  15292988 Aug 16  2015 AppleGothic.ttf
+-rw-r--r--    1 root  wheel  18757920 Aug 16  2015 AppleMyungjo.ttf
+-rw-r--r--    1 root  wheel    122556 Oct 24  2015 Arial Black.ttf
+-rw-r--r--    1 root  wheel    558672 Oct 24  2015 Arial Bold Italic.ttf
+-rw-r--r--    1 root  wheel    750984 Oct 24  2015 Arial Bold.ttf
+-rw-r--r--    1 root  wheel    553284 Oct 24  2015 Arial Italic.ttf
+-rw-r--r--    1 root  wheel    183932 Oct 24  2015 Arial Narrow Bold Italic.ttf
+-rw-r--r--    1 root  wheel    184420 Oct 24  2015 Arial Narrow Bold.ttf
+-rw-r--r--    1 root  wheel    184944 Oct 24  2015 Arial Narrow Italic.ttf
+-rw-r--r--    1 root  wheel    179492 Oct 24  2015 Arial Narrow.ttf
+-rw-r--r--    1 root  wheel     49296 Oct 24  2015 Arial Rounded Bold.ttf
+-rw-r--r--    1 root  wheel  23278008 Oct 24  2015 Arial Unicode.ttf
+-rw-r--r--    1 root  wheel    773236 Oct 24  2015 Arial.ttf
+-rw-r--r--    1 root  wheel   2310148 Oct 24  2015 Athelas.ttc
+-rw-r--r--    1 root  wheel    304592 Aug  1  2015 Ayuthaya.ttf
+-rw-r--r--    1 root  wheel    106220 Aug  1  2015 Baghdad.ttc
+-rw-r--r--    1 root  wheel    830804 Aug  1  2015 Bangla MN.ttc
+-rw-r--r--    1 root  wheel    762944 Aug  1  2015 Bangla Sangam MN.ttc
+-rw-r--r--    1 root  wheel   8474944 Oct 24  2015 Baoli.ttc
+-rw-r--r--    1 root  wheel   1277484 Oct 24  2015 Baskerville.ttc
+-rw-r--r--    1 root  wheel     78976 Aug  1  2015 Beirut.ttc
+-rw-r--r--    1 root  wheel    213512 Oct 24  2015 BigCaslon.ttf
+-rw-r--r--    1 root  wheel    230216 Oct 24  2015 Bodoni 72 OS.ttc
+-rw-r--r--    1 root  wheel     79956 Oct 24  2015 Bodoni 72 Smallcaps Book.ttf
+-rw-r--r--    1 root  wheel    416692 Oct 24  2015 Bodoni 72.ttc
+-rw-r--r--    1 root  wheel     72492 Oct 24  2015 Bodoni Ornaments.ttf
+-rw-r--r--    1 root  wheel    592324 Oct 24  2015 Bradley Hand Bold.ttf
+-rw-r--r--    1 root  wheel    222640 Oct 24  2015 Brush Script.ttf
+-rw-r--r--    1 root  wheel    166072 Oct 24  2015 Chalkboard.ttc
+-rw-r--r--    1 root  wheel    519772 Oct 24  2015 ChalkboardSE.ttc
+-rw-r--r--    1 root  wheel    483652 Oct 24  2015 Chalkduster.ttf
+-rw-r--r--    1 root  wheel   2097188 Oct 24  2015 Charter.ttc
+-rw-r--r--    1 root  wheel   1224236 Oct 24  2015 Cochin.ttc
+-rw-r--r--    1 root  wheel    120120 Oct 24  2015 Comic Sans MS Bold.ttf
+-rw-r--r--    1 root  wheel    135484 Oct 24  2015 Comic Sans MS.ttf
+-rw-r--r--    1 root  wheel   1257000 Oct 24  2015 Copperplate.ttc
+-rw-r--r--    1 root  wheel     71784 Aug  1  2015 Corsiva.ttc
+-rw-r--r--    1 root  wheel    506640 Oct 24  2015 Courier New Bold Italic.ttf
+-rw-r--r--    1 root  wheel    691796 Oct 24  2015 Courier New Bold.ttf
+-rw-r--r--    1 root  wheel    589900 Oct 24  2015 Courier New Italic.ttf
+-rw-r--r--    1 root  wheel    684624 Oct 24  2015 Courier New.ttf
+-rw-r--r--    1 root  wheel    147024 Oct 24  2015 DIN Alternate Bold.ttf
+-rw-r--r--    1 root  wheel     82260 Oct 24  2015 DIN Condensed Bold.ttf
+-rw-r--r--    1 root  wheel   1973380 Aug  1  2015 Damascus.ttc
+-rw-r--r--    1 root  wheel     94656 Aug  1  2015 DecoTypeNaskh.ttc
+-rw-r--r--    1 root  wheel    695000 Aug  1  2015 Devanagari Sangam MN.ttc
+-rw-r--r--    1 root  wheel    406212 Aug  1  2015 DevanagariMT.ttc
+-rw-r--r--    1 root  wheel    712936 Oct 24  2015 Didot.ttc
+-rw-r--r--    1 root  wheel     90540 Aug  1  2015 Diwan Kufi.ttc
+-rw-r--r--    1 root  wheel   1318280 Aug  1  2015 Diwan Thuluth.ttf
+-rw-r--r--    1 root  wheel    550984 Aug  1  2015 EuphemiaCAS.ttc
+-rw-r--r--    1 root  wheel     88452 Aug  1  2015 Farah.ttc
+-rw-r--r--    1 root  wheel    279940 Aug  1  2015 Farisi.ttf
+-rw-r--r--    1 root  wheel    288740 Oct 24  2015 Futura.ttc
+-rw-r--r--    1 root  wheel    385768 Oct 24  2015 Georgia Bold Italic.ttf
+-rw-r--r--    1 root  wheel    363800 Oct 24  2015 Georgia Bold.ttf
+-rw-r--r--    1 root  wheel    400624 Oct 24  2015 Georgia Italic.ttf
+-rw-r--r--    1 root  wheel    379588 Oct 24  2015 Georgia.ttf
+-rw-r--r--    1 root  wheel   1220852 Oct 24  2015 GillSans.ttc
+-rw-r--r--    1 root  wheel    222348 Aug  1  2015 Gujarati Sangam MN.ttc
+-rw-r--r--    1 root  wheel    381112 Aug  1  2015 GujaratiMT.ttc
+-rw-r--r--    1 root  wheel  10645184 Aug 16  2015 Gungseouche.ttf
+-rw-r--r--    1 root  wheel     87380 Aug  1  2015 Gurmukhi MN.ttc
+-rw-r--r--    1 root  wheel    168080 Aug  1  2015 Gurmukhi Sangam MN.ttc
+-rw-r--r--    1 root  wheel     63936 Aug  1  2015 Gurmukhi.ttf
+-rw-r--r--    1 root  wheel  85383868 Oct 24  2015 Hannotate.ttc
+-rw-r--r--    1 root  wheel  71898356 Oct 24  2015 Hanzipen.ttc
+-rw-r--r--    1 root  wheel   1198040 Aug 16  2015 HeadlineA.ttf
+-rw-r--r--    1 root  wheel    106264 Oct 24  2015 Herculanum.ttf
+-rw-r--r--    1 root  wheel     40988 Oct 24  2015 Hoefler Text Ornaments.ttf
+-rw-r--r--    1 root  wheel   1633680 Oct 24  2015 Hoefler Text.ttc
+-rw-r--r--    1 root  wheel    826144 Aug  1  2015 ITFDevanagari.ttc
+-rw-r--r--    1 root  wheel    138488 Oct 24  2015 Impact.ttf
+-rw-r--r--    1 root  wheel    260064 Aug  1  2015 InaiMathi.ttf
+-rw-r--r--    1 root  wheel   3356712 Oct 24  2015 Iowan Old Style.ttc
+-rw-r--r--    1 root  wheel   1175268 Aug  1  2015 Kailasa.ttc
+-rw-r--r--    1 root  wheel  70712356 Oct 24  2015 Kaiti.ttc
+-rw-r--r--    1 root  wheel   1148468 Aug  1  2015 Kannada MN.ttc
+-rw-r--r--    1 root  wheel   1031232 Aug  1  2015 Kannada Sangam MN.ttc
+-rw-r--r--    1 root  wheel    389880 Aug  1  2015 Kefa.ttc
+-rw-r--r--    1 root  wheel    727504 Aug  1  2015 Khmer MN.ttc
+-rw-r--r--    1 root  wheel    278472 Aug  1  2015 Khmer Sangam MN.ttf
+-rw-r--r--    1 root  wheel  14802804 Oct 24  2015 Klee.ttc
+-rw-r--r--    1 root  wheel    973544 Aug  1  2015 Kokonor.ttf
+-rw-r--r--    1 root  wheel    186800 Aug  1  2015 Krungthep.ttf
+-rw-r--r--    1 root  wheel     85588 Aug  1  2015 KufiStandardGK.ttc
+-rw-r--r--    1 root  wheel  43196124 Oct 24  2015 Lantinghei.ttc
+-rw-r--r--    1 root  wheel    174672 Aug  1  2015 Lao MN.ttc
+-rw-r--r--    1 root  wheel     88532 Aug  1  2015 Lao Sangam MN.ttf
+-rw-r--r--    1 root  wheel   7528132 Oct 24  2015 Libian.ttc
+-rw-r--r--    1 root  wheel    553520 Oct 24  2015 Luminari.ttf
+-rw-r--r--    1 root  wheel    336580 Aug  1  2015 Malayalam MN.ttc
+-rw-r--r--    1 root  wheel    330892 Aug  1  2015 Malayalam Sangam MN.ttc
+-rw-r--r--    1 root  wheel    915352 Oct 24  2015 Marion.ttc
+-rw-r--r--    1 root  wheel    652248 Oct 24  2015 Microsoft Sans Serif.ttf
+-rw-r--r--    1 root  wheel    658260 Aug  1  2015 Mishafi Gold.ttf
+-rw-r--r--    1 root  wheel   1425292 Aug  1  2015 Mishafi.ttf
+-rw-r--r--    1 root  wheel    169024 Aug  1  2015 Mshtakan.ttc
+-rw-r--r--    1 root  wheel    197916 Aug  1  2015 Muna.ttc
+-rw-r--r--    1 root  wheel    444600 Aug  1  2015 Myanmar MN.ttc
+-rw-r--r--    1 root  wheel    300584 Aug  1  2015 Myanmar Sangam MN.ttc
+-rw-r--r--    1 root  wheel   7108788 Oct 24  2015 NISC18030.ttf
+-rw-r--r--    1 root  wheel     59452 Aug  1  2015 Nadeem.ttc
+-rw-r--r--    1 root  wheel  12792016 Aug 16  2015 NanumGothic.ttc
+-rw-r--r--    1 root  wheel  13175240 Aug 16  2015 NanumMyeongjo.ttc
+-rw-r--r--    1 root  wheel   7212984 Aug 16  2015 NanumScript.ttc
+-rw-r--r--    1 root  wheel    148656 Aug  1  2015 NewPeninimMT.ttc
+-rw-r--r--    1 root  wheel    469416 Aug  1  2015 Oriya MN.ttc
+-rw-r--r--    1 root  wheel    215412 Aug  1  2015 Oriya Sangam MN.ttc
+-rw-r--r--    1 root  wheel   3631848 Oct 24  2015 Osaka.ttf
+-rw-r--r--    1 root  wheel   2307664 Oct 24  2015 OsakaMono.ttf
+-rw-r--r--    1 root  wheel   9450744 Aug 16  2015 PCmyoungjo.ttf
+-rw-r--r--    1 root  wheel    309348 Oct 24  2015 PTMono.ttc
+-rw-r--r--    1 root  wheel   2767520 Aug  1  2015 PTSans.ttc
+-rw-r--r--    1 root  wheel   1151720 Oct 24  2015 PTSerif.ttc
+-rw-r--r--    1 root  wheel    700100 Oct 24  2015 PTSerifCaption.ttc
+-rw-r--r--    1 root  wheel   1098704 Oct 24  2015 Papyrus.ttc
+-rw-r--r--    1 root  wheel    225784 Oct 24  2015 Phosphate.ttc
+-rw-r--r--    1 root  wheel   4635704 Aug 16  2015 Pilgiche.ttf
+-rw-r--r--    1 root  wheel     72052 Aug  1  2015 PlantagenetCherokee.ttf
+-rw-r--r--    1 root  wheel     61296 Aug  1  2015 Raanana.ttc
+-rw-r--r--    1 root  wheel    369156 May 11  2012 STIXGeneral.otf
+-rw-r--r--    1 root  wheel    186612 May 11  2012 STIXGeneralBol.otf
+-rw-r--r--    1 root  wheel    143764 May 11  2012 STIXGeneralBolIta.otf
+-rw-r--r--    1 root  wheel    141844 May 11  2012 STIXGeneralItalic.otf
+-rw-r--r--    1 root  wheel     16992 May 11  2012 STIXIntDBol.otf
+-rw-r--r--    1 root  wheel     17500 May 11  2012 STIXIntDReg.otf
+-rw-r--r--    1 root  wheel     16608 May 11  2012 STIXIntSmBol.otf
+-rw-r--r--    1 root  wheel     17416 May 11  2012 STIXIntSmReg.otf
+-rw-r--r--    1 root  wheel     16576 May 11  2012 STIXIntUpBol.otf
+-rw-r--r--    1 root  wheel     16932 May 11  2012 STIXIntUpDBol.otf
+-rw-r--r--    1 root  wheel     16964 May 11  2012 STIXIntUpDReg.otf
+-rw-r--r--    1 root  wheel     16856 May 11  2012 STIXIntUpReg.otf
+-rw-r--r--    1 root  wheel     16916 May 11  2012 STIXIntUpSmBol.otf
+-rw-r--r--    1 root  wheel     17184 May 11  2012 STIXIntUpSmReg.otf
+-rw-r--r--    1 root  wheel     54556 May 11  2012 STIXNonUni.otf
+-rw-r--r--    1 root  wheel     25508 May 11  2012 STIXNonUniBol.otf
+-rw-r--r--    1 root  wheel     41188 May 11  2012 STIXNonUniBolIta.otf
+-rw-r--r--    1 root  wheel     46268 May 11  2012 STIXNonUniIta.otf
+-rw-r--r--    1 root  wheel     13464 May 11  2012 STIXSizFiveSymReg.otf
+-rw-r--r--    1 root  wheel     12628 May 11  2012 STIXSizFourSymBol.otf
+-rw-r--r--    1 root  wheel     15656 May 11  2012 STIXSizFourSymReg.otf
+-rw-r--r--    1 root  wheel     12924 May 11  2012 STIXSizOneSymBol.otf
+-rw-r--r--    1 root  wheel     19004 May 11  2012 STIXSizOneSymReg.otf
+-rw-r--r--    1 root  wheel     12636 May 11  2012 STIXSizThreeSymBol.otf
+-rw-r--r--    1 root  wheel     15648 May 11  2012 STIXSizThreeSymReg.otf
+-rw-r--r--    1 root  wheel     12576 May 11  2012 STIXSizTwoSymBol.otf
+-rw-r--r--    1 root  wheel     15620 May 11  2012 STIXSizTwoSymReg.otf
+-rw-r--r--    1 root  wheel     21776 May 11  2012 STIXVar.otf
+-rw-r--r--    1 root  wheel     14808 May 11  2012 STIXVarBol.otf
+-rw-r--r--    1 root  wheel     74936 Aug  1  2015 Sana.ttc
+-rw-r--r--    1 root  wheel    414872 Aug  1  2015 Sathu.ttf
+-rw-r--r--    1 root  wheel    101512 Oct 24  2015 Savoye LET.ttc
+-rw-r--r--    1 root  wheel   4983524 Oct 24  2015 Seravek.ttc
+-rw-r--r--    1 root  wheel    520156 Aug  1  2015 Shree714.ttc
+-rw-r--r--    1 root  wheel    163412 Oct 24  2015 SignPainter.otf
+-rw-r--r--    1 root  wheel    288864 Aug  1  2015 Silom.ttf
+-rw-r--r--    1 root  wheel   1466440 Aug  1  2015 Sinhala MN.ttc
+-rw-r--r--    1 root  wheel    642408 Aug  1  2015 Sinhala Sangam MN.ttc
+-rw-r--r--    1 root  wheel    489424 Oct 24  2015 Skia.ttf
+-rw-r--r--    1 root  wheel   3587668 Oct 24  2015 SnellRoundhand.ttc
+-rw-r--r--    1 root  wheel  66903940 Oct  2  2017 Songti.ttc
+-rw-r--r--    1 root  wheel    626056 Aug  1  2015 SukhumvitSet.ttc
+-rw-r--r--    1 root  wheel   2681496 Oct 24  2015 SuperClarendon.ttc
+-rw-r--r--    1 root  wheel    626928 Oct 24  2015 Tahoma Bold.ttf
+-rw-r--r--    1 root  wheel    681120 Oct 24  2015 Tahoma.ttf
+-rw-r--r--    1 root  wheel    400396 Aug  1  2015 Tamil MN.ttc
+-rw-r--r--    1 root  wheel    384780 Aug  1  2015 Tamil Sangam MN.ttc
+-rw-r--r--    1 root  wheel   1736356 Aug  1  2015 Telugu MN.ttc
+-rw-r--r--    1 root  wheel   1224792 Aug  1  2015 Telugu Sangam MN.ttc
+-rw-r--r--    1 root  wheel    620008 Oct 24  2015 Times New Roman Bold Italic.ttf
+-rw-r--r--    1 root  wheel    842168 Oct 24  2015 Times New Roman Bold.ttf
+-rw-r--r--    1 root  wheel    660268 Oct 24  2015 Times New Roman Italic.ttf
+-rw-r--r--    1 root  wheel    834452 Oct 24  2015 Times New Roman.ttf
+-rw-r--r--    1 root  wheel   1160004 Oct 24  2015 Trattatello.ttf
+-rw-r--r--    1 root  wheel    137008 Oct 24  2015 Trebuchet MS Bold Italic.ttf
+-rw-r--r--    1 root  wheel    129360 Oct 24  2015 Trebuchet MS Bold.ttf
+-rw-r--r--    1 root  wheel    144820 Oct 24  2015 Trebuchet MS Italic.ttf
+-rw-r--r--    1 root  wheel    138848 Oct 24  2015 Trebuchet MS.ttf
+-rw-r--r--    1 root  wheel   7916648 Oct 24  2015 TsukushiAMaruGothic.ttc
+-rw-r--r--    1 root  wheel   7980496 Oct 24  2015 TsukushiBMaruGothic.ttc
+-rw-r--r--    1 root  wheel    173132 Oct 24  2015 Verdana Bold Italic.ttf
+-rw-r--r--    1 root  wheel    153260 Oct 24  2015 Verdana Bold.ttf
+-rw-r--r--    1 root  wheel    174612 Oct 24  2015 Verdana Italic.ttf
+-rw-r--r--    1 root  wheel    186188 Oct 24  2015 Verdana.ttf
+-rw-r--r--    1 root  wheel    368184 Aug  1  2015 Waseem.ttc
+-rw-r--r--    1 root  wheel  17435944 Oct 24  2015 WawaSC-Regular.otf
+-rw-r--r--    1 root  wheel  17488424 Oct 24  2015 WawaTC-Regular.otf
+-rw-r--r--    1 root  wheel    124308 Oct 24  2015 Webdings.ttf
+-rw-r--r--    1 root  wheel  24058332 Oct 24  2015 WeibeiSC-Bold.otf
+-rw-r--r--    1 root  wheel  14896268 Oct 24  2015 WeibeiTC-Bold.otf
+-rw-r--r--    1 root  wheel     68768 Oct 24  2015 Wingdings 2.ttf
+-rw-r--r--    1 root  wheel     38308 Oct 24  2015 Wingdings 3.ttf
+-rw-r--r--    1 root  wheel     86384 Oct 24  2015 Wingdings.ttf
+-rw-r--r--    1 root  wheel  14454688 Oct 24  2015 Xingkai.ttc
+-rw-r--r--    1 root  wheel   8160676 Oct 24  2015 Yu Gothic Bold.otf
+-rw-r--r--    1 root  wheel   8218324 Oct 24  2015 Yu Gothic Medium.otf
+-rw-r--r--    1 root  wheel  21174132 Oct 24  2015 YuMincho.ttc
+-rw-r--r--    1 root  wheel  78417612 Oct 24  2015 Yuanti.ttc
+-rw-r--r--    1 root  wheel   3509868 Oct 24  2015 YuppySC-Regular.otf
+-rw-r--r--    1 root  wheel   5320088 Oct 24  2015 YuppyTC-Regular.otf
+-rw-r--r--    1 root  wheel    398884 Oct 24  2015 Zapfino.ttf
+-rw-r--r--    1 root  admin      4268 Jul 19  2018 encodings.dir
+-rw-r--r--    1 root  admin    144213 Jul 19  2018 fonts.dir
+-rw-r--r--    1 root  admin      7043 Jul 19  2018 fonts.list
+-rw-r--r--    1 root  admin    144025 Jul 19  2018 fonts.scale
+-rw-r--r--    1 root  wheel  11409608 Oct 24  2015 ヒラギノ丸ゴ ProN W4.ttc
+-rw-r--r--    1 root  wheel  14119008 Oct 24  2015 儷宋 Pro.ttf
+-rw-r--r--    1 root  wheel   6977160 Oct 24  2015 儷黑 Pro.ttf
+-rw-r--r--    1 root  wheel  15884236 Oct 24  2015 华文仿宋.ttf
+-rw-r--r--    1 root  wheel  15642136 Oct 24  2015 华文细黑.ttf
+-rw-r--r--    1 root  wheel  13631780 Oct 24  2015 华文黑体.ttf
+|10:48:44|diana@Dianas-iMac:[Fonts]> ls -al | nl
+     1	total 1311200
+     2	drwxrwxr-t  220 root  admin      7480 Jul 19  2018 .
+     3	drwxr-xr-x+  63 root  wheel      2142 Feb  1 19:26 ..
+     4	-rw-r--r--    1 root  wheel    124996 Aug  1  2015 Al Nile.ttc
+     5	-rw-r--r--    1 root  wheel     76572 Aug  1  2015 Al Tarikh.ttc
+     6	-rw-r--r--    1 root  wheel    178720 Aug  1  2015 AlBayan.ttc
+     7	-rw-r--r--    1 root  wheel   2906024 Oct 24  2015 AmericanTypewriter.ttc
+     8	-rw-r--r--    1 root  wheel    109700 Oct 24  2015 Andale Mono.ttf
+     9	-rw-r--r--    1 root  wheel    335572 Oct 24  2015 Apple Chancery.ttf
+    10	-rw-r--r--    1 root  wheel  15292988 Aug 16  2015 AppleGothic.ttf
+    11	-rw-r--r--    1 root  wheel  18757920 Aug 16  2015 AppleMyungjo.ttf
+    12	-rw-r--r--    1 root  wheel    122556 Oct 24  2015 Arial Black.ttf
+    13	-rw-r--r--    1 root  wheel    558672 Oct 24  2015 Arial Bold Italic.ttf
+    14	-rw-r--r--    1 root  wheel    750984 Oct 24  2015 Arial Bold.ttf
+    15	-rw-r--r--    1 root  wheel    553284 Oct 24  2015 Arial Italic.ttf
+    16	-rw-r--r--    1 root  wheel    183932 Oct 24  2015 Arial Narrow Bold Italic.ttf
+    17	-rw-r--r--    1 root  wheel    184420 Oct 24  2015 Arial Narrow Bold.ttf
+    18	-rw-r--r--    1 root  wheel    184944 Oct 24  2015 Arial Narrow Italic.ttf
+    19	-rw-r--r--    1 root  wheel    179492 Oct 24  2015 Arial Narrow.ttf
+    20	-rw-r--r--    1 root  wheel     49296 Oct 24  2015 Arial Rounded Bold.ttf
+    21	-rw-r--r--    1 root  wheel  23278008 Oct 24  2015 Arial Unicode.ttf
+    22	-rw-r--r--    1 root  wheel    773236 Oct 24  2015 Arial.ttf
+    23	-rw-r--r--    1 root  wheel   2310148 Oct 24  2015 Athelas.ttc
+    24	-rw-r--r--    1 root  wheel    304592 Aug  1  2015 Ayuthaya.ttf
+    25	-rw-r--r--    1 root  wheel    106220 Aug  1  2015 Baghdad.ttc
+    26	-rw-r--r--    1 root  wheel    830804 Aug  1  2015 Bangla MN.ttc
+    27	-rw-r--r--    1 root  wheel    762944 Aug  1  2015 Bangla Sangam MN.ttc
+    28	-rw-r--r--    1 root  wheel   8474944 Oct 24  2015 Baoli.ttc
+    29	-rw-r--r--    1 root  wheel   1277484 Oct 24  2015 Baskerville.ttc
+    30	-rw-r--r--    1 root  wheel     78976 Aug  1  2015 Beirut.ttc
+    31	-rw-r--r--    1 root  wheel    213512 Oct 24  2015 BigCaslon.ttf
+    32	-rw-r--r--    1 root  wheel    230216 Oct 24  2015 Bodoni 72 OS.ttc
+    33	-rw-r--r--    1 root  wheel     79956 Oct 24  2015 Bodoni 72 Smallcaps Book.ttf
+    34	-rw-r--r--    1 root  wheel    416692 Oct 24  2015 Bodoni 72.ttc
+    35	-rw-r--r--    1 root  wheel     72492 Oct 24  2015 Bodoni Ornaments.ttf
+    36	-rw-r--r--    1 root  wheel    592324 Oct 24  2015 Bradley Hand Bold.ttf
+    37	-rw-r--r--    1 root  wheel    222640 Oct 24  2015 Brush Script.ttf
+    38	-rw-r--r--    1 root  wheel    166072 Oct 24  2015 Chalkboard.ttc
+    39	-rw-r--r--    1 root  wheel    519772 Oct 24  2015 ChalkboardSE.ttc
+    40	-rw-r--r--    1 root  wheel    483652 Oct 24  2015 Chalkduster.ttf
+    41	-rw-r--r--    1 root  wheel   2097188 Oct 24  2015 Charter.ttc
+    42	-rw-r--r--    1 root  wheel   1224236 Oct 24  2015 Cochin.ttc
+    43	-rw-r--r--    1 root  wheel    120120 Oct 24  2015 Comic Sans MS Bold.ttf
+    44	-rw-r--r--    1 root  wheel    135484 Oct 24  2015 Comic Sans MS.ttf
+    45	-rw-r--r--    1 root  wheel   1257000 Oct 24  2015 Copperplate.ttc
+    46	-rw-r--r--    1 root  wheel     71784 Aug  1  2015 Corsiva.ttc
+    47	-rw-r--r--    1 root  wheel    506640 Oct 24  2015 Courier New Bold Italic.ttf
+    48	-rw-r--r--    1 root  wheel    691796 Oct 24  2015 Courier New Bold.ttf
+    49	-rw-r--r--    1 root  wheel    589900 Oct 24  2015 Courier New Italic.ttf
+    50	-rw-r--r--    1 root  wheel    684624 Oct 24  2015 Courier New.ttf
+    51	-rw-r--r--    1 root  wheel    147024 Oct 24  2015 DIN Alternate Bold.ttf
+    52	-rw-r--r--    1 root  wheel     82260 Oct 24  2015 DIN Condensed Bold.ttf
+    53	-rw-r--r--    1 root  wheel   1973380 Aug  1  2015 Damascus.ttc
+    54	-rw-r--r--    1 root  wheel     94656 Aug  1  2015 DecoTypeNaskh.ttc
+    55	-rw-r--r--    1 root  wheel    695000 Aug  1  2015 Devanagari Sangam MN.ttc
+    56	-rw-r--r--    1 root  wheel    406212 Aug  1  2015 DevanagariMT.ttc
+    57	-rw-r--r--    1 root  wheel    712936 Oct 24  2015 Didot.ttc
+    58	-rw-r--r--    1 root  wheel     90540 Aug  1  2015 Diwan Kufi.ttc
+    59	-rw-r--r--    1 root  wheel   1318280 Aug  1  2015 Diwan Thuluth.ttf
+    60	-rw-r--r--    1 root  wheel    550984 Aug  1  2015 EuphemiaCAS.ttc
+    61	-rw-r--r--    1 root  wheel     88452 Aug  1  2015 Farah.ttc
+    62	-rw-r--r--    1 root  wheel    279940 Aug  1  2015 Farisi.ttf
+    63	-rw-r--r--    1 root  wheel    288740 Oct 24  2015 Futura.ttc
+    64	-rw-r--r--    1 root  wheel    385768 Oct 24  2015 Georgia Bold Italic.ttf
+    65	-rw-r--r--    1 root  wheel    363800 Oct 24  2015 Georgia Bold.ttf
+    66	-rw-r--r--    1 root  wheel    400624 Oct 24  2015 Georgia Italic.ttf
+    67	-rw-r--r--    1 root  wheel    379588 Oct 24  2015 Georgia.ttf
+    68	-rw-r--r--    1 root  wheel   1220852 Oct 24  2015 GillSans.ttc
+    69	-rw-r--r--    1 root  wheel    222348 Aug  1  2015 Gujarati Sangam MN.ttc
+    70	-rw-r--r--    1 root  wheel    381112 Aug  1  2015 GujaratiMT.ttc
+    71	-rw-r--r--    1 root  wheel  10645184 Aug 16  2015 Gungseouche.ttf
+    72	-rw-r--r--    1 root  wheel     87380 Aug  1  2015 Gurmukhi MN.ttc
+    73	-rw-r--r--    1 root  wheel    168080 Aug  1  2015 Gurmukhi Sangam MN.ttc
+    74	-rw-r--r--    1 root  wheel     63936 Aug  1  2015 Gurmukhi.ttf
+    75	-rw-r--r--    1 root  wheel  85383868 Oct 24  2015 Hannotate.ttc
+    76	-rw-r--r--    1 root  wheel  71898356 Oct 24  2015 Hanzipen.ttc
+    77	-rw-r--r--    1 root  wheel   1198040 Aug 16  2015 HeadlineA.ttf
+    78	-rw-r--r--    1 root  wheel    106264 Oct 24  2015 Herculanum.ttf
+    79	-rw-r--r--    1 root  wheel     40988 Oct 24  2015 Hoefler Text Ornaments.ttf
+    80	-rw-r--r--    1 root  wheel   1633680 Oct 24  2015 Hoefler Text.ttc
+    81	-rw-r--r--    1 root  wheel    826144 Aug  1  2015 ITFDevanagari.ttc
+    82	-rw-r--r--    1 root  wheel    138488 Oct 24  2015 Impact.ttf
+    83	-rw-r--r--    1 root  wheel    260064 Aug  1  2015 InaiMathi.ttf
+    84	-rw-r--r--    1 root  wheel   3356712 Oct 24  2015 Iowan Old Style.ttc
+    85	-rw-r--r--    1 root  wheel   1175268 Aug  1  2015 Kailasa.ttc
+    86	-rw-r--r--    1 root  wheel  70712356 Oct 24  2015 Kaiti.ttc
+    87	-rw-r--r--    1 root  wheel   1148468 Aug  1  2015 Kannada MN.ttc
+    88	-rw-r--r--    1 root  wheel   1031232 Aug  1  2015 Kannada Sangam MN.ttc
+    89	-rw-r--r--    1 root  wheel    389880 Aug  1  2015 Kefa.ttc
+    90	-rw-r--r--    1 root  wheel    727504 Aug  1  2015 Khmer MN.ttc
+    91	-rw-r--r--    1 root  wheel    278472 Aug  1  2015 Khmer Sangam MN.ttf
+    92	-rw-r--r--    1 root  wheel  14802804 Oct 24  2015 Klee.ttc
+    93	-rw-r--r--    1 root  wheel    973544 Aug  1  2015 Kokonor.ttf
+    94	-rw-r--r--    1 root  wheel    186800 Aug  1  2015 Krungthep.ttf
+    95	-rw-r--r--    1 root  wheel     85588 Aug  1  2015 KufiStandardGK.ttc
+    96	-rw-r--r--    1 root  wheel  43196124 Oct 24  2015 Lantinghei.ttc
+    97	-rw-r--r--    1 root  wheel    174672 Aug  1  2015 Lao MN.ttc
+    98	-rw-r--r--    1 root  wheel     88532 Aug  1  2015 Lao Sangam MN.ttf
+    99	-rw-r--r--    1 root  wheel   7528132 Oct 24  2015 Libian.ttc
+   100	-rw-r--r--    1 root  wheel    553520 Oct 24  2015 Luminari.ttf
+   101	-rw-r--r--    1 root  wheel    336580 Aug  1  2015 Malayalam MN.ttc
+   102	-rw-r--r--    1 root  wheel    330892 Aug  1  2015 Malayalam Sangam MN.ttc
+   103	-rw-r--r--    1 root  wheel    915352 Oct 24  2015 Marion.ttc
+   104	-rw-r--r--    1 root  wheel    652248 Oct 24  2015 Microsoft Sans Serif.ttf
+   105	-rw-r--r--    1 root  wheel    658260 Aug  1  2015 Mishafi Gold.ttf
+   106	-rw-r--r--    1 root  wheel   1425292 Aug  1  2015 Mishafi.ttf
+   107	-rw-r--r--    1 root  wheel    169024 Aug  1  2015 Mshtakan.ttc
+   108	-rw-r--r--    1 root  wheel    197916 Aug  1  2015 Muna.ttc
+   109	-rw-r--r--    1 root  wheel    444600 Aug  1  2015 Myanmar MN.ttc
+   110	-rw-r--r--    1 root  wheel    300584 Aug  1  2015 Myanmar Sangam MN.ttc
+   111	-rw-r--r--    1 root  wheel   7108788 Oct 24  2015 NISC18030.ttf
+   112	-rw-r--r--    1 root  wheel     59452 Aug  1  2015 Nadeem.ttc
+   113	-rw-r--r--    1 root  wheel  12792016 Aug 16  2015 NanumGothic.ttc
+   114	-rw-r--r--    1 root  wheel  13175240 Aug 16  2015 NanumMyeongjo.ttc
+   115	-rw-r--r--    1 root  wheel   7212984 Aug 16  2015 NanumScript.ttc
+   116	-rw-r--r--    1 root  wheel    148656 Aug  1  2015 NewPeninimMT.ttc
+   117	-rw-r--r--    1 root  wheel    469416 Aug  1  2015 Oriya MN.ttc
+   118	-rw-r--r--    1 root  wheel    215412 Aug  1  2015 Oriya Sangam MN.ttc
+   119	-rw-r--r--    1 root  wheel   3631848 Oct 24  2015 Osaka.ttf
+   120	-rw-r--r--    1 root  wheel   2307664 Oct 24  2015 OsakaMono.ttf
+   121	-rw-r--r--    1 root  wheel   9450744 Aug 16  2015 PCmyoungjo.ttf
+   122	-rw-r--r--    1 root  wheel    309348 Oct 24  2015 PTMono.ttc
+   123	-rw-r--r--    1 root  wheel   2767520 Aug  1  2015 PTSans.ttc
+   124	-rw-r--r--    1 root  wheel   1151720 Oct 24  2015 PTSerif.ttc
+   125	-rw-r--r--    1 root  wheel    700100 Oct 24  2015 PTSerifCaption.ttc
+   126	-rw-r--r--    1 root  wheel   1098704 Oct 24  2015 Papyrus.ttc
+   127	-rw-r--r--    1 root  wheel    225784 Oct 24  2015 Phosphate.ttc
+   128	-rw-r--r--    1 root  wheel   4635704 Aug 16  2015 Pilgiche.ttf
+   129	-rw-r--r--    1 root  wheel     72052 Aug  1  2015 PlantagenetCherokee.ttf
+   130	-rw-r--r--    1 root  wheel     61296 Aug  1  2015 Raanana.ttc
+   131	-rw-r--r--    1 root  wheel    369156 May 11  2012 STIXGeneral.otf
+   132	-rw-r--r--    1 root  wheel    186612 May 11  2012 STIXGeneralBol.otf
+   133	-rw-r--r--    1 root  wheel    143764 May 11  2012 STIXGeneralBolIta.otf
+   134	-rw-r--r--    1 root  wheel    141844 May 11  2012 STIXGeneralItalic.otf
+   135	-rw-r--r--    1 root  wheel     16992 May 11  2012 STIXIntDBol.otf
+   136	-rw-r--r--    1 root  wheel     17500 May 11  2012 STIXIntDReg.otf
+   137	-rw-r--r--    1 root  wheel     16608 May 11  2012 STIXIntSmBol.otf
+   138	-rw-r--r--    1 root  wheel     17416 May 11  2012 STIXIntSmReg.otf
+   139	-rw-r--r--    1 root  wheel     16576 May 11  2012 STIXIntUpBol.otf
+   140	-rw-r--r--    1 root  wheel     16932 May 11  2012 STIXIntUpDBol.otf
+   141	-rw-r--r--    1 root  wheel     16964 May 11  2012 STIXIntUpDReg.otf
+   142	-rw-r--r--    1 root  wheel     16856 May 11  2012 STIXIntUpReg.otf
+   143	-rw-r--r--    1 root  wheel     16916 May 11  2012 STIXIntUpSmBol.otf
+   144	-rw-r--r--    1 root  wheel     17184 May 11  2012 STIXIntUpSmReg.otf
+   145	-rw-r--r--    1 root  wheel     54556 May 11  2012 STIXNonUni.otf
+   146	-rw-r--r--    1 root  wheel     25508 May 11  2012 STIXNonUniBol.otf
+   147	-rw-r--r--    1 root  wheel     41188 May 11  2012 STIXNonUniBolIta.otf
+   148	-rw-r--r--    1 root  wheel     46268 May 11  2012 STIXNonUniIta.otf
+   149	-rw-r--r--    1 root  wheel     13464 May 11  2012 STIXSizFiveSymReg.otf
+   150	-rw-r--r--    1 root  wheel     12628 May 11  2012 STIXSizFourSymBol.otf
+   151	-rw-r--r--    1 root  wheel     15656 May 11  2012 STIXSizFourSymReg.otf
+   152	-rw-r--r--    1 root  wheel     12924 May 11  2012 STIXSizOneSymBol.otf
+   153	-rw-r--r--    1 root  wheel     19004 May 11  2012 STIXSizOneSymReg.otf
+   154	-rw-r--r--    1 root  wheel     12636 May 11  2012 STIXSizThreeSymBol.otf
+   155	-rw-r--r--    1 root  wheel     15648 May 11  2012 STIXSizThreeSymReg.otf
+   156	-rw-r--r--    1 root  wheel     12576 May 11  2012 STIXSizTwoSymBol.otf
+   157	-rw-r--r--    1 root  wheel     15620 May 11  2012 STIXSizTwoSymReg.otf
+   158	-rw-r--r--    1 root  wheel     21776 May 11  2012 STIXVar.otf
+   159	-rw-r--r--    1 root  wheel     14808 May 11  2012 STIXVarBol.otf
+   160	-rw-r--r--    1 root  wheel     74936 Aug  1  2015 Sana.ttc
+   161	-rw-r--r--    1 root  wheel    414872 Aug  1  2015 Sathu.ttf
+   162	-rw-r--r--    1 root  wheel    101512 Oct 24  2015 Savoye LET.ttc
+   163	-rw-r--r--    1 root  wheel   4983524 Oct 24  2015 Seravek.ttc
+   164	-rw-r--r--    1 root  wheel    520156 Aug  1  2015 Shree714.ttc
+   165	-rw-r--r--    1 root  wheel    163412 Oct 24  2015 SignPainter.otf
+   166	-rw-r--r--    1 root  wheel    288864 Aug  1  2015 Silom.ttf
+   167	-rw-r--r--    1 root  wheel   1466440 Aug  1  2015 Sinhala MN.ttc
+   168	-rw-r--r--    1 root  wheel    642408 Aug  1  2015 Sinhala Sangam MN.ttc
+   169	-rw-r--r--    1 root  wheel    489424 Oct 24  2015 Skia.ttf
+   170	-rw-r--r--    1 root  wheel   3587668 Oct 24  2015 SnellRoundhand.ttc
+   171	-rw-r--r--    1 root  wheel  66903940 Oct  2  2017 Songti.ttc
+   172	-rw-r--r--    1 root  wheel    626056 Aug  1  2015 SukhumvitSet.ttc
+   173	-rw-r--r--    1 root  wheel   2681496 Oct 24  2015 SuperClarendon.ttc
+   174	-rw-r--r--    1 root  wheel    626928 Oct 24  2015 Tahoma Bold.ttf
+   175	-rw-r--r--    1 root  wheel    681120 Oct 24  2015 Tahoma.ttf
+   176	-rw-r--r--    1 root  wheel    400396 Aug  1  2015 Tamil MN.ttc
+   177	-rw-r--r--    1 root  wheel    384780 Aug  1  2015 Tamil Sangam MN.ttc
+   178	-rw-r--r--    1 root  wheel   1736356 Aug  1  2015 Telugu MN.ttc
+   179	-rw-r--r--    1 root  wheel   1224792 Aug  1  2015 Telugu Sangam MN.ttc
+   180	-rw-r--r--    1 root  wheel    620008 Oct 24  2015 Times New Roman Bold Italic.ttf
+   181	-rw-r--r--    1 root  wheel    842168 Oct 24  2015 Times New Roman Bold.ttf
+   182	-rw-r--r--    1 root  wheel    660268 Oct 24  2015 Times New Roman Italic.ttf
+   183	-rw-r--r--    1 root  wheel    834452 Oct 24  2015 Times New Roman.ttf
+   184	-rw-r--r--    1 root  wheel   1160004 Oct 24  2015 Trattatello.ttf
+   185	-rw-r--r--    1 root  wheel    137008 Oct 24  2015 Trebuchet MS Bold Italic.ttf
+   186	-rw-r--r--    1 root  wheel    129360 Oct 24  2015 Trebuchet MS Bold.ttf
+   187	-rw-r--r--    1 root  wheel    144820 Oct 24  2015 Trebuchet MS Italic.ttf
+   188	-rw-r--r--    1 root  wheel    138848 Oct 24  2015 Trebuchet MS.ttf
+   189	-rw-r--r--    1 root  wheel   7916648 Oct 24  2015 TsukushiAMaruGothic.ttc
+   190	-rw-r--r--    1 root  wheel   7980496 Oct 24  2015 TsukushiBMaruGothic.ttc
+   191	-rw-r--r--    1 root  wheel    173132 Oct 24  2015 Verdana Bold Italic.ttf
+   192	-rw-r--r--    1 root  wheel    153260 Oct 24  2015 Verdana Bold.ttf
+   193	-rw-r--r--    1 root  wheel    174612 Oct 24  2015 Verdana Italic.ttf
+   194	-rw-r--r--    1 root  wheel    186188 Oct 24  2015 Verdana.ttf
+   195	-rw-r--r--    1 root  wheel    368184 Aug  1  2015 Waseem.ttc
+   196	-rw-r--r--    1 root  wheel  17435944 Oct 24  2015 WawaSC-Regular.otf
+   197	-rw-r--r--    1 root  wheel  17488424 Oct 24  2015 WawaTC-Regular.otf
+   198	-rw-r--r--    1 root  wheel    124308 Oct 24  2015 Webdings.ttf
+   199	-rw-r--r--    1 root  wheel  24058332 Oct 24  2015 WeibeiSC-Bold.otf
+   200	-rw-r--r--    1 root  wheel  14896268 Oct 24  2015 WeibeiTC-Bold.otf
+   201	-rw-r--r--    1 root  wheel     68768 Oct 24  2015 Wingdings 2.ttf
+   202	-rw-r--r--    1 root  wheel     38308 Oct 24  2015 Wingdings 3.ttf
+   203	-rw-r--r--    1 root  wheel     86384 Oct 24  2015 Wingdings.ttf
+   204	-rw-r--r--    1 root  wheel  14454688 Oct 24  2015 Xingkai.ttc
+   205	-rw-r--r--    1 root  wheel   8160676 Oct 24  2015 Yu Gothic Bold.otf
+   206	-rw-r--r--    1 root  wheel   8218324 Oct 24  2015 Yu Gothic Medium.otf
+   207	-rw-r--r--    1 root  wheel  21174132 Oct 24  2015 YuMincho.ttc
+   208	-rw-r--r--    1 root  wheel  78417612 Oct 24  2015 Yuanti.ttc
+   209	-rw-r--r--    1 root  wheel   3509868 Oct 24  2015 YuppySC-Regular.otf
+   210	-rw-r--r--    1 root  wheel   5320088 Oct 24  2015 YuppyTC-Regular.otf
+   211	-rw-r--r--    1 root  wheel    398884 Oct 24  2015 Zapfino.ttf
+   212	-rw-r--r--    1 root  admin      4268 Jul 19  2018 encodings.dir
+   213	-rw-r--r--    1 root  admin    144213 Jul 19  2018 fonts.dir
+   214	-rw-r--r--    1 root  admin      7043 Jul 19  2018 fonts.list
+   215	-rw-r--r--    1 root  admin    144025 Jul 19  2018 fonts.scale
+   216	-rw-r--r--    1 root  wheel  11409608 Oct 24  2015 ヒラギノ丸ゴ ProN W4.ttc
+   217	-rw-r--r--    1 root  wheel  14119008 Oct 24  2015 儷宋 Pro.ttf
+   218	-rw-r--r--    1 root  wheel   6977160 Oct 24  2015 儷黑 Pro.ttf
+   219	-rw-r--r--    1 root  wheel  15884236 Oct 24  2015 华文仿宋.ttf
+   220	-rw-r--r--    1 root  wheel  15642136 Oct 24  2015 华文细黑.ttf
+   221	-rw-r--r--    1 root  wheel  13631780 Oct 24  2015 华文黑体.ttf
+|10:49:09|diana@Dianas-iMac:[Fonts]> ls -al | nl | nl
+     1	     1	total 1311200
+     2	     2	drwxrwxr-t  220 root  admin      7480 Jul 19  2018 .
+     3	     3	drwxr-xr-x+  63 root  wheel      2142 Feb  1 19:26 ..
+     4	     4	-rw-r--r--    1 root  wheel    124996 Aug  1  2015 Al Nile.ttc
+     5	     5	-rw-r--r--    1 root  wheel     76572 Aug  1  2015 Al Tarikh.ttc
+     6	     6	-rw-r--r--    1 root  wheel    178720 Aug  1  2015 AlBayan.ttc
+     7	     7	-rw-r--r--    1 root  wheel   2906024 Oct 24  2015 AmericanTypewriter.ttc
+     8	     8	-rw-r--r--    1 root  wheel    109700 Oct 24  2015 Andale Mono.ttf
+     9	     9	-rw-r--r--    1 root  wheel    335572 Oct 24  2015 Apple Chancery.ttf
+    10	    10	-rw-r--r--    1 root  wheel  15292988 Aug 16  2015 AppleGothic.ttf
+    11	    11	-rw-r--r--    1 root  wheel  18757920 Aug 16  2015 AppleMyungjo.ttf
+    12	    12	-rw-r--r--    1 root  wheel    122556 Oct 24  2015 Arial Black.ttf
+    13	    13	-rw-r--r--    1 root  wheel    558672 Oct 24  2015 Arial Bold Italic.ttf
+    14	    14	-rw-r--r--    1 root  wheel    750984 Oct 24  2015 Arial Bold.ttf
+    15	    15	-rw-r--r--    1 root  wheel    553284 Oct 24  2015 Arial Italic.ttf
+    16	    16	-rw-r--r--    1 root  wheel    183932 Oct 24  2015 Arial Narrow Bold Italic.ttf
+    17	    17	-rw-r--r--    1 root  wheel    184420 Oct 24  2015 Arial Narrow Bold.ttf
+    18	    18	-rw-r--r--    1 root  wheel    184944 Oct 24  2015 Arial Narrow Italic.ttf
+    19	    19	-rw-r--r--    1 root  wheel    179492 Oct 24  2015 Arial Narrow.ttf
+    20	    20	-rw-r--r--    1 root  wheel     49296 Oct 24  2015 Arial Rounded Bold.ttf
+    21	    21	-rw-r--r--    1 root  wheel  23278008 Oct 24  2015 Arial Unicode.ttf
+    22	    22	-rw-r--r--    1 root  wheel    773236 Oct 24  2015 Arial.ttf
+    23	    23	-rw-r--r--    1 root  wheel   2310148 Oct 24  2015 Athelas.ttc
+    24	    24	-rw-r--r--    1 root  wheel    304592 Aug  1  2015 Ayuthaya.ttf
+    25	    25	-rw-r--r--    1 root  wheel    106220 Aug  1  2015 Baghdad.ttc
+    26	    26	-rw-r--r--    1 root  wheel    830804 Aug  1  2015 Bangla MN.ttc
+    27	    27	-rw-r--r--    1 root  wheel    762944 Aug  1  2015 Bangla Sangam MN.ttc
+    28	    28	-rw-r--r--    1 root  wheel   8474944 Oct 24  2015 Baoli.ttc
+    29	    29	-rw-r--r--    1 root  wheel   1277484 Oct 24  2015 Baskerville.ttc
+    30	    30	-rw-r--r--    1 root  wheel     78976 Aug  1  2015 Beirut.ttc
+    31	    31	-rw-r--r--    1 root  wheel    213512 Oct 24  2015 BigCaslon.ttf
+    32	    32	-rw-r--r--    1 root  wheel    230216 Oct 24  2015 Bodoni 72 OS.ttc
+    33	    33	-rw-r--r--    1 root  wheel     79956 Oct 24  2015 Bodoni 72 Smallcaps Book.ttf
+    34	    34	-rw-r--r--    1 root  wheel    416692 Oct 24  2015 Bodoni 72.ttc
+    35	    35	-rw-r--r--    1 root  wheel     72492 Oct 24  2015 Bodoni Ornaments.ttf
+    36	    36	-rw-r--r--    1 root  wheel    592324 Oct 24  2015 Bradley Hand Bold.ttf
+    37	    37	-rw-r--r--    1 root  wheel    222640 Oct 24  2015 Brush Script.ttf
+    38	    38	-rw-r--r--    1 root  wheel    166072 Oct 24  2015 Chalkboard.ttc
+    39	    39	-rw-r--r--    1 root  wheel    519772 Oct 24  2015 ChalkboardSE.ttc
+    40	    40	-rw-r--r--    1 root  wheel    483652 Oct 24  2015 Chalkduster.ttf
+    41	    41	-rw-r--r--    1 root  wheel   2097188 Oct 24  2015 Charter.ttc
+    42	    42	-rw-r--r--    1 root  wheel   1224236 Oct 24  2015 Cochin.ttc
+    43	    43	-rw-r--r--    1 root  wheel    120120 Oct 24  2015 Comic Sans MS Bold.ttf
+    44	    44	-rw-r--r--    1 root  wheel    135484 Oct 24  2015 Comic Sans MS.ttf
+    45	    45	-rw-r--r--    1 root  wheel   1257000 Oct 24  2015 Copperplate.ttc
+    46	    46	-rw-r--r--    1 root  wheel     71784 Aug  1  2015 Corsiva.ttc
+    47	    47	-rw-r--r--    1 root  wheel    506640 Oct 24  2015 Courier New Bold Italic.ttf
+    48	    48	-rw-r--r--    1 root  wheel    691796 Oct 24  2015 Courier New Bold.ttf
+    49	    49	-rw-r--r--    1 root  wheel    589900 Oct 24  2015 Courier New Italic.ttf
+    50	    50	-rw-r--r--    1 root  wheel    684624 Oct 24  2015 Courier New.ttf
+    51	    51	-rw-r--r--    1 root  wheel    147024 Oct 24  2015 DIN Alternate Bold.ttf
+    52	    52	-rw-r--r--    1 root  wheel     82260 Oct 24  2015 DIN Condensed Bold.ttf
+    53	    53	-rw-r--r--    1 root  wheel   1973380 Aug  1  2015 Damascus.ttc
+    54	    54	-rw-r--r--    1 root  wheel     94656 Aug  1  2015 DecoTypeNaskh.ttc
+    55	    55	-rw-r--r--    1 root  wheel    695000 Aug  1  2015 Devanagari Sangam MN.ttc
+    56	    56	-rw-r--r--    1 root  wheel    406212 Aug  1  2015 DevanagariMT.ttc
+    57	    57	-rw-r--r--    1 root  wheel    712936 Oct 24  2015 Didot.ttc
+    58	    58	-rw-r--r--    1 root  wheel     90540 Aug  1  2015 Diwan Kufi.ttc
+    59	    59	-rw-r--r--    1 root  wheel   1318280 Aug  1  2015 Diwan Thuluth.ttf
+    60	    60	-rw-r--r--    1 root  wheel    550984 Aug  1  2015 EuphemiaCAS.ttc
+    61	    61	-rw-r--r--    1 root  wheel     88452 Aug  1  2015 Farah.ttc
+    62	    62	-rw-r--r--    1 root  wheel    279940 Aug  1  2015 Farisi.ttf
+    63	    63	-rw-r--r--    1 root  wheel    288740 Oct 24  2015 Futura.ttc
+    64	    64	-rw-r--r--    1 root  wheel    385768 Oct 24  2015 Georgia Bold Italic.ttf
+    65	    65	-rw-r--r--    1 root  wheel    363800 Oct 24  2015 Georgia Bold.ttf
+    66	    66	-rw-r--r--    1 root  wheel    400624 Oct 24  2015 Georgia Italic.ttf
+    67	    67	-rw-r--r--    1 root  wheel    379588 Oct 24  2015 Georgia.ttf
+    68	    68	-rw-r--r--    1 root  wheel   1220852 Oct 24  2015 GillSans.ttc
+    69	    69	-rw-r--r--    1 root  wheel    222348 Aug  1  2015 Gujarati Sangam MN.ttc
+    70	    70	-rw-r--r--    1 root  wheel    381112 Aug  1  2015 GujaratiMT.ttc
+    71	    71	-rw-r--r--    1 root  wheel  10645184 Aug 16  2015 Gungseouche.ttf
+    72	    72	-rw-r--r--    1 root  wheel     87380 Aug  1  2015 Gurmukhi MN.ttc
+    73	    73	-rw-r--r--    1 root  wheel    168080 Aug  1  2015 Gurmukhi Sangam MN.ttc
+    74	    74	-rw-r--r--    1 root  wheel     63936 Aug  1  2015 Gurmukhi.ttf
+    75	    75	-rw-r--r--    1 root  wheel  85383868 Oct 24  2015 Hannotate.ttc
+    76	    76	-rw-r--r--    1 root  wheel  71898356 Oct 24  2015 Hanzipen.ttc
+    77	    77	-rw-r--r--    1 root  wheel   1198040 Aug 16  2015 HeadlineA.ttf
+    78	    78	-rw-r--r--    1 root  wheel    106264 Oct 24  2015 Herculanum.ttf
+    79	    79	-rw-r--r--    1 root  wheel     40988 Oct 24  2015 Hoefler Text Ornaments.ttf
+    80	    80	-rw-r--r--    1 root  wheel   1633680 Oct 24  2015 Hoefler Text.ttc
+    81	    81	-rw-r--r--    1 root  wheel    826144 Aug  1  2015 ITFDevanagari.ttc
+    82	    82	-rw-r--r--    1 root  wheel    138488 Oct 24  2015 Impact.ttf
+    83	    83	-rw-r--r--    1 root  wheel    260064 Aug  1  2015 InaiMathi.ttf
+    84	    84	-rw-r--r--    1 root  wheel   3356712 Oct 24  2015 Iowan Old Style.ttc
+    85	    85	-rw-r--r--    1 root  wheel   1175268 Aug  1  2015 Kailasa.ttc
+    86	    86	-rw-r--r--    1 root  wheel  70712356 Oct 24  2015 Kaiti.ttc
+    87	    87	-rw-r--r--    1 root  wheel   1148468 Aug  1  2015 Kannada MN.ttc
+    88	    88	-rw-r--r--    1 root  wheel   1031232 Aug  1  2015 Kannada Sangam MN.ttc
+    89	    89	-rw-r--r--    1 root  wheel    389880 Aug  1  2015 Kefa.ttc
+    90	    90	-rw-r--r--    1 root  wheel    727504 Aug  1  2015 Khmer MN.ttc
+    91	    91	-rw-r--r--    1 root  wheel    278472 Aug  1  2015 Khmer Sangam MN.ttf
+    92	    92	-rw-r--r--    1 root  wheel  14802804 Oct 24  2015 Klee.ttc
+    93	    93	-rw-r--r--    1 root  wheel    973544 Aug  1  2015 Kokonor.ttf
+    94	    94	-rw-r--r--    1 root  wheel    186800 Aug  1  2015 Krungthep.ttf
+    95	    95	-rw-r--r--    1 root  wheel     85588 Aug  1  2015 KufiStandardGK.ttc
+    96	    96	-rw-r--r--    1 root  wheel  43196124 Oct 24  2015 Lantinghei.ttc
+    97	    97	-rw-r--r--    1 root  wheel    174672 Aug  1  2015 Lao MN.ttc
+    98	    98	-rw-r--r--    1 root  wheel     88532 Aug  1  2015 Lao Sangam MN.ttf
+    99	    99	-rw-r--r--    1 root  wheel   7528132 Oct 24  2015 Libian.ttc
+   100	   100	-rw-r--r--    1 root  wheel    553520 Oct 24  2015 Luminari.ttf
+   101	   101	-rw-r--r--    1 root  wheel    336580 Aug  1  2015 Malayalam MN.ttc
+   102	   102	-rw-r--r--    1 root  wheel    330892 Aug  1  2015 Malayalam Sangam MN.ttc
+   103	   103	-rw-r--r--    1 root  wheel    915352 Oct 24  2015 Marion.ttc
+   104	   104	-rw-r--r--    1 root  wheel    652248 Oct 24  2015 Microsoft Sans Serif.ttf
+   105	   105	-rw-r--r--    1 root  wheel    658260 Aug  1  2015 Mishafi Gold.ttf
+   106	   106	-rw-r--r--    1 root  wheel   1425292 Aug  1  2015 Mishafi.ttf
+   107	   107	-rw-r--r--    1 root  wheel    169024 Aug  1  2015 Mshtakan.ttc
+   108	   108	-rw-r--r--    1 root  wheel    197916 Aug  1  2015 Muna.ttc
+   109	   109	-rw-r--r--    1 root  wheel    444600 Aug  1  2015 Myanmar MN.ttc
+   110	   110	-rw-r--r--    1 root  wheel    300584 Aug  1  2015 Myanmar Sangam MN.ttc
+   111	   111	-rw-r--r--    1 root  wheel   7108788 Oct 24  2015 NISC18030.ttf
+   112	   112	-rw-r--r--    1 root  wheel     59452 Aug  1  2015 Nadeem.ttc
+   113	   113	-rw-r--r--    1 root  wheel  12792016 Aug 16  2015 NanumGothic.ttc
+   114	   114	-rw-r--r--    1 root  wheel  13175240 Aug 16  2015 NanumMyeongjo.ttc
+   115	   115	-rw-r--r--    1 root  wheel   7212984 Aug 16  2015 NanumScript.ttc
+   116	   116	-rw-r--r--    1 root  wheel    148656 Aug  1  2015 NewPeninimMT.ttc
+   117	   117	-rw-r--r--    1 root  wheel    469416 Aug  1  2015 Oriya MN.ttc
+   118	   118	-rw-r--r--    1 root  wheel    215412 Aug  1  2015 Oriya Sangam MN.ttc
+   119	   119	-rw-r--r--    1 root  wheel   3631848 Oct 24  2015 Osaka.ttf
+   120	   120	-rw-r--r--    1 root  wheel   2307664 Oct 24  2015 OsakaMono.ttf
+   121	   121	-rw-r--r--    1 root  wheel   9450744 Aug 16  2015 PCmyoungjo.ttf
+   122	   122	-rw-r--r--    1 root  wheel    309348 Oct 24  2015 PTMono.ttc
+   123	   123	-rw-r--r--    1 root  wheel   2767520 Aug  1  2015 PTSans.ttc
+   124	   124	-rw-r--r--    1 root  wheel   1151720 Oct 24  2015 PTSerif.ttc
+   125	   125	-rw-r--r--    1 root  wheel    700100 Oct 24  2015 PTSerifCaption.ttc
+   126	   126	-rw-r--r--    1 root  wheel   1098704 Oct 24  2015 Papyrus.ttc
+   127	   127	-rw-r--r--    1 root  wheel    225784 Oct 24  2015 Phosphate.ttc
+   128	   128	-rw-r--r--    1 root  wheel   4635704 Aug 16  2015 Pilgiche.ttf
+   129	   129	-rw-r--r--    1 root  wheel     72052 Aug  1  2015 PlantagenetCherokee.ttf
+   130	   130	-rw-r--r--    1 root  wheel     61296 Aug  1  2015 Raanana.ttc
+   131	   131	-rw-r--r--    1 root  wheel    369156 May 11  2012 STIXGeneral.otf
+   132	   132	-rw-r--r--    1 root  wheel    186612 May 11  2012 STIXGeneralBol.otf
+   133	   133	-rw-r--r--    1 root  wheel    143764 May 11  2012 STIXGeneralBolIta.otf
+   134	   134	-rw-r--r--    1 root  wheel    141844 May 11  2012 STIXGeneralItalic.otf
+   135	   135	-rw-r--r--    1 root  wheel     16992 May 11  2012 STIXIntDBol.otf
+   136	   136	-rw-r--r--    1 root  wheel     17500 May 11  2012 STIXIntDReg.otf
+   137	   137	-rw-r--r--    1 root  wheel     16608 May 11  2012 STIXIntSmBol.otf
+   138	   138	-rw-r--r--    1 root  wheel     17416 May 11  2012 STIXIntSmReg.otf
+   139	   139	-rw-r--r--    1 root  wheel     16576 May 11  2012 STIXIntUpBol.otf
+   140	   140	-rw-r--r--    1 root  wheel     16932 May 11  2012 STIXIntUpDBol.otf
+   141	   141	-rw-r--r--    1 root  wheel     16964 May 11  2012 STIXIntUpDReg.otf
+   142	   142	-rw-r--r--    1 root  wheel     16856 May 11  2012 STIXIntUpReg.otf
+   143	   143	-rw-r--r--    1 root  wheel     16916 May 11  2012 STIXIntUpSmBol.otf
+   144	   144	-rw-r--r--    1 root  wheel     17184 May 11  2012 STIXIntUpSmReg.otf
+   145	   145	-rw-r--r--    1 root  wheel     54556 May 11  2012 STIXNonUni.otf
+   146	   146	-rw-r--r--    1 root  wheel     25508 May 11  2012 STIXNonUniBol.otf
+   147	   147	-rw-r--r--    1 root  wheel     41188 May 11  2012 STIXNonUniBolIta.otf
+   148	   148	-rw-r--r--    1 root  wheel     46268 May 11  2012 STIXNonUniIta.otf
+   149	   149	-rw-r--r--    1 root  wheel     13464 May 11  2012 STIXSizFiveSymReg.otf
+   150	   150	-rw-r--r--    1 root  wheel     12628 May 11  2012 STIXSizFourSymBol.otf
+   151	   151	-rw-r--r--    1 root  wheel     15656 May 11  2012 STIXSizFourSymReg.otf
+   152	   152	-rw-r--r--    1 root  wheel     12924 May 11  2012 STIXSizOneSymBol.otf
+   153	   153	-rw-r--r--    1 root  wheel     19004 May 11  2012 STIXSizOneSymReg.otf
+   154	   154	-rw-r--r--    1 root  wheel     12636 May 11  2012 STIXSizThreeSymBol.otf
+   155	   155	-rw-r--r--    1 root  wheel     15648 May 11  2012 STIXSizThreeSymReg.otf
+   156	   156	-rw-r--r--    1 root  wheel     12576 May 11  2012 STIXSizTwoSymBol.otf
+   157	   157	-rw-r--r--    1 root  wheel     15620 May 11  2012 STIXSizTwoSymReg.otf
+   158	   158	-rw-r--r--    1 root  wheel     21776 May 11  2012 STIXVar.otf
+   159	   159	-rw-r--r--    1 root  wheel     14808 May 11  2012 STIXVarBol.otf
+   160	   160	-rw-r--r--    1 root  wheel     74936 Aug  1  2015 Sana.ttc
+   161	   161	-rw-r--r--    1 root  wheel    414872 Aug  1  2015 Sathu.ttf
+   162	   162	-rw-r--r--    1 root  wheel    101512 Oct 24  2015 Savoye LET.ttc
+   163	   163	-rw-r--r--    1 root  wheel   4983524 Oct 24  2015 Seravek.ttc
+   164	   164	-rw-r--r--    1 root  wheel    520156 Aug  1  2015 Shree714.ttc
+   165	   165	-rw-r--r--    1 root  wheel    163412 Oct 24  2015 SignPainter.otf
+   166	   166	-rw-r--r--    1 root  wheel    288864 Aug  1  2015 Silom.ttf
+   167	   167	-rw-r--r--    1 root  wheel   1466440 Aug  1  2015 Sinhala MN.ttc
+   168	   168	-rw-r--r--    1 root  wheel    642408 Aug  1  2015 Sinhala Sangam MN.ttc
+   169	   169	-rw-r--r--    1 root  wheel    489424 Oct 24  2015 Skia.ttf
+   170	   170	-rw-r--r--    1 root  wheel   3587668 Oct 24  2015 SnellRoundhand.ttc
+   171	   171	-rw-r--r--    1 root  wheel  66903940 Oct  2  2017 Songti.ttc
+   172	   172	-rw-r--r--    1 root  wheel    626056 Aug  1  2015 SukhumvitSet.ttc
+   173	   173	-rw-r--r--    1 root  wheel   2681496 Oct 24  2015 SuperClarendon.ttc
+   174	   174	-rw-r--r--    1 root  wheel    626928 Oct 24  2015 Tahoma Bold.ttf
+   175	   175	-rw-r--r--    1 root  wheel    681120 Oct 24  2015 Tahoma.ttf
+   176	   176	-rw-r--r--    1 root  wheel    400396 Aug  1  2015 Tamil MN.ttc
+   177	   177	-rw-r--r--    1 root  wheel    384780 Aug  1  2015 Tamil Sangam MN.ttc
+   178	   178	-rw-r--r--    1 root  wheel   1736356 Aug  1  2015 Telugu MN.ttc
+   179	   179	-rw-r--r--    1 root  wheel   1224792 Aug  1  2015 Telugu Sangam MN.ttc
+   180	   180	-rw-r--r--    1 root  wheel    620008 Oct 24  2015 Times New Roman Bold Italic.ttf
+   181	   181	-rw-r--r--    1 root  wheel    842168 Oct 24  2015 Times New Roman Bold.ttf
+   182	   182	-rw-r--r--    1 root  wheel    660268 Oct 24  2015 Times New Roman Italic.ttf
+   183	   183	-rw-r--r--    1 root  wheel    834452 Oct 24  2015 Times New Roman.ttf
+   184	   184	-rw-r--r--    1 root  wheel   1160004 Oct 24  2015 Trattatello.ttf
+   185	   185	-rw-r--r--    1 root  wheel    137008 Oct 24  2015 Trebuchet MS Bold Italic.ttf
+   186	   186	-rw-r--r--    1 root  wheel    129360 Oct 24  2015 Trebuchet MS Bold.ttf
+   187	   187	-rw-r--r--    1 root  wheel    144820 Oct 24  2015 Trebuchet MS Italic.ttf
+   188	   188	-rw-r--r--    1 root  wheel    138848 Oct 24  2015 Trebuchet MS.ttf
+   189	   189	-rw-r--r--    1 root  wheel   7916648 Oct 24  2015 TsukushiAMaruGothic.ttc
+   190	   190	-rw-r--r--    1 root  wheel   7980496 Oct 24  2015 TsukushiBMaruGothic.ttc
+   191	   191	-rw-r--r--    1 root  wheel    173132 Oct 24  2015 Verdana Bold Italic.ttf
+   192	   192	-rw-r--r--    1 root  wheel    153260 Oct 24  2015 Verdana Bold.ttf
+   193	   193	-rw-r--r--    1 root  wheel    174612 Oct 24  2015 Verdana Italic.ttf
+   194	   194	-rw-r--r--    1 root  wheel    186188 Oct 24  2015 Verdana.ttf
+   195	   195	-rw-r--r--    1 root  wheel    368184 Aug  1  2015 Waseem.ttc
+   196	   196	-rw-r--r--    1 root  wheel  17435944 Oct 24  2015 WawaSC-Regular.otf
+   197	   197	-rw-r--r--    1 root  wheel  17488424 Oct 24  2015 WawaTC-Regular.otf
+   198	   198	-rw-r--r--    1 root  wheel    124308 Oct 24  2015 Webdings.ttf
+   199	   199	-rw-r--r--    1 root  wheel  24058332 Oct 24  2015 WeibeiSC-Bold.otf
+   200	   200	-rw-r--r--    1 root  wheel  14896268 Oct 24  2015 WeibeiTC-Bold.otf
+   201	   201	-rw-r--r--    1 root  wheel     68768 Oct 24  2015 Wingdings 2.ttf
+   202	   202	-rw-r--r--    1 root  wheel     38308 Oct 24  2015 Wingdings 3.ttf
+   203	   203	-rw-r--r--    1 root  wheel     86384 Oct 24  2015 Wingdings.ttf
+   204	   204	-rw-r--r--    1 root  wheel  14454688 Oct 24  2015 Xingkai.ttc
+   205	   205	-rw-r--r--    1 root  wheel   8160676 Oct 24  2015 Yu Gothic Bold.otf
+   206	   206	-rw-r--r--    1 root  wheel   8218324 Oct 24  2015 Yu Gothic Medium.otf
+   207	   207	-rw-r--r--    1 root  wheel  21174132 Oct 24  2015 YuMincho.ttc
+   208	   208	-rw-r--r--    1 root  wheel  78417612 Oct 24  2015 Yuanti.ttc
+   209	   209	-rw-r--r--    1 root  wheel   3509868 Oct 24  2015 YuppySC-Regular.otf
+   210	   210	-rw-r--r--    1 root  wheel   5320088 Oct 24  2015 YuppyTC-Regular.otf
+   211	   211	-rw-r--r--    1 root  wheel    398884 Oct 24  2015 Zapfino.ttf
+   212	   212	-rw-r--r--    1 root  admin      4268 Jul 19  2018 encodings.dir
+   213	   213	-rw-r--r--    1 root  admin    144213 Jul 19  2018 fonts.dir
+   214	   214	-rw-r--r--    1 root  admin      7043 Jul 19  2018 fonts.list
+   215	   215	-rw-r--r--    1 root  admin    144025 Jul 19  2018 fonts.scale
+   216	   216	-rw-r--r--    1 root  wheel  11409608 Oct 24  2015 ヒラギノ丸ゴ ProN W4.ttc
+   217	   217	-rw-r--r--    1 root  wheel  14119008 Oct 24  2015 儷宋 Pro.ttf
+   218	   218	-rw-r--r--    1 root  wheel   6977160 Oct 24  2015 儷黑 Pro.ttf
+   219	   219	-rw-r--r--    1 root  wheel  15884236 Oct 24  2015 华文仿宋.ttf
+   220	   220	-rw-r--r--    1 root  wheel  15642136 Oct 24  2015 华文细黑.ttf
+   221	   221	-rw-r--r--    1 root  wheel  13631780 Oct 24  2015 华文黑体.ttf
+|10:50:28|diana@Dianas-iMac:[Fonts]> ipython
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.9.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: for c in range(32, 2000) : print                                                                                
+
+In [2]: for c in range(32, 2000): 
+   ...:     print( c, chr(c) )  
+   ...:                                                                                                                 
+32  
+33 !
+34 "
+35 #
+36 $
+37 %
+38 &
+39 '
+40 (
+41 )
+42 *
+43 +
+44 ,
+45 -
+46 .
+47 /
+48 0
+49 1
+50 2
+51 3
+52 4
+53 5
+54 6
+55 7
+56 8
+57 9
+58 :
+59 ;
+60 <
+61 =
+62 >
+63 ?
+64 @
+65 A
+66 B
+67 C
+68 D
+69 E
+70 F
+71 G
+72 H
+73 I
+74 J
+75 K
+76 L
+77 M
+78 N
+79 O
+80 P
+81 Q
+82 R
+83 S
+84 T
+85 U
+86 V
+87 W
+88 X
+89 Y
+90 Z
+91 [
+92 \
+93 ]
+94 ^
+95 _
+96 `
+97 a
+98 b
+99 c
+100 d
+101 e
+102 f
+103 g
+104 h
+105 i
+106 j
+107 k
+108 l
+109 m
+110 n
+111 o
+112 p
+113 q
+114 r
+115 s
+116 t
+117 u
+118 v
+119 w
+120 x
+121 y
+122 z
+123 {
+124 |
+125 }
+126 ~
+127 
+128 
+129 
+130 
+131 
+132 
+133 
+134 
+135 
+136 
+137 
+138 
+139 
+140 
+141 
+142 
+143 
+144 
+145 
+146 
+147 
+148 
+149 
+150 
+151 
+152 
+153 
+154 
+155 
+156 
+157 
+158 
+159 
+160  
+161 ¡
+162 ¢
+163 £
+164 ¤
+165 ¥
+166 ¦
+167 §
+168 ¨
+169 ©
+170 ª
+171 «
+172 ¬
+173 ­
+174 ®
+175 ¯
+176 °
+177 ±
+178 ²
+179 ³
+180 ´
+181 µ
+182 ¶
+183 ·
+184 ¸
+185 ¹
+186 º
+187 »
+188 ¼
+189 ½
+190 ¾
+191 ¿
+192 À
+193 Á
+194 Â
+195 Ã
+196 Ä
+197 Å
+198 Æ
+199 Ç
+200 È
+201 É
+202 Ê
+203 Ë
+204 Ì
+205 Í
+206 Î
+207 Ï
+208 Ð
+209 Ñ
+210 Ò
+211 Ó
+212 Ô
+213 Õ
+214 Ö
+215 ×
+216 Ø
+217 Ù
+218 Ú
+219 Û
+220 Ü
+221 Ý
+222 Þ
+223 ß
+224 à
+225 á
+226 â
+227 ã
+228 ä
+229 å
+230 æ
+231 ç
+232 è
+233 é
+234 ê
+235 ë
+236 ì
+237 í
+238 î
+239 ï
+240 ð
+241 ñ
+242 ò
+243 ó
+244 ô
+245 õ
+246 ö
+247 ÷
+248 ø
+249 ù
+250 ú
+251 û
+252 ü
+253 ý
+254 þ
+255 ÿ
+256 Ā
+257 ā
+258 Ă
+259 ă
+260 Ą
+261 ą
+262 Ć
+263 ć
+264 Ĉ
+265 ĉ
+266 Ċ
+267 ċ
+268 Č
+269 č
+270 Ď
+271 ď
+272 Đ
+273 đ
+274 Ē
+275 ē
+276 Ĕ
+277 ĕ
+278 Ė
+279 ė
+280 Ę
+281 ę
+282 Ě
+283 ě
+284 Ĝ
+285 ĝ
+286 Ğ
+287 ğ
+288 Ġ
+289 ġ
+290 Ģ
+291 ģ
+292 Ĥ
+293 ĥ
+294 Ħ
+295 ħ
+296 Ĩ
+297 ĩ
+298 Ī
+299 ī
+300 Ĭ
+301 ĭ
+302 Į
+303 į
+304 İ
+305 ı
+306 Ĳ
+307 ĳ
+308 Ĵ
+309 ĵ
+310 Ķ
+311 ķ
+312 ĸ
+313 Ĺ
+314 ĺ
+315 Ļ
+316 ļ
+317 Ľ
+318 ľ
+319 Ŀ
+320 ŀ
+321 Ł
+322 ł
+323 Ń
+324 ń
+325 Ņ
+326 ņ
+327 Ň
+328 ň
+329 ŉ
+330 Ŋ
+331 ŋ
+332 Ō
+333 ō
+334 Ŏ
+335 ŏ
+336 Ő
+337 ő
+338 Œ
+339 œ
+340 Ŕ
+341 ŕ
+342 Ŗ
+343 ŗ
+344 Ř
+345 ř
+346 Ś
+347 ś
+348 Ŝ
+349 ŝ
+350 Ş
+351 ş
+352 Š
+353 š
+354 Ţ
+355 ţ
+356 Ť
+357 ť
+358 Ŧ
+359 ŧ
+360 Ũ
+361 ũ
+362 Ū
+363 ū
+364 Ŭ
+365 ŭ
+366 Ů
+367 ů
+368 Ű
+369 ű
+370 Ų
+371 ų
+372 Ŵ
+373 ŵ
+374 Ŷ
+375 ŷ
+376 Ÿ
+377 Ź
+378 ź
+379 Ż
+380 ż
+381 Ž
+382 ž
+383 ſ
+384 ƀ
+385 Ɓ
+386 Ƃ
+387 ƃ
+388 Ƅ
+389 ƅ
+390 Ɔ
+391 Ƈ
+392 ƈ
+393 Ɖ
+394 Ɗ
+395 Ƌ
+396 ƌ
+397 ƍ
+398 Ǝ
+399 Ə
+400 Ɛ
+401 Ƒ
+402 ƒ
+403 Ɠ
+404 Ɣ
+405 ƕ
+406 Ɩ
+407 Ɨ
+408 Ƙ
+409 ƙ
+410 ƚ
+411 ƛ
+412 Ɯ
+413 Ɲ
+414 ƞ
+415 Ɵ
+416 Ơ
+417 ơ
+418 Ƣ
+419 ƣ
+420 Ƥ
+421 ƥ
+422 Ʀ
+423 Ƨ
+424 ƨ
+425 Ʃ
+426 ƪ
+427 ƫ
+428 Ƭ
+429 ƭ
+430 Ʈ
+431 Ư
+432 ư
+433 Ʊ
+434 Ʋ
+435 Ƴ
+436 ƴ
+437 Ƶ
+438 ƶ
+439 Ʒ
+440 Ƹ
+441 ƹ
+442 ƺ
+443 ƻ
+444 Ƽ
+445 ƽ
+446 ƾ
+447 ƿ
+448 ǀ
+449 ǁ
+450 ǂ
+451 ǃ
+452 Ǆ
+453 ǅ
+454 ǆ
+455 Ǉ
+456 ǈ
+457 ǉ
+458 Ǌ
+459 ǋ
+460 ǌ
+461 Ǎ
+462 ǎ
+463 Ǐ
+464 ǐ
+465 Ǒ
+466 ǒ
+467 Ǔ
+468 ǔ
+469 Ǖ
+470 ǖ
+471 Ǘ
+472 ǘ
+473 Ǚ
+474 ǚ
+475 Ǜ
+476 ǜ
+477 ǝ
+478 Ǟ
+479 ǟ
+480 Ǡ
+481 ǡ
+482 Ǣ
+483 ǣ
+484 Ǥ
+485 ǥ
+486 Ǧ
+487 ǧ
+488 Ǩ
+489 ǩ
+490 Ǫ
+491 ǫ
+492 Ǭ
+493 ǭ
+494 Ǯ
+495 ǯ
+496 ǰ
+497 Ǳ
+498 ǲ
+499 ǳ
+500 Ǵ
+501 ǵ
+502 Ƕ
+503 Ƿ
+504 Ǹ
+505 ǹ
+506 Ǻ
+507 ǻ
+508 Ǽ
+509 ǽ
+510 Ǿ
+511 ǿ
+512 Ȁ
+513 ȁ
+514 Ȃ
+515 ȃ
+516 Ȅ
+517 ȅ
+518 Ȇ
+519 ȇ
+520 Ȉ
+521 ȉ
+522 Ȋ
+523 ȋ
+524 Ȍ
+525 ȍ
+526 Ȏ
+527 ȏ
+528 Ȑ
+529 ȑ
+530 Ȓ
+531 ȓ
+532 Ȕ
+533 ȕ
+534 Ȗ
+535 ȗ
+536 Ș
+537 ș
+538 Ț
+539 ț
+540 Ȝ
+541 ȝ
+542 Ȟ
+543 ȟ
+544 Ƞ
+545 ȡ
+546 Ȣ
+547 ȣ
+548 Ȥ
+549 ȥ
+550 Ȧ
+551 ȧ
+552 Ȩ
+553 ȩ
+554 Ȫ
+555 ȫ
+556 Ȭ
+557 ȭ
+558 Ȯ
+559 ȯ
+560 Ȱ
+561 ȱ
+562 Ȳ
+563 ȳ
+564 ȴ
+565 ȵ
+566 ȶ
+567 ȷ
+568 ȸ
+569 ȹ
+570 Ⱥ
+571 Ȼ
+572 ȼ
+573 Ƚ
+574 Ⱦ
+575 ȿ
+576 ɀ
+577 Ɂ
+578 ɂ
+579 Ƀ
+580 Ʉ
+581 Ʌ
+582 Ɇ
+583 ɇ
+584 Ɉ
+585 ɉ
+586 Ɋ
+587 ɋ
+588 Ɍ
+589 ɍ
+590 Ɏ
+591 ɏ
+592 ɐ
+593 ɑ
+594 ɒ
+595 ɓ
+596 ɔ
+597 ɕ
+598 ɖ
+599 ɗ
+600 ɘ
+601 ə
+602 ɚ
+603 ɛ
+604 ɜ
+605 ɝ
+606 ɞ
+607 ɟ
+608 ɠ
+609 ɡ
+610 ɢ
+611 ɣ
+612 ɤ
+613 ɥ
+614 ɦ
+615 ɧ
+616 ɨ
+617 ɩ
+618 ɪ
+619 ɫ
+620 ɬ
+621 ɭ
+622 ɮ
+623 ɯ
+624 ɰ
+625 ɱ
+626 ɲ
+627 ɳ
+628 ɴ
+629 ɵ
+630 ɶ
+631 ɷ
+632 ɸ
+633 ɹ
+634 ɺ
+635 ɻ
+636 ɼ
+637 ɽ
+638 ɾ
+639 ɿ
+640 ʀ
+641 ʁ
+642 ʂ
+643 ʃ
+644 ʄ
+645 ʅ
+646 ʆ
+647 ʇ
+648 ʈ
+649 ʉ
+650 ʊ
+651 ʋ
+652 ʌ
+653 ʍ
+654 ʎ
+655 ʏ
+656 ʐ
+657 ʑ
+658 ʒ
+659 ʓ
+660 ʔ
+661 ʕ
+662 ʖ
+663 ʗ
+664 ʘ
+665 ʙ
+666 ʚ
+667 ʛ
+668 ʜ
+669 ʝ
+670 ʞ
+671 ʟ
+672 ʠ
+673 ʡ
+674 ʢ
+675 ʣ
+676 ʤ
+677 ʥ
+678 ʦ
+679 ʧ
+680 ʨ
+681 ʩ
+682 ʪ
+683 ʫ
+684 ʬ
+685 ʭ
+686 ʮ
+687 ʯ
+688 ʰ
+689 ʱ
+690 ʲ
+691 ʳ
+692 ʴ
+693 ʵ
+694 ʶ
+695 ʷ
+696 ʸ
+697 ʹ
+698 ʺ
+699 ʻ
+700 ʼ
+701 ʽ
+702 ʾ
+703 ʿ
+704 ˀ
+705 ˁ
+706 ˂
+707 ˃
+708 ˄
+709 ˅
+710 ˆ
+711 ˇ
+712 ˈ
+713 ˉ
+714 ˊ
+715 ˋ
+716 ˌ
+717 ˍ
+718 ˎ
+719 ˏ
+720 ː
+721 ˑ
+722 ˒
+723 ˓
+724 ˔
+725 ˕
+726 ˖
+727 ˗
+728 ˘
+729 ˙
+730 ˚
+731 ˛
+732 ˜
+733 ˝
+734 ˞
+735 ˟
+736 ˠ
+737 ˡ
+738 ˢ
+739 ˣ
+740 ˤ
+741 ˥
+742 ˦
+743 ˧
+744 ˨
+745 ˩
+746 ˪
+747 ˫
+748 ˬ
+749 ˭
+750 ˮ
+751 ˯
+752 ˰
+753 ˱
+754 ˲
+755 ˳
+756 ˴
+757 ˵
+758 ˶
+759 ˷
+760 ˸
+761 ˹
+762 ˺
+763 ˻
+764 ˼
+765 ˽
+766 ˾
+767 ˿
+768 ̀
+769 ́
+770 ̂
+771 ̃
+772 ̄
+773 ̅
+774 ̆
+775 ̇
+776 ̈
+777 ̉
+778 ̊
+779 ̋
+780 ̌
+781 ̍
+782 ̎
+783 ̏
+784 ̐
+785 ̑
+786 ̒
+787 ̓
+788 ̔
+789 ̕
+790 ̖
+791 ̗
+792 ̘
+793 ̙
+794 ̚
+795 ̛
+796 ̜
+797 ̝
+798 ̞
+799 ̟
+800 ̠
+801 ̡
+802 ̢
+803 ̣
+804 ̤
+805 ̥
+806 ̦
+807 ̧
+808 ̨
+809 ̩
+810 ̪
+811 ̫
+812 ̬
+813 ̭
+814 ̮
+815 ̯
+816 ̰
+817 ̱
+818 ̲
+819 ̳
+820 ̴
+821 ̵
+822 ̶
+823 ̷
+824 ̸
+825 ̹
+826 ̺
+827 ̻
+828 ̼
+829 ̽
+830 ̾
+831 ̿
+832 ̀
+833 ́
+834 ͂
+835 ̓
+836 ̈́
+837 ͅ
+838 ͆
+839 ͇
+840 ͈
+841 ͉
+842 ͊
+843 ͋
+844 ͌
+845 ͍
+846 ͎
+847 ͏
+848 ͐
+849 ͑
+850 ͒
+851 ͓
+852 ͔
+853 ͕
+854 ͖
+855 ͗
+856 ͘
+857 ͙
+858 ͚
+859 ͛
+860 ͜
+861 ͝
+862 ͞
+863 ͟
+864 ͠
+865 ͡
+866 ͢
+867 ͣ
+868 ͤ
+869 ͥ
+870 ͦ
+871 ͧ
+872 ͨ
+873 ͩ
+874 ͪ
+875 ͫ
+876 ͬ
+877 ͭ
+878 ͮ
+879 ͯ
+880 Ͱ
+881 ͱ
+882 Ͳ
+883 ͳ
+884 ʹ
+885 ͵
+886 Ͷ
+887 ͷ
+888 ͸
+889 ͹
+890 ͺ
+891 ͻ
+892 ͼ
+893 ͽ
+894 ;
+895 Ϳ
+896 ΀
+897 ΁
+898 ΂
+899 ΃
+900 ΄
+901 ΅
+902 Ά
+903 ·
+904 Έ
+905 Ή
+906 Ί
+907 ΋
+908 Ό
+909 ΍
+910 Ύ
+911 Ώ
+912 ΐ
+913 Α
+914 Β
+915 Γ
+916 Δ
+917 Ε
+918 Ζ
+919 Η
+920 Θ
+921 Ι
+922 Κ
+923 Λ
+924 Μ
+925 Ν
+926 Ξ
+927 Ο
+928 Π
+929 Ρ
+930 ΢
+931 Σ
+932 Τ
+933 Υ
+934 Φ
+935 Χ
+936 Ψ
+937 Ω
+938 Ϊ
+939 Ϋ
+940 ά
+941 έ
+942 ή
+943 ί
+944 ΰ
+945 α
+946 β
+947 γ
+948 δ
+949 ε
+950 ζ
+951 η
+952 θ
+953 ι
+954 κ
+955 λ
+956 μ
+957 ν
+958 ξ
+959 ο
+960 π
+961 ρ
+962 ς
+963 σ
+964 τ
+965 υ
+966 φ
+967 χ
+968 ψ
+969 ω
+970 ϊ
+971 ϋ
+972 ό
+973 ύ
+974 ώ
+975 Ϗ
+976 ϐ
+977 ϑ
+978 ϒ
+979 ϓ
+980 ϔ
+981 ϕ
+982 ϖ
+983 ϗ
+984 Ϙ
+985 ϙ
+986 Ϛ
+987 ϛ
+988 Ϝ
+989 ϝ
+990 Ϟ
+991 ϟ
+992 Ϡ
+993 ϡ
+994 Ϣ
+995 ϣ
+996 Ϥ
+997 ϥ
+998 Ϧ
+999 ϧ
+1000 Ϩ
+1001 ϩ
+1002 Ϫ
+1003 ϫ
+1004 Ϭ
+1005 ϭ
+1006 Ϯ
+1007 ϯ
+1008 ϰ
+1009 ϱ
+1010 ϲ
+1011 ϳ
+1012 ϴ
+1013 ϵ
+1014 ϶
+1015 Ϸ
+1016 ϸ
+1017 Ϲ
+1018 Ϻ
+1019 ϻ
+1020 ϼ
+1021 Ͻ
+1022 Ͼ
+1023 Ͽ
+1024 Ѐ
+1025 Ё
+1026 Ђ
+1027 Ѓ
+1028 Є
+1029 Ѕ
+1030 І
+1031 Ї
+1032 Ј
+1033 Љ
+1034 Њ
+1035 Ћ
+1036 Ќ
+1037 Ѝ
+1038 Ў
+1039 Џ
+1040 А
+1041 Б
+1042 В
+1043 Г
+1044 Д
+1045 Е
+1046 Ж
+1047 З
+1048 И
+1049 Й
+1050 К
+1051 Л
+1052 М
+1053 Н
+1054 О
+1055 П
+1056 Р
+1057 С
+1058 Т
+1059 У
+1060 Ф
+1061 Х
+1062 Ц
+1063 Ч
+1064 Ш
+1065 Щ
+1066 Ъ
+1067 Ы
+1068 Ь
+1069 Э
+1070 Ю
+1071 Я
+1072 а
+1073 б
+1074 в
+1075 г
+1076 д
+1077 е
+1078 ж
+1079 з
+1080 и
+1081 й
+1082 к
+1083 л
+1084 м
+1085 н
+1086 о
+1087 п
+1088 р
+1089 с
+1090 т
+1091 у
+1092 ф
+1093 х
+1094 ц
+1095 ч
+1096 ш
+1097 щ
+1098 ъ
+1099 ы
+1100 ь
+1101 э
+1102 ю
+1103 я
+1104 ѐ
+1105 ё
+1106 ђ
+1107 ѓ
+1108 є
+1109 ѕ
+1110 і
+1111 ї
+1112 ј
+1113 љ
+1114 њ
+1115 ћ
+1116 ќ
+1117 ѝ
+1118 ў
+1119 џ
+1120 Ѡ
+1121 ѡ
+1122 Ѣ
+1123 ѣ
+1124 Ѥ
+1125 ѥ
+1126 Ѧ
+1127 ѧ
+1128 Ѩ
+1129 ѩ
+1130 Ѫ
+1131 ѫ
+1132 Ѭ
+1133 ѭ
+1134 Ѯ
+1135 ѯ
+1136 Ѱ
+1137 ѱ
+1138 Ѳ
+1139 ѳ
+1140 Ѵ
+1141 ѵ
+1142 Ѷ
+1143 ѷ
+1144 Ѹ
+1145 ѹ
+1146 Ѻ
+1147 ѻ
+1148 Ѽ
+1149 ѽ
+1150 Ѿ
+1151 ѿ
+1152 Ҁ
+1153 ҁ
+1154 ҂
+1155 ҃
+1156 ҄
+1157 ҅
+1158 ҆
+1159 ҇
+1160 ҈
+1161 ҉
+1162 Ҋ
+1163 ҋ
+1164 Ҍ
+1165 ҍ
+1166 Ҏ
+1167 ҏ
+1168 Ґ
+1169 ґ
+1170 Ғ
+1171 ғ
+1172 Ҕ
+1173 ҕ
+1174 Җ
+1175 җ
+1176 Ҙ
+1177 ҙ
+1178 Қ
+1179 қ
+1180 Ҝ
+1181 ҝ
+1182 Ҟ
+1183 ҟ
+1184 Ҡ
+1185 ҡ
+1186 Ң
+1187 ң
+1188 Ҥ
+1189 ҥ
+1190 Ҧ
+1191 ҧ
+1192 Ҩ
+1193 ҩ
+1194 Ҫ
+1195 ҫ
+1196 Ҭ
+1197 ҭ
+1198 Ү
+1199 ү
+1200 Ұ
+1201 ұ
+1202 Ҳ
+1203 ҳ
+1204 Ҵ
+1205 ҵ
+1206 Ҷ
+1207 ҷ
+1208 Ҹ
+1209 ҹ
+1210 Һ
+1211 һ
+1212 Ҽ
+1213 ҽ
+1214 Ҿ
+1215 ҿ
+1216 Ӏ
+1217 Ӂ
+1218 ӂ
+1219 Ӄ
+1220 ӄ
+1221 Ӆ
+1222 ӆ
+1223 Ӈ
+1224 ӈ
+1225 Ӊ
+1226 ӊ
+1227 Ӌ
+1228 ӌ
+1229 Ӎ
+1230 ӎ
+1231 ӏ
+1232 Ӑ
+1233 ӑ
+1234 Ӓ
+1235 ӓ
+1236 Ӕ
+1237 ӕ
+1238 Ӗ
+1239 ӗ
+1240 Ә
+1241 ә
+1242 Ӛ
+1243 ӛ
+1244 Ӝ
+1245 ӝ
+1246 Ӟ
+1247 ӟ
+1248 Ӡ
+1249 ӡ
+1250 Ӣ
+1251 ӣ
+1252 Ӥ
+1253 ӥ
+1254 Ӧ
+1255 ӧ
+1256 Ө
+1257 ө
+1258 Ӫ
+1259 ӫ
+1260 Ӭ
+1261 ӭ
+1262 Ӯ
+1263 ӯ
+1264 Ӱ
+1265 ӱ
+1266 Ӳ
+1267 ӳ
+1268 Ӵ
+1269 ӵ
+1270 Ӷ
+1271 ӷ
+1272 Ӹ
+1273 ӹ
+1274 Ӻ
+1275 ӻ
+1276 Ӽ
+1277 ӽ
+1278 Ӿ
+1279 ӿ
+1280 Ԁ
+1281 ԁ
+1282 Ԃ
+1283 ԃ
+1284 Ԅ
+1285 ԅ
+1286 Ԇ
+1287 ԇ
+1288 Ԉ
+1289 ԉ
+1290 Ԋ
+1291 ԋ
+1292 Ԍ
+1293 ԍ
+1294 Ԏ
+1295 ԏ
+1296 Ԑ
+1297 ԑ
+1298 Ԓ
+1299 ԓ
+1300 Ԕ
+1301 ԕ
+1302 Ԗ
+1303 ԗ
+1304 Ԙ
+1305 ԙ
+1306 Ԛ
+1307 ԛ
+1308 Ԝ
+1309 ԝ
+1310 Ԟ
+1311 ԟ
+1312 Ԡ
+1313 ԡ
+1314 Ԣ
+1315 ԣ
+1316 Ԥ
+1317 ԥ
+1318 Ԧ
+1319 ԧ
+1320 Ԩ
+1321 ԩ
+1322 Ԫ
+1323 ԫ
+1324 Ԭ
+1325 ԭ
+1326 Ԯ
+1327 ԯ
+1328 ԰
+1329 Ա
+1330 Բ
+1331 Գ
+1332 Դ
+1333 Ե
+1334 Զ
+1335 Է
+1336 Ը
+1337 Թ
+1338 Ժ
+1339 Ի
+1340 Լ
+1341 Խ
+1342 Ծ
+1343 Կ
+1344 Հ
+1345 Ձ
+1346 Ղ
+1347 Ճ
+1348 Մ
+1349 Յ
+1350 Ն
+1351 Շ
+1352 Ո
+1353 Չ
+1354 Պ
+1355 Ջ
+1356 Ռ
+1357 Ս
+1358 Վ
+1359 Տ
+1360 Ր
+1361 Ց
+1362 Ւ
+1363 Փ
+1364 Ք
+1365 Օ
+1366 Ֆ
+1367 ՗
+1368 ՘
+1369 ՙ
+1370 ՚
+1371 ՛
+1372 ՜
+1373 ՝
+1374 ՞
+1375 ՟
+1376 ՠ
+1377 ա
+1378 բ
+1379 գ
+1380 դ
+1381 ե
+1382 զ
+1383 է
+1384 ը
+1385 թ
+1386 ժ
+1387 ի
+1388 լ
+1389 խ
+1390 ծ
+1391 կ
+1392 հ
+1393 ձ
+1394 ղ
+1395 ճ
+1396 մ
+1397 յ
+1398 ն
+1399 շ
+1400 ո
+1401 չ
+1402 պ
+1403 ջ
+1404 ռ
+1405 ս
+1406 վ
+1407 տ
+1408 ր
+1409 ց
+1410 ւ
+1411 փ
+1412 ք
+1413 օ
+1414 ֆ
+1415 և
+1416 ֈ
+1417 ։
+1418 ֊
+1419 ֋
+1420 ֌
+1421 ֍
+1422 ֎
+1423 ֏
+1424 ֐
+1425 ֑
+1426 ֒
+1427 ֓
+1428 ֔
+1429 ֕
+1430 ֖
+1431 ֗
+1432 ֘
+1433 ֙
+1434 ֚
+1435 ֛
+1436 ֜
+1437 ֝
+1438 ֞
+1439 ֟
+1440 ֠
+1441 ֡
+1442 ֢
+1443 ֣
+1444 ֤
+1445 ֥
+1446 ֦
+1447 ֧
+1448 ֨
+1449 ֩
+1450 ֪
+1451 ֫
+1452 ֬
+1453 ֭
+1454 ֮
+1455 ֯
+1456 ְ
+1457 ֱ
+1458 ֲ
+1459 ֳ
+1460 ִ
+1461 ֵ
+1462 ֶ
+1463 ַ
+1464 ָ
+1465 ֹ
+1466 ֺ
+1467 ֻ
+1468 ּ
+1469 ֽ
+1470 ־
+1471 ֿ
+1472 ׀
+1473 ׁ
+1474 ׂ
+1475 ׃
+1476 ׄ
+1477 ׅ
+1478 ׆
+1479 ׇ
+1480 ׈
+1481 ׉
+1482 ׊
+1483 ׋
+1484 ׌
+1485 ׍
+1486 ׎
+1487 ׏
+1488 א
+1489 ב
+1490 ג
+1491 ד
+1492 ה
+1493 ו
+1494 ז
+1495 ח
+1496 ט
+1497 י
+1498 ך
+1499 כ
+1500 ל
+1501 ם
+1502 מ
+1503 ן
+1504 נ
+1505 ס
+1506 ע
+1507 ף
+1508 פ
+1509 ץ
+1510 צ
+1511 ק
+1512 ר
+1513 ש
+1514 ת
+1515 ׫
+1516 ׬
+1517 ׭
+1518 ׮
+1519 ׯ
+1520 װ
+1521 ױ
+1522 ײ
+1523 ׳
+1524 ״
+1525 ׵
+1526 ׶
+1527 ׷
+1528 ׸
+1529 ׹
+1530 ׺
+1531 ׻
+1532 ׼
+1533 ׽
+1534 ׾
+1535 ׿
+1536 ؀
+1537 ؁
+1538 ؂
+1539 ؃
+1540 ؄
+1541 ؅
+1542 ؆
+1543 ؇
+1544 ؈
+1545 ؉
+1546 ؊
+1547 ؋
+1548 ،
+1549 ؍
+1550 ؎
+1551 ؏
+1552 ؐ
+1553 ؑ
+1554 ؒ
+1555 ؓ
+1556 ؔ
+1557 ؕ
+1558 ؖ
+1559 ؗ
+1560 ؘ
+1561 ؙ
+1562 ؚ
+1563 ؛
+1564 ؜
+1565 ؝
+1566 ؞
+1567 ؟
+1568 ؠ
+1569 ء
+1570 آ
+1571 أ
+1572 ؤ
+1573 إ
+1574 ئ
+1575 ا
+1576 ب
+1577 ة
+1578 ت
+1579 ث
+1580 ج
+1581 ح
+1582 خ
+1583 د
+1584 ذ
+1585 ر
+1586 ز
+1587 س
+1588 ش
+1589 ص
+1590 ض
+1591 ط
+1592 ظ
+1593 ع
+1594 غ
+1595 ػ
+1596 ؼ
+1597 ؽ
+1598 ؾ
+1599 ؿ
+1600 ـ
+1601 ف
+1602 ق
+1603 ك
+1604 ل
+1605 م
+1606 ن
+1607 ه
+1608 و
+1609 ى
+1610 ي
+1611 ً
+1612 ٌ
+1613 ٍ
+1614 َ
+1615 ُ
+1616 ِ
+1617 ّ
+1618 ْ
+1619 ٓ
+1620 ٔ
+1621 ٕ
+1622 ٖ
+1623 ٗ
+1624 ٘
+1625 ٙ
+1626 ٚ
+1627 ٛ
+1628 ٜ
+1629 ٝ
+1630 ٞ
+1631 ٟ
+1632 ٠
+1633 ١
+1634 ٢
+1635 ٣
+1636 ٤
+1637 ٥
+1638 ٦
+1639 ٧
+1640 ٨
+1641 ٩
+1642 ٪
+1643 ٫
+1644 ٬
+1645 ٭
+1646 ٮ
+1647 ٯ
+1648 ٰ
+1649 ٱ
+1650 ٲ
+1651 ٳ
+1652 ٴ
+1653 ٵ
+1654 ٶ
+1655 ٷ
+1656 ٸ
+1657 ٹ
+1658 ٺ
+1659 ٻ
+1660 ټ
+1661 ٽ
+1662 پ
+1663 ٿ
+1664 ڀ
+1665 ځ
+1666 ڂ
+1667 ڃ
+1668 ڄ
+1669 څ
+1670 چ
+1671 ڇ
+1672 ڈ
+1673 ډ
+1674 ڊ
+1675 ڋ
+1676 ڌ
+1677 ڍ
+1678 ڎ
+1679 ڏ
+1680 ڐ
+1681 ڑ
+1682 ڒ
+1683 ړ
+1684 ڔ
+1685 ڕ
+1686 ږ
+1687 ڗ
+1688 ژ
+1689 ڙ
+1690 ښ
+1691 ڛ
+1692 ڜ
+1693 ڝ
+1694 ڞ
+1695 ڟ
+1696 ڠ
+1697 ڡ
+1698 ڢ
+1699 ڣ
+1700 ڤ
+1701 ڥ
+1702 ڦ
+1703 ڧ
+1704 ڨ
+1705 ک
+1706 ڪ
+1707 ګ
+1708 ڬ
+1709 ڭ
+1710 ڮ
+1711 گ
+1712 ڰ
+1713 ڱ
+1714 ڲ
+1715 ڳ
+1716 ڴ
+1717 ڵ
+1718 ڶ
+1719 ڷ
+1720 ڸ
+1721 ڹ
+1722 ں
+1723 ڻ
+1724 ڼ
+1725 ڽ
+1726 ھ
+1727 ڿ
+1728 ۀ
+1729 ہ
+1730 ۂ
+1731 ۃ
+1732 ۄ
+1733 ۅ
+1734 ۆ
+1735 ۇ
+1736 ۈ
+1737 ۉ
+1738 ۊ
+1739 ۋ
+1740 ی
+1741 ۍ
+1742 ێ
+1743 ۏ
+1744 ې
+1745 ۑ
+1746 ے
+1747 ۓ
+1748 ۔
+1749 ە
+1750 ۖ
+1751 ۗ
+1752 ۘ
+1753 ۙ
+1754 ۚ
+1755 ۛ
+1756 ۜ
+1757 ۝
+1758 ۞
+1759 ۟
+1760 ۠
+1761 ۡ
+1762 ۢ
+1763 ۣ
+1764 ۤ
+1765 ۥ
+1766 ۦ
+1767 ۧ
+1768 ۨ
+1769 ۩
+1770 ۪
+1771 ۫
+1772 ۬
+1773 ۭ
+1774 ۮ
+1775 ۯ
+1776 ۰
+1777 ۱
+1778 ۲
+1779 ۳
+1780 ۴
+1781 ۵
+1782 ۶
+1783 ۷
+1784 ۸
+1785 ۹
+1786 ۺ
+1787 ۻ
+1788 ۼ
+1789 ۽
+1790 ۾
+1791 ۿ
+1792 ܀
+1793 ܁
+1794 ܂
+1795 ܃
+1796 ܄
+1797 ܅
+1798 ܆
+1799 ܇
+1800 ܈
+1801 ܉
+1802 ܊
+1803 ܋
+1804 ܌
+1805 ܍
+1806 ܎
+1807 ܏
+1808 ܐ
+1809 ܑ
+1810 ܒ
+1811 ܓ
+1812 ܔ
+1813 ܕ
+1814 ܖ
+1815 ܗ
+1816 ܘ
+1817 ܙ
+1818 ܚ
+1819 ܛ
+1820 ܜ
+1821 ܝ
+1822 ܞ
+1823 ܟ
+1824 ܠ
+1825 ܡ
+1826 ܢ
+1827 ܣ
+1828 ܤ
+1829 ܥ
+1830 ܦ
+1831 ܧ
+1832 ܨ
+1833 ܩ
+1834 ܪ
+1835 ܫ
+1836 ܬ
+1837 ܭ
+1838 ܮ
+1839 ܯ
+1840 ܰ
+1841 ܱ
+1842 ܲ
+1843 ܳ
+1844 ܴ
+1845 ܵ
+1846 ܶ
+1847 ܷ
+1848 ܸ
+1849 ܹ
+1850 ܺ
+1851 ܻ
+1852 ܼ
+1853 ܽ
+1854 ܾ
+1855 ܿ
+1856 ݀
+1857 ݁
+1858 ݂
+1859 ݃
+1860 ݄
+1861 ݅
+1862 ݆
+1863 ݇
+1864 ݈
+1865 ݉
+1866 ݊
+1867 ݋
+1868 ݌
+1869 ݍ
+1870 ݎ
+1871 ݏ
+1872 ݐ
+1873 ݑ
+1874 ݒ
+1875 ݓ
+1876 ݔ
+1877 ݕ
+1878 ݖ
+1879 ݗ
+1880 ݘ
+1881 ݙ
+1882 ݚ
+1883 ݛ
+1884 ݜ
+1885 ݝ
+1886 ݞ
+1887 ݟ
+1888 ݠ
+1889 ݡ
+1890 ݢ
+1891 ݣ
+1892 ݤ
+1893 ݥ
+1894 ݦ
+1895 ݧ
+1896 ݨ
+1897 ݩ
+1898 ݪ
+1899 ݫ
+1900 ݬ
+1901 ݭ
+1902 ݮ
+1903 ݯ
+1904 ݰ
+1905 ݱ
+1906 ݲ
+1907 ݳ
+1908 ݴ
+1909 ݵ
+1910 ݶ
+1911 ݷ
+1912 ݸ
+1913 ݹ
+1914 ݺ
+1915 ݻ
+1916 ݼ
+1917 ݽ
+1918 ݾ
+1919 ݿ
+1920 ހ
+1921 ށ
+1922 ނ
+1923 ރ
+1924 ބ
+1925 ޅ
+1926 ކ
+1927 އ
+1928 ވ
+1929 މ
+1930 ފ
+1931 ދ
+1932 ތ
+1933 ލ
+1934 ގ
+1935 ޏ
+1936 ސ
+1937 ޑ
+1938 ޒ
+1939 ޓ
+1940 ޔ
+1941 ޕ
+1942 ޖ
+1943 ޗ
+1944 ޘ
+1945 ޙ
+1946 ޚ
+1947 ޛ
+1948 ޜ
+1949 ޝ
+1950 ޞ
+1951 ޟ
+1952 ޠ
+1953 ޡ
+1954 ޢ
+1955 ޣ
+1956 ޤ
+1957 ޥ
+1958 ަ
+1959 ާ
+1960 ި
+1961 ީ
+1962 ު
+1963 ޫ
+1964 ެ
+1965 ޭ
+1966 ޮ
+1967 ޯ
+1968 ް
+1969 ޱ
+1970 ޲
+1971 ޳
+1972 ޴
+1973 ޵
+1974 ޶
+1975 ޷
+1976 ޸
+1977 ޹
+1978 ޺
+1979 ޻
+1980 ޼
+1981 ޽
+1982 ޾
+1983 ޿
+1984 ߀
+1985 ߁
+1986 ߂
+1987 ߃
+1988 ߄
+1989 ߅
+1990 ߆
+1991 ߇
+1992 ߈
+1993 ߉
+1994 ߊ
+1995 ߋ
+1996 ߌ
+1997 ߍ
+1998 ߎ
+1999 ߏ
+
+In [3]: exit                                                                                                            
+|10:53:23|diana@Dianas-iMac:[Fonts]> ls -al
+total 1311200
+drwxrwxr-t  220 root  admin      7480 Jul 19  2018 .
+drwxr-xr-x+  63 root  wheel      2142 Feb  1 19:26 ..
+-rw-r--r--    1 root  wheel    124996 Aug  1  2015 Al Nile.ttc
+-rw-r--r--    1 root  wheel     76572 Aug  1  2015 Al Tarikh.ttc
+-rw-r--r--    1 root  wheel    178720 Aug  1  2015 AlBayan.ttc
+-rw-r--r--    1 root  wheel   2906024 Oct 24  2015 AmericanTypewriter.ttc
+-rw-r--r--    1 root  wheel    109700 Oct 24  2015 Andale Mono.ttf
+-rw-r--r--    1 root  wheel    335572 Oct 24  2015 Apple Chancery.ttf
+-rw-r--r--    1 root  wheel  15292988 Aug 16  2015 AppleGothic.ttf
+-rw-r--r--    1 root  wheel  18757920 Aug 16  2015 AppleMyungjo.ttf
+-rw-r--r--    1 root  wheel    122556 Oct 24  2015 Arial Black.ttf
+-rw-r--r--    1 root  wheel    558672 Oct 24  2015 Arial Bold Italic.ttf
+-rw-r--r--    1 root  wheel    750984 Oct 24  2015 Arial Bold.ttf
+-rw-r--r--    1 root  wheel    553284 Oct 24  2015 Arial Italic.ttf
+-rw-r--r--    1 root  wheel    183932 Oct 24  2015 Arial Narrow Bold Italic.ttf
+-rw-r--r--    1 root  wheel    184420 Oct 24  2015 Arial Narrow Bold.ttf
+-rw-r--r--    1 root  wheel    184944 Oct 24  2015 Arial Narrow Italic.ttf
+-rw-r--r--    1 root  wheel    179492 Oct 24  2015 Arial Narrow.ttf
+-rw-r--r--    1 root  wheel     49296 Oct 24  2015 Arial Rounded Bold.ttf
+-rw-r--r--    1 root  wheel  23278008 Oct 24  2015 Arial Unicode.ttf
+-rw-r--r--    1 root  wheel    773236 Oct 24  2015 Arial.ttf
+-rw-r--r--    1 root  wheel   2310148 Oct 24  2015 Athelas.ttc
+-rw-r--r--    1 root  wheel    304592 Aug  1  2015 Ayuthaya.ttf
+-rw-r--r--    1 root  wheel    106220 Aug  1  2015 Baghdad.ttc
+-rw-r--r--    1 root  wheel    830804 Aug  1  2015 Bangla MN.ttc
+-rw-r--r--    1 root  wheel    762944 Aug  1  2015 Bangla Sangam MN.ttc
+-rw-r--r--    1 root  wheel   8474944 Oct 24  2015 Baoli.ttc
+-rw-r--r--    1 root  wheel   1277484 Oct 24  2015 Baskerville.ttc
+-rw-r--r--    1 root  wheel     78976 Aug  1  2015 Beirut.ttc
+-rw-r--r--    1 root  wheel    213512 Oct 24  2015 BigCaslon.ttf
+-rw-r--r--    1 root  wheel    230216 Oct 24  2015 Bodoni 72 OS.ttc
+-rw-r--r--    1 root  wheel     79956 Oct 24  2015 Bodoni 72 Smallcaps Book.ttf
+-rw-r--r--    1 root  wheel    416692 Oct 24  2015 Bodoni 72.ttc
+-rw-r--r--    1 root  wheel     72492 Oct 24  2015 Bodoni Ornaments.ttf
+-rw-r--r--    1 root  wheel    592324 Oct 24  2015 Bradley Hand Bold.ttf
+-rw-r--r--    1 root  wheel    222640 Oct 24  2015 Brush Script.ttf
+-rw-r--r--    1 root  wheel    166072 Oct 24  2015 Chalkboard.ttc
+-rw-r--r--    1 root  wheel    519772 Oct 24  2015 ChalkboardSE.ttc
+-rw-r--r--    1 root  wheel    483652 Oct 24  2015 Chalkduster.ttf
+-rw-r--r--    1 root  wheel   2097188 Oct 24  2015 Charter.ttc
+-rw-r--r--    1 root  wheel   1224236 Oct 24  2015 Cochin.ttc
+-rw-r--r--    1 root  wheel    120120 Oct 24  2015 Comic Sans MS Bold.ttf
+-rw-r--r--    1 root  wheel    135484 Oct 24  2015 Comic Sans MS.ttf
+-rw-r--r--    1 root  wheel   1257000 Oct 24  2015 Copperplate.ttc
+-rw-r--r--    1 root  wheel     71784 Aug  1  2015 Corsiva.ttc
+-rw-r--r--    1 root  wheel    506640 Oct 24  2015 Courier New Bold Italic.ttf
+-rw-r--r--    1 root  wheel    691796 Oct 24  2015 Courier New Bold.ttf
+-rw-r--r--    1 root  wheel    589900 Oct 24  2015 Courier New Italic.ttf
+-rw-r--r--    1 root  wheel    684624 Oct 24  2015 Courier New.ttf
+-rw-r--r--    1 root  wheel    147024 Oct 24  2015 DIN Alternate Bold.ttf
+-rw-r--r--    1 root  wheel     82260 Oct 24  2015 DIN Condensed Bold.ttf
+-rw-r--r--    1 root  wheel   1973380 Aug  1  2015 Damascus.ttc
+-rw-r--r--    1 root  wheel     94656 Aug  1  2015 DecoTypeNaskh.ttc
+-rw-r--r--    1 root  wheel    695000 Aug  1  2015 Devanagari Sangam MN.ttc
+-rw-r--r--    1 root  wheel    406212 Aug  1  2015 DevanagariMT.ttc
+-rw-r--r--    1 root  wheel    712936 Oct 24  2015 Didot.ttc
+-rw-r--r--    1 root  wheel     90540 Aug  1  2015 Diwan Kufi.ttc
+-rw-r--r--    1 root  wheel   1318280 Aug  1  2015 Diwan Thuluth.ttf
+-rw-r--r--    1 root  wheel    550984 Aug  1  2015 EuphemiaCAS.ttc
+-rw-r--r--    1 root  wheel     88452 Aug  1  2015 Farah.ttc
+-rw-r--r--    1 root  wheel    279940 Aug  1  2015 Farisi.ttf
+-rw-r--r--    1 root  wheel    288740 Oct 24  2015 Futura.ttc
+-rw-r--r--    1 root  wheel    385768 Oct 24  2015 Georgia Bold Italic.ttf
+-rw-r--r--    1 root  wheel    363800 Oct 24  2015 Georgia Bold.ttf
+-rw-r--r--    1 root  wheel    400624 Oct 24  2015 Georgia Italic.ttf
+-rw-r--r--    1 root  wheel    379588 Oct 24  2015 Georgia.ttf
+-rw-r--r--    1 root  wheel   1220852 Oct 24  2015 GillSans.ttc
+-rw-r--r--    1 root  wheel    222348 Aug  1  2015 Gujarati Sangam MN.ttc
+-rw-r--r--    1 root  wheel    381112 Aug  1  2015 GujaratiMT.ttc
+-rw-r--r--    1 root  wheel  10645184 Aug 16  2015 Gungseouche.ttf
+-rw-r--r--    1 root  wheel     87380 Aug  1  2015 Gurmukhi MN.ttc
+-rw-r--r--    1 root  wheel    168080 Aug  1  2015 Gurmukhi Sangam MN.ttc
+-rw-r--r--    1 root  wheel     63936 Aug  1  2015 Gurmukhi.ttf
+-rw-r--r--    1 root  wheel  85383868 Oct 24  2015 Hannotate.ttc
+-rw-r--r--    1 root  wheel  71898356 Oct 24  2015 Hanzipen.ttc
+-rw-r--r--    1 root  wheel   1198040 Aug 16  2015 HeadlineA.ttf
+-rw-r--r--    1 root  wheel    106264 Oct 24  2015 Herculanum.ttf
+-rw-r--r--    1 root  wheel     40988 Oct 24  2015 Hoefler Text Ornaments.ttf
+-rw-r--r--    1 root  wheel   1633680 Oct 24  2015 Hoefler Text.ttc
+-rw-r--r--    1 root  wheel    826144 Aug  1  2015 ITFDevanagari.ttc
+-rw-r--r--    1 root  wheel    138488 Oct 24  2015 Impact.ttf
+-rw-r--r--    1 root  wheel    260064 Aug  1  2015 InaiMathi.ttf
+-rw-r--r--    1 root  wheel   3356712 Oct 24  2015 Iowan Old Style.ttc
+-rw-r--r--    1 root  wheel   1175268 Aug  1  2015 Kailasa.ttc
+-rw-r--r--    1 root  wheel  70712356 Oct 24  2015 Kaiti.ttc
+-rw-r--r--    1 root  wheel   1148468 Aug  1  2015 Kannada MN.ttc
+-rw-r--r--    1 root  wheel   1031232 Aug  1  2015 Kannada Sangam MN.ttc
+-rw-r--r--    1 root  wheel    389880 Aug  1  2015 Kefa.ttc
+-rw-r--r--    1 root  wheel    727504 Aug  1  2015 Khmer MN.ttc
+-rw-r--r--    1 root  wheel    278472 Aug  1  2015 Khmer Sangam MN.ttf
+-rw-r--r--    1 root  wheel  14802804 Oct 24  2015 Klee.ttc
+-rw-r--r--    1 root  wheel    973544 Aug  1  2015 Kokonor.ttf
+-rw-r--r--    1 root  wheel    186800 Aug  1  2015 Krungthep.ttf
+-rw-r--r--    1 root  wheel     85588 Aug  1  2015 KufiStandardGK.ttc
+-rw-r--r--    1 root  wheel  43196124 Oct 24  2015 Lantinghei.ttc
+-rw-r--r--    1 root  wheel    174672 Aug  1  2015 Lao MN.ttc
+-rw-r--r--    1 root  wheel     88532 Aug  1  2015 Lao Sangam MN.ttf
+-rw-r--r--    1 root  wheel   7528132 Oct 24  2015 Libian.ttc
+-rw-r--r--    1 root  wheel    553520 Oct 24  2015 Luminari.ttf
+-rw-r--r--    1 root  wheel    336580 Aug  1  2015 Malayalam MN.ttc
+-rw-r--r--    1 root  wheel    330892 Aug  1  2015 Malayalam Sangam MN.ttc
+-rw-r--r--    1 root  wheel    915352 Oct 24  2015 Marion.ttc
+-rw-r--r--    1 root  wheel    652248 Oct 24  2015 Microsoft Sans Serif.ttf
+-rw-r--r--    1 root  wheel    658260 Aug  1  2015 Mishafi Gold.ttf
+-rw-r--r--    1 root  wheel   1425292 Aug  1  2015 Mishafi.ttf
+-rw-r--r--    1 root  wheel    169024 Aug  1  2015 Mshtakan.ttc
+-rw-r--r--    1 root  wheel    197916 Aug  1  2015 Muna.ttc
+-rw-r--r--    1 root  wheel    444600 Aug  1  2015 Myanmar MN.ttc
+-rw-r--r--    1 root  wheel    300584 Aug  1  2015 Myanmar Sangam MN.ttc
+-rw-r--r--    1 root  wheel   7108788 Oct 24  2015 NISC18030.ttf
+-rw-r--r--    1 root  wheel     59452 Aug  1  2015 Nadeem.ttc
+-rw-r--r--    1 root  wheel  12792016 Aug 16  2015 NanumGothic.ttc
+-rw-r--r--    1 root  wheel  13175240 Aug 16  2015 NanumMyeongjo.ttc
+-rw-r--r--    1 root  wheel   7212984 Aug 16  2015 NanumScript.ttc
+-rw-r--r--    1 root  wheel    148656 Aug  1  2015 NewPeninimMT.ttc
+-rw-r--r--    1 root  wheel    469416 Aug  1  2015 Oriya MN.ttc
+-rw-r--r--    1 root  wheel    215412 Aug  1  2015 Oriya Sangam MN.ttc
+-rw-r--r--    1 root  wheel   3631848 Oct 24  2015 Osaka.ttf
+-rw-r--r--    1 root  wheel   2307664 Oct 24  2015 OsakaMono.ttf
+-rw-r--r--    1 root  wheel   9450744 Aug 16  2015 PCmyoungjo.ttf
+-rw-r--r--    1 root  wheel    309348 Oct 24  2015 PTMono.ttc
+-rw-r--r--    1 root  wheel   2767520 Aug  1  2015 PTSans.ttc
+-rw-r--r--    1 root  wheel   1151720 Oct 24  2015 PTSerif.ttc
+-rw-r--r--    1 root  wheel    700100 Oct 24  2015 PTSerifCaption.ttc
+-rw-r--r--    1 root  wheel   1098704 Oct 24  2015 Papyrus.ttc
+-rw-r--r--    1 root  wheel    225784 Oct 24  2015 Phosphate.ttc
+-rw-r--r--    1 root  wheel   4635704 Aug 16  2015 Pilgiche.ttf
+-rw-r--r--    1 root  wheel     72052 Aug  1  2015 PlantagenetCherokee.ttf
+-rw-r--r--    1 root  wheel     61296 Aug  1  2015 Raanana.ttc
+-rw-r--r--    1 root  wheel    369156 May 11  2012 STIXGeneral.otf
+-rw-r--r--    1 root  wheel    186612 May 11  2012 STIXGeneralBol.otf
+-rw-r--r--    1 root  wheel    143764 May 11  2012 STIXGeneralBolIta.otf
+-rw-r--r--    1 root  wheel    141844 May 11  2012 STIXGeneralItalic.otf
+-rw-r--r--    1 root  wheel     16992 May 11  2012 STIXIntDBol.otf
+-rw-r--r--    1 root  wheel     17500 May 11  2012 STIXIntDReg.otf
+-rw-r--r--    1 root  wheel     16608 May 11  2012 STIXIntSmBol.otf
+-rw-r--r--    1 root  wheel     17416 May 11  2012 STIXIntSmReg.otf
+-rw-r--r--    1 root  wheel     16576 May 11  2012 STIXIntUpBol.otf
+-rw-r--r--    1 root  wheel     16932 May 11  2012 STIXIntUpDBol.otf
+-rw-r--r--    1 root  wheel     16964 May 11  2012 STIXIntUpDReg.otf
+-rw-r--r--    1 root  wheel     16856 May 11  2012 STIXIntUpReg.otf
+-rw-r--r--    1 root  wheel     16916 May 11  2012 STIXIntUpSmBol.otf
+-rw-r--r--    1 root  wheel     17184 May 11  2012 STIXIntUpSmReg.otf
+-rw-r--r--    1 root  wheel     54556 May 11  2012 STIXNonUni.otf
+-rw-r--r--    1 root  wheel     25508 May 11  2012 STIXNonUniBol.otf
+-rw-r--r--    1 root  wheel     41188 May 11  2012 STIXNonUniBolIta.otf
+-rw-r--r--    1 root  wheel     46268 May 11  2012 STIXNonUniIta.otf
+-rw-r--r--    1 root  wheel     13464 May 11  2012 STIXSizFiveSymReg.otf
+-rw-r--r--    1 root  wheel     12628 May 11  2012 STIXSizFourSymBol.otf
+-rw-r--r--    1 root  wheel     15656 May 11  2012 STIXSizFourSymReg.otf
+-rw-r--r--    1 root  wheel     12924 May 11  2012 STIXSizOneSymBol.otf
+-rw-r--r--    1 root  wheel     19004 May 11  2012 STIXSizOneSymReg.otf
+-rw-r--r--    1 root  wheel     12636 May 11  2012 STIXSizThreeSymBol.otf
+-rw-r--r--    1 root  wheel     15648 May 11  2012 STIXSizThreeSymReg.otf
+-rw-r--r--    1 root  wheel     12576 May 11  2012 STIXSizTwoSymBol.otf
+-rw-r--r--    1 root  wheel     15620 May 11  2012 STIXSizTwoSymReg.otf
+-rw-r--r--    1 root  wheel     21776 May 11  2012 STIXVar.otf
+-rw-r--r--    1 root  wheel     14808 May 11  2012 STIXVarBol.otf
+-rw-r--r--    1 root  wheel     74936 Aug  1  2015 Sana.ttc
+-rw-r--r--    1 root  wheel    414872 Aug  1  2015 Sathu.ttf
+-rw-r--r--    1 root  wheel    101512 Oct 24  2015 Savoye LET.ttc
+-rw-r--r--    1 root  wheel   4983524 Oct 24  2015 Seravek.ttc
+-rw-r--r--    1 root  wheel    520156 Aug  1  2015 Shree714.ttc
+-rw-r--r--    1 root  wheel    163412 Oct 24  2015 SignPainter.otf
+-rw-r--r--    1 root  wheel    288864 Aug  1  2015 Silom.ttf
+-rw-r--r--    1 root  wheel   1466440 Aug  1  2015 Sinhala MN.ttc
+-rw-r--r--    1 root  wheel    642408 Aug  1  2015 Sinhala Sangam MN.ttc
+-rw-r--r--    1 root  wheel    489424 Oct 24  2015 Skia.ttf
+-rw-r--r--    1 root  wheel   3587668 Oct 24  2015 SnellRoundhand.ttc
+-rw-r--r--    1 root  wheel  66903940 Oct  2  2017 Songti.ttc
+-rw-r--r--    1 root  wheel    626056 Aug  1  2015 SukhumvitSet.ttc
+-rw-r--r--    1 root  wheel   2681496 Oct 24  2015 SuperClarendon.ttc
+-rw-r--r--    1 root  wheel    626928 Oct 24  2015 Tahoma Bold.ttf
+-rw-r--r--    1 root  wheel    681120 Oct 24  2015 Tahoma.ttf
+-rw-r--r--    1 root  wheel    400396 Aug  1  2015 Tamil MN.ttc
+-rw-r--r--    1 root  wheel    384780 Aug  1  2015 Tamil Sangam MN.ttc
+-rw-r--r--    1 root  wheel   1736356 Aug  1  2015 Telugu MN.ttc
+-rw-r--r--    1 root  wheel   1224792 Aug  1  2015 Telugu Sangam MN.ttc
+-rw-r--r--    1 root  wheel    620008 Oct 24  2015 Times New Roman Bold Italic.ttf
+-rw-r--r--    1 root  wheel    842168 Oct 24  2015 Times New Roman Bold.ttf
+-rw-r--r--    1 root  wheel    660268 Oct 24  2015 Times New Roman Italic.ttf
+-rw-r--r--    1 root  wheel    834452 Oct 24  2015 Times New Roman.ttf
+-rw-r--r--    1 root  wheel   1160004 Oct 24  2015 Trattatello.ttf
+-rw-r--r--    1 root  wheel    137008 Oct 24  2015 Trebuchet MS Bold Italic.ttf
+-rw-r--r--    1 root  wheel    129360 Oct 24  2015 Trebuchet MS Bold.ttf
+-rw-r--r--    1 root  wheel    144820 Oct 24  2015 Trebuchet MS Italic.ttf
+-rw-r--r--    1 root  wheel    138848 Oct 24  2015 Trebuchet MS.ttf
+-rw-r--r--    1 root  wheel   7916648 Oct 24  2015 TsukushiAMaruGothic.ttc
+-rw-r--r--    1 root  wheel   7980496 Oct 24  2015 TsukushiBMaruGothic.ttc
+-rw-r--r--    1 root  wheel    173132 Oct 24  2015 Verdana Bold Italic.ttf
+-rw-r--r--    1 root  wheel    153260 Oct 24  2015 Verdana Bold.ttf
+-rw-r--r--    1 root  wheel    174612 Oct 24  2015 Verdana Italic.ttf
+-rw-r--r--    1 root  wheel    186188 Oct 24  2015 Verdana.ttf
+-rw-r--r--    1 root  wheel    368184 Aug  1  2015 Waseem.ttc
+-rw-r--r--    1 root  wheel  17435944 Oct 24  2015 WawaSC-Regular.otf
+-rw-r--r--    1 root  wheel  17488424 Oct 24  2015 WawaTC-Regular.otf
+-rw-r--r--    1 root  wheel    124308 Oct 24  2015 Webdings.ttf
+-rw-r--r--    1 root  wheel  24058332 Oct 24  2015 WeibeiSC-Bold.otf
+-rw-r--r--    1 root  wheel  14896268 Oct 24  2015 WeibeiTC-Bold.otf
+-rw-r--r--    1 root  wheel     68768 Oct 24  2015 Wingdings 2.ttf
+-rw-r--r--    1 root  wheel     38308 Oct 24  2015 Wingdings 3.ttf
+-rw-r--r--    1 root  wheel     86384 Oct 24  2015 Wingdings.ttf
+-rw-r--r--    1 root  wheel  14454688 Oct 24  2015 Xingkai.ttc
+-rw-r--r--    1 root  wheel   8160676 Oct 24  2015 Yu Gothic Bold.otf
+-rw-r--r--    1 root  wheel   8218324 Oct 24  2015 Yu Gothic Medium.otf
+-rw-r--r--    1 root  wheel  21174132 Oct 24  2015 YuMincho.ttc
+-rw-r--r--    1 root  wheel  78417612 Oct 24  2015 Yuanti.ttc
+-rw-r--r--    1 root  wheel   3509868 Oct 24  2015 YuppySC-Regular.otf
+-rw-r--r--    1 root  wheel   5320088 Oct 24  2015 YuppyTC-Regular.otf
+-rw-r--r--    1 root  wheel    398884 Oct 24  2015 Zapfino.ttf
+-rw-r--r--    1 root  admin      4268 Jul 19  2018 encodings.dir
+-rw-r--r--    1 root  admin    144213 Jul 19  2018 fonts.dir
+-rw-r--r--    1 root  admin      7043 Jul 19  2018 fonts.list
+-rw-r--r--    1 root  admin    144025 Jul 19  2018 fonts.scale
+-rw-r--r--    1 root  wheel  11409608 Oct 24  2015 ヒラギノ丸ゴ ProN W4.ttc
+-rw-r--r--    1 root  wheel  14119008 Oct 24  2015 儷宋 Pro.ttf
+-rw-r--r--    1 root  wheel   6977160 Oct 24  2015 儷黑 Pro.ttf
+-rw-r--r--    1 root  wheel  15884236 Oct 24  2015 华文仿宋.ttf
+-rw-r--r--    1 root  wheel  15642136 Oct 24  2015 华文细黑.ttf
+-rw-r--r--    1 root  wheel  13631780 Oct 24  2015 华文黑体.ttf
+|10:53:29|diana@Dianas-iMac:[Fonts]> ls 
+Al Nile.ttc				HeadlineA.ttf				STIXSizFourSymBol.otf
+Al Tarikh.ttc				Herculanum.ttf				STIXSizFourSymReg.otf
+AlBayan.ttc				Hoefler Text Ornaments.ttf		STIXSizOneSymBol.otf
+AmericanTypewriter.ttc			Hoefler Text.ttc			STIXSizOneSymReg.otf
+Andale Mono.ttf				ITFDevanagari.ttc			STIXSizThreeSymBol.otf
+Apple Chancery.ttf			Impact.ttf				STIXSizThreeSymReg.otf
+AppleGothic.ttf				InaiMathi.ttf				STIXSizTwoSymBol.otf
+AppleMyungjo.ttf			Iowan Old Style.ttc			STIXSizTwoSymReg.otf
+Arial Black.ttf				Kailasa.ttc				STIXVar.otf
+Arial Bold Italic.ttf			Kaiti.ttc				STIXVarBol.otf
+Arial Bold.ttf				Kannada MN.ttc				Sana.ttc
+Arial Italic.ttf			Kannada Sangam MN.ttc			Sathu.ttf
+Arial Narrow Bold Italic.ttf		Kefa.ttc				Savoye LET.ttc
+Arial Narrow Bold.ttf			Khmer MN.ttc				Seravek.ttc
+Arial Narrow Italic.ttf			Khmer Sangam MN.ttf			Shree714.ttc
+Arial Narrow.ttf			Klee.ttc				SignPainter.otf
+Arial Rounded Bold.ttf			Kokonor.ttf				Silom.ttf
+Arial Unicode.ttf			Krungthep.ttf				Sinhala MN.ttc
+Arial.ttf				KufiStandardGK.ttc			Sinhala Sangam MN.ttc
+Athelas.ttc				Lantinghei.ttc				Skia.ttf
+Ayuthaya.ttf				Lao MN.ttc				SnellRoundhand.ttc
+Baghdad.ttc				Lao Sangam MN.ttf			Songti.ttc
+Bangla MN.ttc				Libian.ttc				SukhumvitSet.ttc
+Bangla Sangam MN.ttc			Luminari.ttf				SuperClarendon.ttc
+Baoli.ttc				Malayalam MN.ttc			Tahoma Bold.ttf
+Baskerville.ttc				Malayalam Sangam MN.ttc			Tahoma.ttf
+Beirut.ttc				Marion.ttc				Tamil MN.ttc
+BigCaslon.ttf				Microsoft Sans Serif.ttf		Tamil Sangam MN.ttc
+Bodoni 72 OS.ttc			Mishafi Gold.ttf			Telugu MN.ttc
+Bodoni 72 Smallcaps Book.ttf		Mishafi.ttf				Telugu Sangam MN.ttc
+Bodoni 72.ttc				Mshtakan.ttc				Times New Roman Bold Italic.ttf
+Bodoni Ornaments.ttf			Muna.ttc				Times New Roman Bold.ttf
+Bradley Hand Bold.ttf			Myanmar MN.ttc				Times New Roman Italic.ttf
+Brush Script.ttf			Myanmar Sangam MN.ttc			Times New Roman.ttf
+Chalkboard.ttc				NISC18030.ttf				Trattatello.ttf
+ChalkboardSE.ttc			Nadeem.ttc				Trebuchet MS Bold Italic.ttf
+Chalkduster.ttf				NanumGothic.ttc				Trebuchet MS Bold.ttf
+Charter.ttc				NanumMyeongjo.ttc			Trebuchet MS Italic.ttf
+Cochin.ttc				NanumScript.ttc				Trebuchet MS.ttf
+Comic Sans MS Bold.ttf			NewPeninimMT.ttc			TsukushiAMaruGothic.ttc
+Comic Sans MS.ttf			Oriya MN.ttc				TsukushiBMaruGothic.ttc
+Copperplate.ttc				Oriya Sangam MN.ttc			Verdana Bold Italic.ttf
+Corsiva.ttc				Osaka.ttf				Verdana Bold.ttf
+Courier New Bold Italic.ttf		OsakaMono.ttf				Verdana Italic.ttf
+Courier New Bold.ttf			PCmyoungjo.ttf				Verdana.ttf
+Courier New Italic.ttf			PTMono.ttc				Waseem.ttc
+Courier New.ttf				PTSans.ttc				WawaSC-Regular.otf
+DIN Alternate Bold.ttf			PTSerif.ttc				WawaTC-Regular.otf
+DIN Condensed Bold.ttf			PTSerifCaption.ttc			Webdings.ttf
+Damascus.ttc				Papyrus.ttc				WeibeiSC-Bold.otf
+DecoTypeNaskh.ttc			Phosphate.ttc				WeibeiTC-Bold.otf
+Devanagari Sangam MN.ttc		Pilgiche.ttf				Wingdings 2.ttf
+DevanagariMT.ttc			PlantagenetCherokee.ttf			Wingdings 3.ttf
+Didot.ttc				Raanana.ttc				Wingdings.ttf
+Diwan Kufi.ttc				STIXGeneral.otf				Xingkai.ttc
+Diwan Thuluth.ttf			STIXGeneralBol.otf			Yu Gothic Bold.otf
+EuphemiaCAS.ttc				STIXGeneralBolIta.otf			Yu Gothic Medium.otf
+Farah.ttc				STIXGeneralItalic.otf			YuMincho.ttc
+Farisi.ttf				STIXIntDBol.otf				Yuanti.ttc
+Futura.ttc				STIXIntDReg.otf				YuppySC-Regular.otf
+Georgia Bold Italic.ttf			STIXIntSmBol.otf			YuppyTC-Regular.otf
+Georgia Bold.ttf			STIXIntSmReg.otf			Zapfino.ttf
+Georgia Italic.ttf			STIXIntUpBol.otf			encodings.dir
+Georgia.ttf				STIXIntUpDBol.otf			fonts.dir
+GillSans.ttc				STIXIntUpDReg.otf			fonts.list
+Gujarati Sangam MN.ttc			STIXIntUpReg.otf			fonts.scale
+GujaratiMT.ttc				STIXIntUpSmBol.otf			ヒラギノ丸ゴ ProN W4.ttc
+Gungseouche.ttf				STIXIntUpSmReg.otf			儷宋 Pro.ttf
+Gurmukhi MN.ttc				STIXNonUni.otf				儷黑 Pro.ttf
+Gurmukhi Sangam MN.ttc			STIXNonUniBol.otf			华文仿宋.ttf
+Gurmukhi.ttf				STIXNonUniBolIta.otf			华文细黑.ttf
+Hannotate.ttc				STIXNonUniIta.otf			华文黑体.ttf
+Hanzipen.ttc				STIXSizFiveSymReg.otf
+|10:53:37|diana@Dianas-iMac:[Fonts]> ls | more
+Al Nile.ttc
+Al Tarikh.ttc
+AlBayan.ttc
+AmericanTypewriter.ttc
+Andale Mono.ttf
+Apple Chancery.ttf
+AppleGothic.ttf
+AppleMyungjo.ttf
+Arial Black.ttf
+Arial Bold Italic.ttf
+Arial Bold.ttf
+Arial Italic.ttf
+Arial Narrow Bold Italic.ttf
+Arial Narrow Bold.ttf
+Arial Narrow Italic.ttf
+Arial Narrow.ttf
+Arial Rounded Bold.ttf
+Arial Unicode.ttf
+Arial.ttf
+Athelas.ttc
+Ayuthaya.ttf
+Baghdad.ttc
+Bangla MN.ttc
+Bangla Sangam MN.ttc
+Baoli.ttc
+Baskerville.ttc
+Beirut.ttc
+BigCaslon.ttf
+Bodoni 72 OS.ttc
+Bodoni 72 Smallcaps Book.ttf
+Bodoni 72.ttc
+Bodoni Ornaments.ttf
+Bradley Hand Bold.ttf
+Brush Script.ttf
+Chalkboard.ttc
+ChalkboardSE.ttc
+Chalkduster.ttf
+Charter.ttc
+Cochin.ttc
+Comic Sans MS Bold.ttf
+Comic Sans MS.ttf
+Copperplate.ttc
+Corsiva.ttc
+Courier New Bold Italic.ttf
+Courier New Bold.ttf
+Courier New Italic.ttf
+Courier New.ttf
+DIN Alternate Bold.ttf
+DIN Condensed Bold.ttf
+Damascus.ttc
+DecoTypeNaskh.ttc
+Devanagari Sangam MN.ttc
+DevanagariMT.ttc
+Didot.ttc
+Diwan Kufi.ttc
+Diwan Thuluth.ttf
+EuphemiaCAS.ttc
+Farah.ttc
+Farisi.ttf
+Futura.ttc
+Georgia Bold Italic.ttf
+Georgia Bold.ttf
+Georgia Italic.ttf
+Georgia.ttf
+GillSans.ttc
+Gujarati Sangam MN.ttc
+GujaratiMT.ttc
+Gungseouche.ttf
+Gurmukhi MN.ttc
+Gurmukhi Sangam MN.ttc
+Gurmukhi.ttf
+Hannotate.ttc
+Hanzipen.ttc
+HeadlineA.ttf
+Herculanum.ttf
+Hoefler Text Ornaments.ttf
+Hoefler Text.ttc
+ITFDevanagari.ttc
+Impact.ttf
+InaiMathi.ttf
+Iowan Old Style.ttc
+Kailasa.ttc
+Kaiti.ttc
+Kannada MN.ttc
+Kannada Sangam MN.ttc
+Kefa.ttc
+Khmer MN.ttc
+Khmer Sangam MN.ttf
+Klee.ttc
+Kokonor.ttf
+Krungthep.ttf
+KufiStandardGK.ttc
+Lantinghei.ttc
+Lao MN.ttc
+Lao Sangam MN.ttf
+Libian.ttc
+Luminari.ttf
+Malayalam MN.ttc
+Malayalam Sangam MN.ttc
+Marion.ttc
+Microsoft Sans Serif.ttf
+Mishafi Gold.ttf
+Mishafi.ttf
+Mshtakan.ttc
+Muna.ttc
+Myanmar MN.ttc
+Myanmar Sangam MN.ttc
+NISC18030.ttf
+Nadeem.ttc
+NanumGothic.ttc
+NanumMyeongjo.ttc
+NanumScript.ttc
+NewPeninimMT.ttc
+Oriya MN.ttc
+Oriya Sangam MN.ttc
+Osaka.ttf
+OsakaMono.ttf
+PCmyoungjo.ttf
+PTMono.ttc
+PTSans.ttc
+PTSerif.ttc
+PTSerifCaption.ttc
+Papyrus.ttc
+Phosphate.ttc
+Pilgiche.ttf
+PlantagenetCherokee.ttf
+Raanana.ttc
+STIXGeneral.otf
+STIXGeneralBol.otf
+STIXGeneralBolIta.otf
+STIXGeneralItalic.otf
+STIXIntDBol.otf
+STIXIntDReg.otf
+STIXIntSmBol.otf
+STIXIntSmReg.otf
+STIXIntUpBol.otf
+STIXIntUpDBol.otf
+STIXIntUpDReg.otf
+STIXIntUpReg.otf
+STIXIntUpSmBol.otf
+STIXIntUpSmReg.otf
+STIXNonUni.otf
+STIXNonUniBol.otf
+STIXNonUniBolIta.otf
+STIXNonUniIta.otf
+STIXSizFiveSymReg.otf
+STIXSizFourSymBol.otf
+STIXSizFourSymReg.otf
+STIXSizOneSymBol.otf
+STIXSizOneSymReg.otf
+STIXSizThreeSymBol.otf
+STIXSizThreeSymReg.otf
+STIXSizTwoSymBol.otf
+STIXSizTwoSymReg.otf
+STIXVar.otf
+STIXVarBol.otf
+Sana.ttc
+Sathu.ttf
+Savoye LET.ttc
+Seravek.ttc
+Shree714.ttc
+SignPainter.otf
+Silom.ttf
+Sinhala MN.ttc
+Sinhala Sangam MN.ttc
+Skia.ttf
+SnellRoundhand.ttc
+Songti.ttc
+SukhumvitSet.ttc
+SuperClarendon.ttc
+Tahoma Bold.ttf
+Tahoma.ttf
+Tamil MN.ttc
+Tamil Sangam MN.ttc
+Telugu MN.ttc
+Telugu Sangam MN.ttc
+Times New Roman Bold Italic.ttf
+Times New Roman Bold.ttf
+Times New Roman Italic.ttf
+Times New Roman.ttf
+Trattatello.ttf
+Trebuchet MS Bold Italic.ttf
+Trebuchet MS Bold.ttf
+Trebuchet MS Italic.ttf
+Trebuchet MS.ttf
+TsukushiAMaruGothic.ttc
+TsukushiBMaruGothic.ttc
+Verdana Bold Italic.ttf
+Verdana Bold.ttf
+Verdana Italic.ttf
+Verdana.ttf
+Waseem.ttc
+WawaSC-Regular.otf
+WawaTC-Regular.otf
+Webdings.ttf
+WeibeiSC-Bold.otf
+WeibeiTC-Bold.otf
+Wingdings 2.ttf
+Wingdings 3.ttf
+Wingdings.ttf
+Xingkai.ttc
+Yu Gothic Bold.otf
+Yu Gothic Medium.otf
+YuMincho.ttc
+Yuanti.ttc
+YuppySC-Regular.otf
+YuppyTC-Regular.otf
+Zapfino.ttf
+encodings.dir
+fonts.dir
+fonts.list
+fonts.scale
+ヒラギノ丸ゴ ProN W4.ttc
+儷宋 Pro.ttf
+儷黑 Pro.ttf
+华文仿宋.ttf
+华文细黑.ttf
+华文黑体.ttf
+|10:54:00|diana@Dianas-iMac:[Fonts]> ls | more
+Al Nile.ttc
+Al Tarikh.ttc
+AlBayan.ttc
+AmericanTypewriter.ttc
+Andale Mono.ttf
+Apple Chancery.ttf
+AppleGothic.ttf
+AppleMyungjo.ttf
+Arial Black.ttf
+Arial Bold Italic.ttf
+Arial Bold.ttf
+Arial Italic.ttf
+Arial Narrow Bold Italic.ttf
+Arial Narrow Bold.ttf
+Arial Narrow Italic.ttf
+Arial Narrow.ttf
+Arial Rounded Bold.ttf
+Arial Unicode.ttf
+Arial.ttf
+Athelas.ttc
+Ayuthaya.ttf
+Baghdad.ttc
+Bangla MN.ttc
+Bangla Sangam MN.ttc
+Baoli.ttc
+Baskerville.ttc
+Beirut.ttc
+BigCaslon.ttf
+Bodoni 72 OS.ttc
+Bodoni 72 Smallcaps Book.ttf
+Bodoni 72.ttc
+Bodoni Ornaments.ttf
+Bradley Hand Bold.ttf
+Brush Script.ttf
+Chalkboard.ttc
+ChalkboardSE.ttc
+Chalkduster.ttf
+Charter.ttc
+Cochin.ttc
+Comic Sans MS Bold.ttf
+Comic Sans MS.ttf
+Copperplate.ttc
+Corsiva.ttc
+Courier New Bold Italic.ttf
+Courier New Bold.ttf
+Courier New Italic.ttf
+Courier New.ttf
+DIN Alternate Bold.ttf
+DIN Condensed Bold.ttf
+Damascus.ttc
+DecoTypeNaskh.ttc
+Devanagari Sangam MN.ttc
+DevanagariMT.ttc
+Didot.ttc
+Diwan Kufi.ttc
+Diwan Thuluth.ttf
+EuphemiaCAS.ttc
+Farah.ttc
+Farisi.ttf
+Futura.ttc
+Georgia Bold Italic.ttf
+Georgia Bold.ttf
+Georgia Italic.ttf
+Georgia.ttf
+GillSans.ttc
+Gujarati Sangam MN.ttc
+GujaratiMT.ttc
+Gungseouche.ttf
+Gurmukhi MN.ttc
+Gurmukhi Sangam MN.ttc
+Gurmukhi.ttf
+Hannotate.ttc
+Hanzipen.ttc
+HeadlineA.ttf
+Herculanum.ttf
+Hoefler Text Ornaments.ttf
+Hoefler Text.ttc
+ITFDevanagari.ttc
+Impact.ttf
+InaiMathi.ttf
+Iowan Old Style.ttc
+Kailasa.ttc
+Kaiti.ttc
+Kannada MN.ttc
+Kannada Sangam MN.ttc
+Kefa.ttc
+Khmer MN.ttc
+Khmer Sangam MN.ttf
+Klee.ttc
+Kokonor.ttf
+Krungthep.ttf
+KufiStandardGK.ttc
+Lantinghei.ttc
+Lao MN.ttc
+Lao Sangam MN.ttf
+Libian.ttc
+Luminari.ttf
+Malayalam MN.ttc
+Malayalam Sangam MN.ttc
+Marion.ttc
+Microsoft Sans Serif.ttf
+Mishafi Gold.ttf
+Mishafi.ttf
+Mshtakan.ttc
+Muna.ttc
+Myanmar MN.ttc
+Myanmar Sangam MN.ttc
+NISC18030.ttf
+Nadeem.ttc
+NanumGothic.ttc
+NanumMyeongjo.ttc
+NanumScript.ttc
+NewPeninimMT.ttc
+Oriya MN.ttc
+Oriya Sangam MN.ttc
+Osaka.ttf
+OsakaMono.ttf
+PCmyoungjo.ttf
+PTMono.ttc
+PTSans.ttc
+PTSerif.ttc
+PTSerifCaption.ttc
+Papyrus.ttc
+Phosphate.ttc
+Pilgiche.ttf
+PlantagenetCherokee.ttf
+Raanana.ttc
+STIXGeneral.otf
+STIXGeneralBol.otf
+STIXGeneralBolIta.otf
+STIXGeneralItalic.otf
+STIXIntDBol.otf
+STIXIntDReg.otf
+STIXIntSmBol.otf
+STIXIntSmReg.otf
+STIXIntUpBol.otf
+STIXIntUpDBol.otf
+STIXIntUpDReg.otf
+STIXIntUpReg.otf
+STIXIntUpSmBol.otf
+STIXIntUpSmReg.otf
+STIXNonUni.otf
+STIXNonUniBol.otf
+STIXNonUniBolIta.otf
+STIXNonUniIta.otf
+STIXSizFiveSymReg.otf
+STIXSizFourSymBol.otf
+STIXSizFourSymReg.otf
+STIXSizOneSymBol.otf
+STIXSizOneSymReg.otf
+STIXSizThreeSymBol.otf
+STIXSizThreeSymReg.otf
+STIXSizTwoSymBol.otf
+STIXSizTwoSymReg.otf
+STIXVar.otf
+STIXVarBol.otf
+Sana.ttc
+Sathu.ttf
+Savoye LET.ttc
+Seravek.ttc
+Shree714.ttc
+SignPainter.otf
+Silom.ttf
+Sinhala MN.ttc
+Sinhala Sangam MN.ttc
+Skia.ttf
+SnellRoundhand.ttc
+Songti.ttc
+SukhumvitSet.ttc
+SuperClarendon.ttc
+Tahoma Bold.ttf
+Tahoma.ttf
+Tamil MN.ttc
+Tamil Sangam MN.ttc
+Telugu MN.ttc
+Telugu Sangam MN.ttc
+Times New Roman Bold Italic.ttf
+Times New Roman Bold.ttf
+Times New Roman Italic.ttf
+Times New Roman.ttf
+Trattatello.ttf
+Trebuchet MS Bold Italic.ttf
+Trebuchet MS Bold.ttf
+Trebuchet MS Italic.ttf
+Trebuchet MS.ttf
+TsukushiAMaruGothic.ttc
+TsukushiBMaruGothic.ttc
+Verdana Bold Italic.ttf
+Verdana Bold.ttf
+Verdana Italic.ttf
+Verdana.ttf
+Waseem.ttc
+WawaSC-Regular.otf
+WawaTC-Regular.otf
+Webdings.ttf
+WeibeiSC-Bold.otf
+WeibeiTC-Bold.otf
+Wingdings 2.ttf
+Wingdings 3.ttf
+Wingdings.ttf
+Xingkai.ttc
+Yu Gothic Bold.otf
+Yu Gothic Medium.otf
+YuMincho.ttc
+Yuanti.ttc
+YuppySC-Regular.otf
+YuppyTC-Regular.otf
+Zapfino.ttf
+encodings.dir
+fonts.dir
+fonts.list
+fonts.scale
+ヒラギノ丸ゴ ProN W4.ttc
+儷宋 Pro.ttf
+儷黑 Pro.ttf
+华文仿宋.ttf
+华文细黑.ttf
+华文黑体.ttf
+|10:54:07|diana@Dianas-iMac:[Fonts]> ls | less
+|10:54:20|diana@Dianas-iMac:[Fonts]> ls | nl | more
+     1  Al Nile.ttc
+     2  Al Tarikh.ttc
+     3  AlBayan.ttc
+     4  AmericanTypewriter.ttc
+     5  Andale Mono.ttf
+     6  Apple Chancery.ttf
+     7  AppleGothic.ttf
+     8  AppleMyungjo.ttf
+     9  Arial Black.ttf
+    10  Arial Bold Italic.ttf
+    11  Arial Bold.ttf
+    12  Arial Italic.ttf
+    13  Arial Narrow Bold Italic.ttf
+    14  Arial Narrow Bold.ttf
+    15  Arial Narrow Italic.ttf
+    16  Arial Narrow.ttf
+    17  Arial Rounded Bold.ttf
+    18  Arial Unicode.ttf
+    19  Arial.ttf
+    20  Athelas.ttc
+    21  Ayuthaya.ttf
+    22  Baghdad.ttc
+    23  Bangla MN.ttc
+    24  Bangla Sangam MN.ttc
+    25  Baoli.ttc
+    26  Baskerville.ttc
+    27  Beirut.ttc
+    28  BigCaslon.ttf
+    29  Bodoni 72 OS.ttc
+    30  Bodoni 72 Smallcaps Book.ttf
+    31  Bodoni 72.ttc
+    32  Bodoni Ornaments.ttf
+    33  Bradley Hand Bold.ttf
+    34  Brush Script.ttf
+    35  Chalkboard.ttc
+    36  ChalkboardSE.ttc
+    37  Chalkduster.ttf
+    38  Charter.ttc
+    39  Cochin.ttc
+    40  Comic Sans MS Bold.ttf
+    41  Comic Sans MS.ttf
+    42  Copperplate.ttc
+    43  Corsiva.ttc
+    44  Courier New Bold Italic.ttf
+    45  Courier New Bold.ttf
+    46  Courier New Italic.ttf
+    47  Courier New.ttf
+    48  DIN Alternate Bold.ttf
+    49  DIN Condensed Bold.ttf
+    50  Damascus.ttc
+    51  DecoTypeNaskh.ttc
+    52  Devanagari Sangam MN.ttc
+    53  DevanagariMT.ttc
+    54  Didot.ttc
+    55  Diwan Kufi.ttc
+    56  Diwan Thuluth.ttf
+    57  EuphemiaCAS.ttc
+    58  Farah.ttc
+    59  Farisi.ttf
+    60  Futura.ttc
+    61  Georgia Bold Italic.ttf
+    62  Georgia Bold.ttf
+    63  Georgia Italic.ttf
+    64  Georgia.ttf
+    65  GillSans.ttc
+    66  Gujarati Sangam MN.ttc
+    67  GujaratiMT.ttc
+    68  Gungseouche.ttf
+    69  Gurmukhi MN.ttc
+    70  Gurmukhi Sangam MN.ttc
+    71  Gurmukhi.ttf
+    72  Hannotate.ttc
+    73  Hanzipen.ttc
+    74  HeadlineA.ttf
+    75  Herculanum.ttf
+    76  Hoefler Text Ornaments.ttf
+    77  Hoefler Text.ttc
+    78  ITFDevanagari.ttc
+    79  Impact.ttf
+    80  InaiMathi.ttf
+    81  Iowan Old Style.ttc
+    82  Kailasa.ttc
+    83  Kaiti.ttc
+    84  Kannada MN.ttc
+    85  Kannada Sangam MN.ttc
+    86  Kefa.ttc
+    87  Khmer MN.ttc
+    88  Khmer Sangam MN.ttf
+    89  Klee.ttc
+    90  Kokonor.ttf
+    91  Krungthep.ttf
+    92  KufiStandardGK.ttc
+    93  Lantinghei.ttc
+    94  Lao MN.ttc
+    95  Lao Sangam MN.ttf
+    96  Libian.ttc
+    97  Luminari.ttf
+    98  Malayalam MN.ttc
+    99  Malayalam Sangam MN.ttc
+   100  Marion.ttc
+   101  Microsoft Sans Serif.ttf
+   102  Mishafi Gold.ttf
+   103  Mishafi.ttf
+   104  Mshtakan.ttc
+   105  Muna.ttc
+   106  Myanmar MN.ttc
+   107  Myanmar Sangam MN.ttc
+   108  NISC18030.ttf
+   109  Nadeem.ttc
+   110  NanumGothic.ttc
+   111  NanumMyeongjo.ttc
+   112  NanumScript.ttc
+   113  NewPeninimMT.ttc
+   114  Oriya MN.ttc
+   115  Oriya Sangam MN.ttc
+   116  Osaka.ttf
+   117  OsakaMono.ttf
+   118  PCmyoungjo.ttf
+   119  PTMono.ttc
+   120  PTSans.ttc
+   121  PTSerif.ttc
+   122  PTSerifCaption.ttc
+   123  Papyrus.ttc
+   124  Phosphate.ttc
+   125  Pilgiche.ttf
+   126  PlantagenetCherokee.ttf
+   127  Raanana.ttc
+   128  STIXGeneral.otf
+   129  STIXGeneralBol.otf
+   130  STIXGeneralBolIta.otf
+   131  STIXGeneralItalic.otf
+   132  STIXIntDBol.otf
+   133  STIXIntDReg.otf
+   134  STIXIntSmBol.otf
+   135  STIXIntSmReg.otf
+   136  STIXIntUpBol.otf
+   137  STIXIntUpDBol.otf
+   138  STIXIntUpDReg.otf
+   139  STIXIntUpReg.otf
+   140  STIXIntUpSmBol.otf
+   141  STIXIntUpSmReg.otf
+   142  STIXNonUni.otf
+   143  STIXNonUniBol.otf
+   144  STIXNonUniBolIta.otf
+   145  STIXNonUniIta.otf
+   146  STIXSizFiveSymReg.otf
+   147  STIXSizFourSymBol.otf
+   148  STIXSizFourSymReg.otf
+   149  STIXSizOneSymBol.otf
+   150  STIXSizOneSymReg.otf
+   151  STIXSizThreeSymBol.otf
+   152  STIXSizThreeSymReg.otf
+   153  STIXSizTwoSymBol.otf
+   154  STIXSizTwoSymReg.otf
+   155  STIXVar.otf
+   156  STIXVarBol.otf
+   157  Sana.ttc
+   158  Sathu.ttf
+   159  Savoye LET.ttc
+   160  Seravek.ttc
+   161  Shree714.ttc
+   162  SignPainter.otf
+   163  Silom.ttf
+   164  Sinhala MN.ttc
+   165  Sinhala Sangam MN.ttc
+   166  Skia.ttf
+   167  SnellRoundhand.ttc
+   168  Songti.ttc
+   169  SukhumvitSet.ttc
+   170  SuperClarendon.ttc
+   171  Tahoma Bold.ttf
+   172  Tahoma.ttf
+   173  Tamil MN.ttc
+   174  Tamil Sangam MN.ttc
+   175  Telugu MN.ttc
+   176  Telugu Sangam MN.ttc
+   177  Times New Roman Bold Italic.ttf
+   178  Times New Roman Bold.ttf
+   179  Times New Roman Italic.ttf
+   180  Times New Roman.ttf
+   181  Trattatello.ttf
+   182  Trebuchet MS Bold Italic.ttf
+   183  Trebuchet MS Bold.ttf
+   184  Trebuchet MS Italic.ttf
+   185  Trebuchet MS.ttf
+   186  TsukushiAMaruGothic.ttc
+   187  TsukushiBMaruGothic.ttc
+   188  Verdana Bold Italic.ttf
+   189  Verdana Bold.ttf
+   190  Verdana Italic.ttf
+   191  Verdana.ttf
+   192  Waseem.ttc
+   193  WawaSC-Regular.otf
+   194  WawaTC-Regular.otf
+   195  Webdings.ttf
+   196  WeibeiSC-Bold.otf
+   197  WeibeiTC-Bold.otf
+   198  Wingdings 2.ttf
+   199  Wingdings 3.ttf
+   200  Wingdings.ttf
+   201  Xingkai.ttc
+   202  Yu Gothic Bold.otf
+   203  Yu Gothic Medium.otf
+   204  YuMincho.ttc
+   205  Yuanti.ttc
+   206  YuppySC-Regular.otf
+   207  YuppyTC-Regular.otf
+   208  Zapfino.ttf
+   209  encodings.dir
+   210  fonts.dir
+   211  fonts.list
+   212  fonts.scale
+   213  ヒラギノ丸ゴ ProN W4.ttc
+   214  儷宋 Pro.ttf
+   215  儷黑 Pro.ttf
+   216  华文仿宋.ttf
+   217  华文细黑.ttf
+   218  华文黑体.ttf
+|10:55:11|diana@Dianas-iMac:[Fonts]> ls | more | nl
+     1	Al Nile.ttc
+     2	Al Tarikh.ttc
+     3	AlBayan.ttc
+     4	AmericanTypewriter.ttc
+     5	Andale Mono.ttf
+     6	Apple Chancery.ttf
+     7	AppleGothic.ttf
+     8	AppleMyungjo.ttf
+     9	Arial Black.ttf
+    10	Arial Bold Italic.ttf
+    11	Arial Bold.ttf
+    12	Arial Italic.ttf
+    13	Arial Narrow Bold Italic.ttf
+    14	Arial Narrow Bold.ttf
+    15	Arial Narrow Italic.ttf
+    16	Arial Narrow.ttf
+    17	Arial Rounded Bold.ttf
+    18	Arial Unicode.ttf
+    19	Arial.ttf
+    20	Athelas.ttc
+    21	Ayuthaya.ttf
+    22	Baghdad.ttc
+    23	Bangla MN.ttc
+    24	Bangla Sangam MN.ttc
+    25	Baoli.ttc
+    26	Baskerville.ttc
+    27	Beirut.ttc
+    28	BigCaslon.ttf
+    29	Bodoni 72 OS.ttc
+    30	Bodoni 72 Smallcaps Book.ttf
+    31	Bodoni 72.ttc
+    32	Bodoni Ornaments.ttf
+    33	Bradley Hand Bold.ttf
+    34	Brush Script.ttf
+    35	Chalkboard.ttc
+    36	ChalkboardSE.ttc
+    37	Chalkduster.ttf
+    38	Charter.ttc
+    39	Cochin.ttc
+    40	Comic Sans MS Bold.ttf
+    41	Comic Sans MS.ttf
+    42	Copperplate.ttc
+    43	Corsiva.ttc
+    44	Courier New Bold Italic.ttf
+    45	Courier New Bold.ttf
+    46	Courier New Italic.ttf
+    47	Courier New.ttf
+    48	DIN Alternate Bold.ttf
+    49	DIN Condensed Bold.ttf
+    50	Damascus.ttc
+    51	DecoTypeNaskh.ttc
+    52	Devanagari Sangam MN.ttc
+    53	DevanagariMT.ttc
+    54	Didot.ttc
+    55	Diwan Kufi.ttc
+    56	Diwan Thuluth.ttf
+    57	EuphemiaCAS.ttc
+    58	Farah.ttc
+    59	Farisi.ttf
+    60	Futura.ttc
+    61	Georgia Bold Italic.ttf
+    62	Georgia Bold.ttf
+    63	Georgia Italic.ttf
+    64	Georgia.ttf
+    65	GillSans.ttc
+    66	Gujarati Sangam MN.ttc
+    67	GujaratiMT.ttc
+    68	Gungseouche.ttf
+    69	Gurmukhi MN.ttc
+    70	Gurmukhi Sangam MN.ttc
+    71	Gurmukhi.ttf
+    72	Hannotate.ttc
+    73	Hanzipen.ttc
+    74	HeadlineA.ttf
+    75	Herculanum.ttf
+    76	Hoefler Text Ornaments.ttf
+    77	Hoefler Text.ttc
+    78	ITFDevanagari.ttc
+    79	Impact.ttf
+    80	InaiMathi.ttf
+    81	Iowan Old Style.ttc
+    82	Kailasa.ttc
+    83	Kaiti.ttc
+    84	Kannada MN.ttc
+    85	Kannada Sangam MN.ttc
+    86	Kefa.ttc
+    87	Khmer MN.ttc
+    88	Khmer Sangam MN.ttf
+    89	Klee.ttc
+    90	Kokonor.ttf
+    91	Krungthep.ttf
+    92	KufiStandardGK.ttc
+    93	Lantinghei.ttc
+    94	Lao MN.ttc
+    95	Lao Sangam MN.ttf
+    96	Libian.ttc
+    97	Luminari.ttf
+    98	Malayalam MN.ttc
+    99	Malayalam Sangam MN.ttc
+   100	Marion.ttc
+   101	Microsoft Sans Serif.ttf
+   102	Mishafi Gold.ttf
+   103	Mishafi.ttf
+   104	Mshtakan.ttc
+   105	Muna.ttc
+   106	Myanmar MN.ttc
+   107	Myanmar Sangam MN.ttc
+   108	NISC18030.ttf
+   109	Nadeem.ttc
+   110	NanumGothic.ttc
+   111	NanumMyeongjo.ttc
+   112	NanumScript.ttc
+   113	NewPeninimMT.ttc
+   114	Oriya MN.ttc
+   115	Oriya Sangam MN.ttc
+   116	Osaka.ttf
+   117	OsakaMono.ttf
+   118	PCmyoungjo.ttf
+   119	PTMono.ttc
+   120	PTSans.ttc
+   121	PTSerif.ttc
+   122	PTSerifCaption.ttc
+   123	Papyrus.ttc
+   124	Phosphate.ttc
+   125	Pilgiche.ttf
+   126	PlantagenetCherokee.ttf
+   127	Raanana.ttc
+   128	STIXGeneral.otf
+   129	STIXGeneralBol.otf
+   130	STIXGeneralBolIta.otf
+   131	STIXGeneralItalic.otf
+   132	STIXIntDBol.otf
+   133	STIXIntDReg.otf
+   134	STIXIntSmBol.otf
+   135	STIXIntSmReg.otf
+   136	STIXIntUpBol.otf
+   137	STIXIntUpDBol.otf
+   138	STIXIntUpDReg.otf
+   139	STIXIntUpReg.otf
+   140	STIXIntUpSmBol.otf
+   141	STIXIntUpSmReg.otf
+   142	STIXNonUni.otf
+   143	STIXNonUniBol.otf
+   144	STIXNonUniBolIta.otf
+   145	STIXNonUniIta.otf
+   146	STIXSizFiveSymReg.otf
+   147	STIXSizFourSymBol.otf
+   148	STIXSizFourSymReg.otf
+   149	STIXSizOneSymBol.otf
+   150	STIXSizOneSymReg.otf
+   151	STIXSizThreeSymBol.otf
+   152	STIXSizThreeSymReg.otf
+   153	STIXSizTwoSymBol.otf
+   154	STIXSizTwoSymReg.otf
+   155	STIXVar.otf
+   156	STIXVarBol.otf
+   157	Sana.ttc
+   158	Sathu.ttf
+   159	Savoye LET.ttc
+   160	Seravek.ttc
+   161	Shree714.ttc
+   162	SignPainter.otf
+   163	Silom.ttf
+   164	Sinhala MN.ttc
+   165	Sinhala Sangam MN.ttc
+   166	Skia.ttf
+   167	SnellRoundhand.ttc
+   168	Songti.ttc
+   169	SukhumvitSet.ttc
+   170	SuperClarendon.ttc
+   171	Tahoma Bold.ttf
+   172	Tahoma.ttf
+   173	Tamil MN.ttc
+   174	Tamil Sangam MN.ttc
+   175	Telugu MN.ttc
+   176	Telugu Sangam MN.ttc
+   177	Times New Roman Bold Italic.ttf
+   178	Times New Roman Bold.ttf
+   179	Times New Roman Italic.ttf
+   180	Times New Roman.ttf
+   181	Trattatello.ttf
+   182	Trebuchet MS Bold Italic.ttf
+   183	Trebuchet MS Bold.ttf
+   184	Trebuchet MS Italic.ttf
+   185	Trebuchet MS.ttf
+   186	TsukushiAMaruGothic.ttc
+   187	TsukushiBMaruGothic.ttc
+   188	Verdana Bold Italic.ttf
+   189	Verdana Bold.ttf
+   190	Verdana Italic.ttf
+   191	Verdana.ttf
+   192	Waseem.ttc
+   193	WawaSC-Regular.otf
+   194	WawaTC-Regular.otf
+   195	Webdings.ttf
+   196	WeibeiSC-Bold.otf
+   197	WeibeiTC-Bold.otf
+   198	Wingdings 2.ttf
+   199	Wingdings 3.ttf
+   200	Wingdings.ttf
+   201	Xingkai.ttc
+   202	Yu Gothic Bold.otf
+   203	Yu Gothic Medium.otf
+   204	YuMincho.ttc
+   205	Yuanti.ttc
+   206	YuppySC-Regular.otf
+   207	YuppyTC-Regular.otf
+   208	Zapfino.ttf
+   209	encodings.dir
+   210	fonts.dir
+   211	fonts.list
+   212	fonts.scale
+   213	ヒラギノ丸ゴ ProN W4.ttc
+   214	儷宋 Pro.ttf
+   215	儷黑 Pro.ttf
+   216	华文仿宋.ttf
+   217	华文细黑.ttf
+   218	华文黑体.ttf
+|10:55:20|diana@Dianas-iMac:[Fonts]> ls | sort | nl
+     1	Al Nile.ttc
+     2	Al Tarikh.ttc
+     3	AlBayan.ttc
+     4	AmericanTypewriter.ttc
+     5	Andale Mono.ttf
+     6	Apple Chancery.ttf
+     7	AppleGothic.ttf
+     8	AppleMyungjo.ttf
+     9	Arial Black.ttf
+    10	Arial Bold Italic.ttf
+    11	Arial Bold.ttf
+    12	Arial Italic.ttf
+    13	Arial Narrow Bold Italic.ttf
+    14	Arial Narrow Bold.ttf
+    15	Arial Narrow Italic.ttf
+    16	Arial Narrow.ttf
+    17	Arial Rounded Bold.ttf
+    18	Arial Unicode.ttf
+    19	Arial.ttf
+    20	Athelas.ttc
+    21	Ayuthaya.ttf
+    22	Baghdad.ttc
+    23	Bangla MN.ttc
+    24	Bangla Sangam MN.ttc
+    25	Baoli.ttc
+    26	Baskerville.ttc
+    27	Beirut.ttc
+    28	BigCaslon.ttf
+    29	Bodoni 72 OS.ttc
+    30	Bodoni 72 Smallcaps Book.ttf
+    31	Bodoni 72.ttc
+    32	Bodoni Ornaments.ttf
+    33	Bradley Hand Bold.ttf
+    34	Brush Script.ttf
+    35	Chalkboard.ttc
+    36	ChalkboardSE.ttc
+    37	Chalkduster.ttf
+    38	Charter.ttc
+    39	Cochin.ttc
+    40	Comic Sans MS Bold.ttf
+    41	Comic Sans MS.ttf
+    42	Copperplate.ttc
+    43	Corsiva.ttc
+    44	Courier New Bold Italic.ttf
+    45	Courier New Bold.ttf
+    46	Courier New Italic.ttf
+    47	Courier New.ttf
+    48	DIN Alternate Bold.ttf
+    49	DIN Condensed Bold.ttf
+    50	Damascus.ttc
+    51	DecoTypeNaskh.ttc
+    52	Devanagari Sangam MN.ttc
+    53	DevanagariMT.ttc
+    54	Didot.ttc
+    55	Diwan Kufi.ttc
+    56	Diwan Thuluth.ttf
+    57	EuphemiaCAS.ttc
+    58	Farah.ttc
+    59	Farisi.ttf
+    60	Futura.ttc
+    61	Georgia Bold Italic.ttf
+    62	Georgia Bold.ttf
+    63	Georgia Italic.ttf
+    64	Georgia.ttf
+    65	GillSans.ttc
+    66	Gujarati Sangam MN.ttc
+    67	GujaratiMT.ttc
+    68	Gungseouche.ttf
+    69	Gurmukhi MN.ttc
+    70	Gurmukhi Sangam MN.ttc
+    71	Gurmukhi.ttf
+    72	Hannotate.ttc
+    73	Hanzipen.ttc
+    74	HeadlineA.ttf
+    75	Herculanum.ttf
+    76	Hoefler Text Ornaments.ttf
+    77	Hoefler Text.ttc
+    78	ITFDevanagari.ttc
+    79	Impact.ttf
+    80	InaiMathi.ttf
+    81	Iowan Old Style.ttc
+    82	Kailasa.ttc
+    83	Kaiti.ttc
+    84	Kannada MN.ttc
+    85	Kannada Sangam MN.ttc
+    86	Kefa.ttc
+    87	Khmer MN.ttc
+    88	Khmer Sangam MN.ttf
+    89	Klee.ttc
+    90	Kokonor.ttf
+    91	Krungthep.ttf
+    92	KufiStandardGK.ttc
+    93	Lantinghei.ttc
+    94	Lao MN.ttc
+    95	Lao Sangam MN.ttf
+    96	Libian.ttc
+    97	Luminari.ttf
+    98	Malayalam MN.ttc
+    99	Malayalam Sangam MN.ttc
+   100	Marion.ttc
+   101	Microsoft Sans Serif.ttf
+   102	Mishafi Gold.ttf
+   103	Mishafi.ttf
+   104	Mshtakan.ttc
+   105	Muna.ttc
+   106	Myanmar MN.ttc
+   107	Myanmar Sangam MN.ttc
+   108	NISC18030.ttf
+   109	Nadeem.ttc
+   110	NanumGothic.ttc
+   111	NanumMyeongjo.ttc
+   112	NanumScript.ttc
+   113	NewPeninimMT.ttc
+   114	Oriya MN.ttc
+   115	Oriya Sangam MN.ttc
+   116	Osaka.ttf
+   117	OsakaMono.ttf
+   118	PCmyoungjo.ttf
+   119	PTMono.ttc
+   120	PTSans.ttc
+   121	PTSerif.ttc
+   122	PTSerifCaption.ttc
+   123	Papyrus.ttc
+   124	Phosphate.ttc
+   125	Pilgiche.ttf
+   126	PlantagenetCherokee.ttf
+   127	Raanana.ttc
+   128	STIXGeneral.otf
+   129	STIXGeneralBol.otf
+   130	STIXGeneralBolIta.otf
+   131	STIXGeneralItalic.otf
+   132	STIXIntDBol.otf
+   133	STIXIntDReg.otf
+   134	STIXIntSmBol.otf
+   135	STIXIntSmReg.otf
+   136	STIXIntUpBol.otf
+   137	STIXIntUpDBol.otf
+   138	STIXIntUpDReg.otf
+   139	STIXIntUpReg.otf
+   140	STIXIntUpSmBol.otf
+   141	STIXIntUpSmReg.otf
+   142	STIXNonUni.otf
+   143	STIXNonUniBol.otf
+   144	STIXNonUniBolIta.otf
+   145	STIXNonUniIta.otf
+   146	STIXSizFiveSymReg.otf
+   147	STIXSizFourSymBol.otf
+   148	STIXSizFourSymReg.otf
+   149	STIXSizOneSymBol.otf
+   150	STIXSizOneSymReg.otf
+   151	STIXSizThreeSymBol.otf
+   152	STIXSizThreeSymReg.otf
+   153	STIXSizTwoSymBol.otf
+   154	STIXSizTwoSymReg.otf
+   155	STIXVar.otf
+   156	STIXVarBol.otf
+   157	Sana.ttc
+   158	Sathu.ttf
+   159	Savoye LET.ttc
+   160	Seravek.ttc
+   161	Shree714.ttc
+   162	SignPainter.otf
+   163	Silom.ttf
+   164	Sinhala MN.ttc
+   165	Sinhala Sangam MN.ttc
+   166	Skia.ttf
+   167	SnellRoundhand.ttc
+   168	Songti.ttc
+   169	SukhumvitSet.ttc
+   170	SuperClarendon.ttc
+   171	Tahoma Bold.ttf
+   172	Tahoma.ttf
+   173	Tamil MN.ttc
+   174	Tamil Sangam MN.ttc
+   175	Telugu MN.ttc
+   176	Telugu Sangam MN.ttc
+   177	Times New Roman Bold Italic.ttf
+   178	Times New Roman Bold.ttf
+   179	Times New Roman Italic.ttf
+   180	Times New Roman.ttf
+   181	Trattatello.ttf
+   182	Trebuchet MS Bold Italic.ttf
+   183	Trebuchet MS Bold.ttf
+   184	Trebuchet MS Italic.ttf
+   185	Trebuchet MS.ttf
+   186	TsukushiAMaruGothic.ttc
+   187	TsukushiBMaruGothic.ttc
+   188	Verdana Bold Italic.ttf
+   189	Verdana Bold.ttf
+   190	Verdana Italic.ttf
+   191	Verdana.ttf
+   192	Waseem.ttc
+   193	WawaSC-Regular.otf
+   194	WawaTC-Regular.otf
+   195	Webdings.ttf
+   196	WeibeiSC-Bold.otf
+   197	WeibeiTC-Bold.otf
+   198	Wingdings 2.ttf
+   199	Wingdings 3.ttf
+   200	Wingdings.ttf
+   201	Xingkai.ttc
+   202	Yu Gothic Bold.otf
+   203	Yu Gothic Medium.otf
+   204	YuMincho.ttc
+   205	Yuanti.ttc
+   206	YuppySC-Regular.otf
+   207	YuppyTC-Regular.otf
+   208	Zapfino.ttf
+   209	encodings.dir
+   210	fonts.dir
+   211	fonts.list
+   212	fonts.scale
+   213	ヒラギノ丸ゴ ProN W4.ttc
+   214	儷宋 Pro.ttf
+   215	儷黑 Pro.ttf
+   216	华文仿宋.ttf
+   217	华文细黑.ttf
+   218	华文黑体.ttf
+|10:55:46|diana@Dianas-iMac:[Fonts]> ls | sort -r
+华文黑体.ttf
+华文细黑.ttf
+华文仿宋.ttf
+儷黑 Pro.ttf
+儷宋 Pro.ttf
+ヒラギノ丸ゴ ProN W4.ttc
+fonts.scale
+fonts.list
+fonts.dir
+encodings.dir
+Zapfino.ttf
+YuppyTC-Regular.otf
+YuppySC-Regular.otf
+Yuanti.ttc
+YuMincho.ttc
+Yu Gothic Medium.otf
+Yu Gothic Bold.otf
+Xingkai.ttc
+Wingdings.ttf
+Wingdings 3.ttf
+Wingdings 2.ttf
+WeibeiTC-Bold.otf
+WeibeiSC-Bold.otf
+Webdings.ttf
+WawaTC-Regular.otf
+WawaSC-Regular.otf
+Waseem.ttc
+Verdana.ttf
+Verdana Italic.ttf
+Verdana Bold.ttf
+Verdana Bold Italic.ttf
+TsukushiBMaruGothic.ttc
+TsukushiAMaruGothic.ttc
+Trebuchet MS.ttf
+Trebuchet MS Italic.ttf
+Trebuchet MS Bold.ttf
+Trebuchet MS Bold Italic.ttf
+Trattatello.ttf
+Times New Roman.ttf
+Times New Roman Italic.ttf
+Times New Roman Bold.ttf
+Times New Roman Bold Italic.ttf
+Telugu Sangam MN.ttc
+Telugu MN.ttc
+Tamil Sangam MN.ttc
+Tamil MN.ttc
+Tahoma.ttf
+Tahoma Bold.ttf
+SuperClarendon.ttc
+SukhumvitSet.ttc
+Songti.ttc
+SnellRoundhand.ttc
+Skia.ttf
+Sinhala Sangam MN.ttc
+Sinhala MN.ttc
+Silom.ttf
+SignPainter.otf
+Shree714.ttc
+Seravek.ttc
+Savoye LET.ttc
+Sathu.ttf
+Sana.ttc
+STIXVarBol.otf
+STIXVar.otf
+STIXSizTwoSymReg.otf
+STIXSizTwoSymBol.otf
+STIXSizThreeSymReg.otf
+STIXSizThreeSymBol.otf
+STIXSizOneSymReg.otf
+STIXSizOneSymBol.otf
+STIXSizFourSymReg.otf
+STIXSizFourSymBol.otf
+STIXSizFiveSymReg.otf
+STIXNonUniIta.otf
+STIXNonUniBolIta.otf
+STIXNonUniBol.otf
+STIXNonUni.otf
+STIXIntUpSmReg.otf
+STIXIntUpSmBol.otf
+STIXIntUpReg.otf
+STIXIntUpDReg.otf
+STIXIntUpDBol.otf
+STIXIntUpBol.otf
+STIXIntSmReg.otf
+STIXIntSmBol.otf
+STIXIntDReg.otf
+STIXIntDBol.otf
+STIXGeneralItalic.otf
+STIXGeneralBolIta.otf
+STIXGeneralBol.otf
+STIXGeneral.otf
+Raanana.ttc
+PlantagenetCherokee.ttf
+Pilgiche.ttf
+Phosphate.ttc
+Papyrus.ttc
+PTSerifCaption.ttc
+PTSerif.ttc
+PTSans.ttc
+PTMono.ttc
+PCmyoungjo.ttf
+OsakaMono.ttf
+Osaka.ttf
+Oriya Sangam MN.ttc
+Oriya MN.ttc
+NewPeninimMT.ttc
+NanumScript.ttc
+NanumMyeongjo.ttc
+NanumGothic.ttc
+Nadeem.ttc
+NISC18030.ttf
+Myanmar Sangam MN.ttc
+Myanmar MN.ttc
+Muna.ttc
+Mshtakan.ttc
+Mishafi.ttf
+Mishafi Gold.ttf
+Microsoft Sans Serif.ttf
+Marion.ttc
+Malayalam Sangam MN.ttc
+Malayalam MN.ttc
+Luminari.ttf
+Libian.ttc
+Lao Sangam MN.ttf
+Lao MN.ttc
+Lantinghei.ttc
+KufiStandardGK.ttc
+Krungthep.ttf
+Kokonor.ttf
+Klee.ttc
+Khmer Sangam MN.ttf
+Khmer MN.ttc
+Kefa.ttc
+Kannada Sangam MN.ttc
+Kannada MN.ttc
+Kaiti.ttc
+Kailasa.ttc
+Iowan Old Style.ttc
+InaiMathi.ttf
+Impact.ttf
+ITFDevanagari.ttc
+Hoefler Text.ttc
+Hoefler Text Ornaments.ttf
+Herculanum.ttf
+HeadlineA.ttf
+Hanzipen.ttc
+Hannotate.ttc
+Gurmukhi.ttf
+Gurmukhi Sangam MN.ttc
+Gurmukhi MN.ttc
+Gungseouche.ttf
+GujaratiMT.ttc
+Gujarati Sangam MN.ttc
+GillSans.ttc
+Georgia.ttf
+Georgia Italic.ttf
+Georgia Bold.ttf
+Georgia Bold Italic.ttf
+Futura.ttc
+Farisi.ttf
+Farah.ttc
+EuphemiaCAS.ttc
+Diwan Thuluth.ttf
+Diwan Kufi.ttc
+Didot.ttc
+DevanagariMT.ttc
+Devanagari Sangam MN.ttc
+DecoTypeNaskh.ttc
+Damascus.ttc
+DIN Condensed Bold.ttf
+DIN Alternate Bold.ttf
+Courier New.ttf
+Courier New Italic.ttf
+Courier New Bold.ttf
+Courier New Bold Italic.ttf
+Corsiva.ttc
+Copperplate.ttc
+Comic Sans MS.ttf
+Comic Sans MS Bold.ttf
+Cochin.ttc
+Charter.ttc
+Chalkduster.ttf
+ChalkboardSE.ttc
+Chalkboard.ttc
+Brush Script.ttf
+Bradley Hand Bold.ttf
+Bodoni Ornaments.ttf
+Bodoni 72.ttc
+Bodoni 72 Smallcaps Book.ttf
+Bodoni 72 OS.ttc
+BigCaslon.ttf
+Beirut.ttc
+Baskerville.ttc
+Baoli.ttc
+Bangla Sangam MN.ttc
+Bangla MN.ttc
+Baghdad.ttc
+Ayuthaya.ttf
+Athelas.ttc
+Arial.ttf
+Arial Unicode.ttf
+Arial Rounded Bold.ttf
+Arial Narrow.ttf
+Arial Narrow Italic.ttf
+Arial Narrow Bold.ttf
+Arial Narrow Bold Italic.ttf
+Arial Italic.ttf
+Arial Bold.ttf
+Arial Bold Italic.ttf
+Arial Black.ttf
+AppleMyungjo.ttf
+AppleGothic.ttf
+Apple Chancery.ttf
+Andale Mono.ttf
+AmericanTypewriter.ttc
+AlBayan.ttc
+Al Tarikh.ttc
+Al Nile.ttc
+|10:55:56|diana@Dianas-iMac:[Fonts]> ls | grep Arial
+Arial Black.ttf
+Arial Bold Italic.ttf
+Arial Bold.ttf
+Arial Italic.ttf
+Arial Narrow Bold Italic.ttf
+Arial Narrow Bold.ttf
+Arial Narrow Italic.ttf
+Arial Narrow.ttf
+Arial Rounded Bold.ttf
+Arial Unicode.ttf
+Arial.ttf
+|10:56:19|diana@Dianas-iMac:[Fonts]> ls | grep Black
+Arial Black.ttf
+|10:56:31|diana@Dianas-iMac:[Fonts]> ls | grep
+usage: grep [-abcDEFGHhIiJLlmnOoqRSsUVvwxZ] [-A num] [-B num] [-C[num]]
+	[-e pattern] [-f file] [--binary-files=value] [--color=when]
+	[--context[=num]] [--directories=action] [--label] [--line-buffered]
+	[--null] [pattern] [file ...]
+|10:56:48|diana@Dianas-iMac:[Fonts]> ls | grep ttf
+Andale Mono.ttf
+Apple Chancery.ttf
+AppleGothic.ttf
+AppleMyungjo.ttf
+Arial Black.ttf
+Arial Bold Italic.ttf
+Arial Bold.ttf
+Arial Italic.ttf
+Arial Narrow Bold Italic.ttf
+Arial Narrow Bold.ttf
+Arial Narrow Italic.ttf
+Arial Narrow.ttf
+Arial Rounded Bold.ttf
+Arial Unicode.ttf
+Arial.ttf
+Ayuthaya.ttf
+BigCaslon.ttf
+Bodoni 72 Smallcaps Book.ttf
+Bodoni Ornaments.ttf
+Bradley Hand Bold.ttf
+Brush Script.ttf
+Chalkduster.ttf
+Comic Sans MS Bold.ttf
+Comic Sans MS.ttf
+Courier New Bold Italic.ttf
+Courier New Bold.ttf
+Courier New Italic.ttf
+Courier New.ttf
+DIN Alternate Bold.ttf
+DIN Condensed Bold.ttf
+Diwan Thuluth.ttf
+Farisi.ttf
+Georgia Bold Italic.ttf
+Georgia Bold.ttf
+Georgia Italic.ttf
+Georgia.ttf
+Gungseouche.ttf
+Gurmukhi.ttf
+HeadlineA.ttf
+Herculanum.ttf
+Hoefler Text Ornaments.ttf
+Impact.ttf
+InaiMathi.ttf
+Khmer Sangam MN.ttf
+Kokonor.ttf
+Krungthep.ttf
+Lao Sangam MN.ttf
+Luminari.ttf
+Microsoft Sans Serif.ttf
+Mishafi Gold.ttf
+Mishafi.ttf
+NISC18030.ttf
+Osaka.ttf
+OsakaMono.ttf
+PCmyoungjo.ttf
+Pilgiche.ttf
+PlantagenetCherokee.ttf
+Sathu.ttf
+Silom.ttf
+Skia.ttf
+Tahoma Bold.ttf
+Tahoma.ttf
+Times New Roman Bold Italic.ttf
+Times New Roman Bold.ttf
+Times New Roman Italic.ttf
+Times New Roman.ttf
+Trattatello.ttf
+Trebuchet MS Bold Italic.ttf
+Trebuchet MS Bold.ttf
+Trebuchet MS Italic.ttf
+Trebuchet MS.ttf
+Verdana Bold Italic.ttf
+Verdana Bold.ttf
+Verdana Italic.ttf
+Verdana.ttf
+Webdings.ttf
+Wingdings 2.ttf
+Wingdings 3.ttf
+Wingdings.ttf
+Zapfino.ttf
+儷宋 Pro.ttf
+儷黑 Pro.ttf
+华文仿宋.ttf
+华文细黑.ttf
+华文黑体.ttf
+|10:56:57|diana@Dianas-iMac:[Fonts]> ls | grep ch
+Cochin.ttc
+Gungseouche.ttf
+Pilgiche.ttf
+Trebuchet MS Bold Italic.ttf
+Trebuchet MS Bold.ttf
+Trebuchet MS Italic.ttf
+Trebuchet MS.ttf
+YuMincho.ttc
+|10:58:58|diana@Dianas-iMac:[Fonts]> ls | grep ch | grep Italic
+Trebuchet MS Bold Italic.ttf
+Trebuchet MS Italic.ttf
+|10:59:32|diana@Dianas-iMac:[Fonts]> ls | grep -v ch | grep Italic
+Arial Bold Italic.ttf
+Arial Italic.ttf
+Arial Narrow Bold Italic.ttf
+Arial Narrow Italic.ttf
+Courier New Bold Italic.ttf
+Courier New Italic.ttf
+Georgia Bold Italic.ttf
+Georgia Italic.ttf
+STIXGeneralItalic.otf
+Times New Roman Bold Italic.ttf
+Times New Roman Italic.ttf
+Verdana Bold Italic.ttf
+Verdana Italic.ttf
+|11:00:05|diana@Dianas-iMac:[Fonts]> ls | grep -v ch | grep Italic |grep -v Bold
+Arial Italic.ttf
+Arial Narrow Italic.ttf
+Courier New Italic.ttf
+Georgia Italic.ttf
+STIXGeneralItalic.otf
+Times New Roman Italic.ttf
+Verdana Italic.ttf
+|11:00:28|diana@Dianas-iMac:[Fonts]> ls | grep -v ch | grep Italic |grep -vi bold
+Arial Italic.ttf
+Arial Narrow Italic.ttf
+Courier New Italic.ttf
+Georgia Italic.ttf
+STIXGeneralItalic.otf
+Times New Roman Italic.ttf
+Verdana Italic.ttf
+|11:00:45|diana@Dianas-iMac:[Fonts]> ls | grep -v ch | grep Italic | grep -vi bold > diana.txt
+|11:02:20|diana@Dianas-iMac:[Fonts]> ls -al
+total 1311208
+drwxrwxr-t  221 root   admin      7514 Feb  8 11:02 .
+drwxr-xr-x+  63 root   wheel      2142 Feb  1 19:26 ..
+-rw-r--r--    1 root   wheel    124996 Aug  1  2015 Al Nile.ttc
+-rw-r--r--    1 root   wheel     76572 Aug  1  2015 Al Tarikh.ttc
+-rw-r--r--    1 root   wheel    178720 Aug  1  2015 AlBayan.ttc
+-rw-r--r--    1 root   wheel   2906024 Oct 24  2015 AmericanTypewriter.ttc
+-rw-r--r--    1 root   wheel    109700 Oct 24  2015 Andale Mono.ttf
+-rw-r--r--    1 root   wheel    335572 Oct 24  2015 Apple Chancery.ttf
+-rw-r--r--    1 root   wheel  15292988 Aug 16  2015 AppleGothic.ttf
+-rw-r--r--    1 root   wheel  18757920 Aug 16  2015 AppleMyungjo.ttf
+-rw-r--r--    1 root   wheel    122556 Oct 24  2015 Arial Black.ttf
+-rw-r--r--    1 root   wheel    558672 Oct 24  2015 Arial Bold Italic.ttf
+-rw-r--r--    1 root   wheel    750984 Oct 24  2015 Arial Bold.ttf
+-rw-r--r--    1 root   wheel    553284 Oct 24  2015 Arial Italic.ttf
+-rw-r--r--    1 root   wheel    183932 Oct 24  2015 Arial Narrow Bold Italic.ttf
+-rw-r--r--    1 root   wheel    184420 Oct 24  2015 Arial Narrow Bold.ttf
+-rw-r--r--    1 root   wheel    184944 Oct 24  2015 Arial Narrow Italic.ttf
+-rw-r--r--    1 root   wheel    179492 Oct 24  2015 Arial Narrow.ttf
+-rw-r--r--    1 root   wheel     49296 Oct 24  2015 Arial Rounded Bold.ttf
+-rw-r--r--    1 root   wheel  23278008 Oct 24  2015 Arial Unicode.ttf
+-rw-r--r--    1 root   wheel    773236 Oct 24  2015 Arial.ttf
+-rw-r--r--    1 root   wheel   2310148 Oct 24  2015 Athelas.ttc
+-rw-r--r--    1 root   wheel    304592 Aug  1  2015 Ayuthaya.ttf
+-rw-r--r--    1 root   wheel    106220 Aug  1  2015 Baghdad.ttc
+-rw-r--r--    1 root   wheel    830804 Aug  1  2015 Bangla MN.ttc
+-rw-r--r--    1 root   wheel    762944 Aug  1  2015 Bangla Sangam MN.ttc
+-rw-r--r--    1 root   wheel   8474944 Oct 24  2015 Baoli.ttc
+-rw-r--r--    1 root   wheel   1277484 Oct 24  2015 Baskerville.ttc
+-rw-r--r--    1 root   wheel     78976 Aug  1  2015 Beirut.ttc
+-rw-r--r--    1 root   wheel    213512 Oct 24  2015 BigCaslon.ttf
+-rw-r--r--    1 root   wheel    230216 Oct 24  2015 Bodoni 72 OS.ttc
+-rw-r--r--    1 root   wheel     79956 Oct 24  2015 Bodoni 72 Smallcaps Book.ttf
+-rw-r--r--    1 root   wheel    416692 Oct 24  2015 Bodoni 72.ttc
+-rw-r--r--    1 root   wheel     72492 Oct 24  2015 Bodoni Ornaments.ttf
+-rw-r--r--    1 root   wheel    592324 Oct 24  2015 Bradley Hand Bold.ttf
+-rw-r--r--    1 root   wheel    222640 Oct 24  2015 Brush Script.ttf
+-rw-r--r--    1 root   wheel    166072 Oct 24  2015 Chalkboard.ttc
+-rw-r--r--    1 root   wheel    519772 Oct 24  2015 ChalkboardSE.ttc
+-rw-r--r--    1 root   wheel    483652 Oct 24  2015 Chalkduster.ttf
+-rw-r--r--    1 root   wheel   2097188 Oct 24  2015 Charter.ttc
+-rw-r--r--    1 root   wheel   1224236 Oct 24  2015 Cochin.ttc
+-rw-r--r--    1 root   wheel    120120 Oct 24  2015 Comic Sans MS Bold.ttf
+-rw-r--r--    1 root   wheel    135484 Oct 24  2015 Comic Sans MS.ttf
+-rw-r--r--    1 root   wheel   1257000 Oct 24  2015 Copperplate.ttc
+-rw-r--r--    1 root   wheel     71784 Aug  1  2015 Corsiva.ttc
+-rw-r--r--    1 root   wheel    506640 Oct 24  2015 Courier New Bold Italic.ttf
+-rw-r--r--    1 root   wheel    691796 Oct 24  2015 Courier New Bold.ttf
+-rw-r--r--    1 root   wheel    589900 Oct 24  2015 Courier New Italic.ttf
+-rw-r--r--    1 root   wheel    684624 Oct 24  2015 Courier New.ttf
+-rw-r--r--    1 root   wheel    147024 Oct 24  2015 DIN Alternate Bold.ttf
+-rw-r--r--    1 root   wheel     82260 Oct 24  2015 DIN Condensed Bold.ttf
+-rw-r--r--    1 root   wheel   1973380 Aug  1  2015 Damascus.ttc
+-rw-r--r--    1 root   wheel     94656 Aug  1  2015 DecoTypeNaskh.ttc
+-rw-r--r--    1 root   wheel    695000 Aug  1  2015 Devanagari Sangam MN.ttc
+-rw-r--r--    1 root   wheel    406212 Aug  1  2015 DevanagariMT.ttc
+-rw-r--r--    1 root   wheel    712936 Oct 24  2015 Didot.ttc
+-rw-r--r--    1 root   wheel     90540 Aug  1  2015 Diwan Kufi.ttc
+-rw-r--r--    1 root   wheel   1318280 Aug  1  2015 Diwan Thuluth.ttf
+-rw-r--r--    1 root   wheel    550984 Aug  1  2015 EuphemiaCAS.ttc
+-rw-r--r--    1 root   wheel     88452 Aug  1  2015 Farah.ttc
+-rw-r--r--    1 root   wheel    279940 Aug  1  2015 Farisi.ttf
+-rw-r--r--    1 root   wheel    288740 Oct 24  2015 Futura.ttc
+-rw-r--r--    1 root   wheel    385768 Oct 24  2015 Georgia Bold Italic.ttf
+-rw-r--r--    1 root   wheel    363800 Oct 24  2015 Georgia Bold.ttf
+-rw-r--r--    1 root   wheel    400624 Oct 24  2015 Georgia Italic.ttf
+-rw-r--r--    1 root   wheel    379588 Oct 24  2015 Georgia.ttf
+-rw-r--r--    1 root   wheel   1220852 Oct 24  2015 GillSans.ttc
+-rw-r--r--    1 root   wheel    222348 Aug  1  2015 Gujarati Sangam MN.ttc
+-rw-r--r--    1 root   wheel    381112 Aug  1  2015 GujaratiMT.ttc
+-rw-r--r--    1 root   wheel  10645184 Aug 16  2015 Gungseouche.ttf
+-rw-r--r--    1 root   wheel     87380 Aug  1  2015 Gurmukhi MN.ttc
+-rw-r--r--    1 root   wheel    168080 Aug  1  2015 Gurmukhi Sangam MN.ttc
+-rw-r--r--    1 root   wheel     63936 Aug  1  2015 Gurmukhi.ttf
+-rw-r--r--    1 root   wheel  85383868 Oct 24  2015 Hannotate.ttc
+-rw-r--r--    1 root   wheel  71898356 Oct 24  2015 Hanzipen.ttc
+-rw-r--r--    1 root   wheel   1198040 Aug 16  2015 HeadlineA.ttf
+-rw-r--r--    1 root   wheel    106264 Oct 24  2015 Herculanum.ttf
+-rw-r--r--    1 root   wheel     40988 Oct 24  2015 Hoefler Text Ornaments.ttf
+-rw-r--r--    1 root   wheel   1633680 Oct 24  2015 Hoefler Text.ttc
+-rw-r--r--    1 root   wheel    826144 Aug  1  2015 ITFDevanagari.ttc
+-rw-r--r--    1 root   wheel    138488 Oct 24  2015 Impact.ttf
+-rw-r--r--    1 root   wheel    260064 Aug  1  2015 InaiMathi.ttf
+-rw-r--r--    1 root   wheel   3356712 Oct 24  2015 Iowan Old Style.ttc
+-rw-r--r--    1 root   wheel   1175268 Aug  1  2015 Kailasa.ttc
+-rw-r--r--    1 root   wheel  70712356 Oct 24  2015 Kaiti.ttc
+-rw-r--r--    1 root   wheel   1148468 Aug  1  2015 Kannada MN.ttc
+-rw-r--r--    1 root   wheel   1031232 Aug  1  2015 Kannada Sangam MN.ttc
+-rw-r--r--    1 root   wheel    389880 Aug  1  2015 Kefa.ttc
+-rw-r--r--    1 root   wheel    727504 Aug  1  2015 Khmer MN.ttc
+-rw-r--r--    1 root   wheel    278472 Aug  1  2015 Khmer Sangam MN.ttf
+-rw-r--r--    1 root   wheel  14802804 Oct 24  2015 Klee.ttc
+-rw-r--r--    1 root   wheel    973544 Aug  1  2015 Kokonor.ttf
+-rw-r--r--    1 root   wheel    186800 Aug  1  2015 Krungthep.ttf
+-rw-r--r--    1 root   wheel     85588 Aug  1  2015 KufiStandardGK.ttc
+-rw-r--r--    1 root   wheel  43196124 Oct 24  2015 Lantinghei.ttc
+-rw-r--r--    1 root   wheel    174672 Aug  1  2015 Lao MN.ttc
+-rw-r--r--    1 root   wheel     88532 Aug  1  2015 Lao Sangam MN.ttf
+-rw-r--r--    1 root   wheel   7528132 Oct 24  2015 Libian.ttc
+-rw-r--r--    1 root   wheel    553520 Oct 24  2015 Luminari.ttf
+-rw-r--r--    1 root   wheel    336580 Aug  1  2015 Malayalam MN.ttc
+-rw-r--r--    1 root   wheel    330892 Aug  1  2015 Malayalam Sangam MN.ttc
+-rw-r--r--    1 root   wheel    915352 Oct 24  2015 Marion.ttc
+-rw-r--r--    1 root   wheel    652248 Oct 24  2015 Microsoft Sans Serif.ttf
+-rw-r--r--    1 root   wheel    658260 Aug  1  2015 Mishafi Gold.ttf
+-rw-r--r--    1 root   wheel   1425292 Aug  1  2015 Mishafi.ttf
+-rw-r--r--    1 root   wheel    169024 Aug  1  2015 Mshtakan.ttc
+-rw-r--r--    1 root   wheel    197916 Aug  1  2015 Muna.ttc
+-rw-r--r--    1 root   wheel    444600 Aug  1  2015 Myanmar MN.ttc
+-rw-r--r--    1 root   wheel    300584 Aug  1  2015 Myanmar Sangam MN.ttc
+-rw-r--r--    1 root   wheel   7108788 Oct 24  2015 NISC18030.ttf
+-rw-r--r--    1 root   wheel     59452 Aug  1  2015 Nadeem.ttc
+-rw-r--r--    1 root   wheel  12792016 Aug 16  2015 NanumGothic.ttc
+-rw-r--r--    1 root   wheel  13175240 Aug 16  2015 NanumMyeongjo.ttc
+-rw-r--r--    1 root   wheel   7212984 Aug 16  2015 NanumScript.ttc
+-rw-r--r--    1 root   wheel    148656 Aug  1  2015 NewPeninimMT.ttc
+-rw-r--r--    1 root   wheel    469416 Aug  1  2015 Oriya MN.ttc
+-rw-r--r--    1 root   wheel    215412 Aug  1  2015 Oriya Sangam MN.ttc
+-rw-r--r--    1 root   wheel   3631848 Oct 24  2015 Osaka.ttf
+-rw-r--r--    1 root   wheel   2307664 Oct 24  2015 OsakaMono.ttf
+-rw-r--r--    1 root   wheel   9450744 Aug 16  2015 PCmyoungjo.ttf
+-rw-r--r--    1 root   wheel    309348 Oct 24  2015 PTMono.ttc
+-rw-r--r--    1 root   wheel   2767520 Aug  1  2015 PTSans.ttc
+-rw-r--r--    1 root   wheel   1151720 Oct 24  2015 PTSerif.ttc
+-rw-r--r--    1 root   wheel    700100 Oct 24  2015 PTSerifCaption.ttc
+-rw-r--r--    1 root   wheel   1098704 Oct 24  2015 Papyrus.ttc
+-rw-r--r--    1 root   wheel    225784 Oct 24  2015 Phosphate.ttc
+-rw-r--r--    1 root   wheel   4635704 Aug 16  2015 Pilgiche.ttf
+-rw-r--r--    1 root   wheel     72052 Aug  1  2015 PlantagenetCherokee.ttf
+-rw-r--r--    1 root   wheel     61296 Aug  1  2015 Raanana.ttc
+-rw-r--r--    1 root   wheel    369156 May 11  2012 STIXGeneral.otf
+-rw-r--r--    1 root   wheel    186612 May 11  2012 STIXGeneralBol.otf
+-rw-r--r--    1 root   wheel    143764 May 11  2012 STIXGeneralBolIta.otf
+-rw-r--r--    1 root   wheel    141844 May 11  2012 STIXGeneralItalic.otf
+-rw-r--r--    1 root   wheel     16992 May 11  2012 STIXIntDBol.otf
+-rw-r--r--    1 root   wheel     17500 May 11  2012 STIXIntDReg.otf
+-rw-r--r--    1 root   wheel     16608 May 11  2012 STIXIntSmBol.otf
+-rw-r--r--    1 root   wheel     17416 May 11  2012 STIXIntSmReg.otf
+-rw-r--r--    1 root   wheel     16576 May 11  2012 STIXIntUpBol.otf
+-rw-r--r--    1 root   wheel     16932 May 11  2012 STIXIntUpDBol.otf
+-rw-r--r--    1 root   wheel     16964 May 11  2012 STIXIntUpDReg.otf
+-rw-r--r--    1 root   wheel     16856 May 11  2012 STIXIntUpReg.otf
+-rw-r--r--    1 root   wheel     16916 May 11  2012 STIXIntUpSmBol.otf
+-rw-r--r--    1 root   wheel     17184 May 11  2012 STIXIntUpSmReg.otf
+-rw-r--r--    1 root   wheel     54556 May 11  2012 STIXNonUni.otf
+-rw-r--r--    1 root   wheel     25508 May 11  2012 STIXNonUniBol.otf
+-rw-r--r--    1 root   wheel     41188 May 11  2012 STIXNonUniBolIta.otf
+-rw-r--r--    1 root   wheel     46268 May 11  2012 STIXNonUniIta.otf
+-rw-r--r--    1 root   wheel     13464 May 11  2012 STIXSizFiveSymReg.otf
+-rw-r--r--    1 root   wheel     12628 May 11  2012 STIXSizFourSymBol.otf
+-rw-r--r--    1 root   wheel     15656 May 11  2012 STIXSizFourSymReg.otf
+-rw-r--r--    1 root   wheel     12924 May 11  2012 STIXSizOneSymBol.otf
+-rw-r--r--    1 root   wheel     19004 May 11  2012 STIXSizOneSymReg.otf
+-rw-r--r--    1 root   wheel     12636 May 11  2012 STIXSizThreeSymBol.otf
+-rw-r--r--    1 root   wheel     15648 May 11  2012 STIXSizThreeSymReg.otf
+-rw-r--r--    1 root   wheel     12576 May 11  2012 STIXSizTwoSymBol.otf
+-rw-r--r--    1 root   wheel     15620 May 11  2012 STIXSizTwoSymReg.otf
+-rw-r--r--    1 root   wheel     21776 May 11  2012 STIXVar.otf
+-rw-r--r--    1 root   wheel     14808 May 11  2012 STIXVarBol.otf
+-rw-r--r--    1 root   wheel     74936 Aug  1  2015 Sana.ttc
+-rw-r--r--    1 root   wheel    414872 Aug  1  2015 Sathu.ttf
+-rw-r--r--    1 root   wheel    101512 Oct 24  2015 Savoye LET.ttc
+-rw-r--r--    1 root   wheel   4983524 Oct 24  2015 Seravek.ttc
+-rw-r--r--    1 root   wheel    520156 Aug  1  2015 Shree714.ttc
+-rw-r--r--    1 root   wheel    163412 Oct 24  2015 SignPainter.otf
+-rw-r--r--    1 root   wheel    288864 Aug  1  2015 Silom.ttf
+-rw-r--r--    1 root   wheel   1466440 Aug  1  2015 Sinhala MN.ttc
+-rw-r--r--    1 root   wheel    642408 Aug  1  2015 Sinhala Sangam MN.ttc
+-rw-r--r--    1 root   wheel    489424 Oct 24  2015 Skia.ttf
+-rw-r--r--    1 root   wheel   3587668 Oct 24  2015 SnellRoundhand.ttc
+-rw-r--r--    1 root   wheel  66903940 Oct  2  2017 Songti.ttc
+-rw-r--r--    1 root   wheel    626056 Aug  1  2015 SukhumvitSet.ttc
+-rw-r--r--    1 root   wheel   2681496 Oct 24  2015 SuperClarendon.ttc
+-rw-r--r--    1 root   wheel    626928 Oct 24  2015 Tahoma Bold.ttf
+-rw-r--r--    1 root   wheel    681120 Oct 24  2015 Tahoma.ttf
+-rw-r--r--    1 root   wheel    400396 Aug  1  2015 Tamil MN.ttc
+-rw-r--r--    1 root   wheel    384780 Aug  1  2015 Tamil Sangam MN.ttc
+-rw-r--r--    1 root   wheel   1736356 Aug  1  2015 Telugu MN.ttc
+-rw-r--r--    1 root   wheel   1224792 Aug  1  2015 Telugu Sangam MN.ttc
+-rw-r--r--    1 root   wheel    620008 Oct 24  2015 Times New Roman Bold Italic.ttf
+-rw-r--r--    1 root   wheel    842168 Oct 24  2015 Times New Roman Bold.ttf
+-rw-r--r--    1 root   wheel    660268 Oct 24  2015 Times New Roman Italic.ttf
+-rw-r--r--    1 root   wheel    834452 Oct 24  2015 Times New Roman.ttf
+-rw-r--r--    1 root   wheel   1160004 Oct 24  2015 Trattatello.ttf
+-rw-r--r--    1 root   wheel    137008 Oct 24  2015 Trebuchet MS Bold Italic.ttf
+-rw-r--r--    1 root   wheel    129360 Oct 24  2015 Trebuchet MS Bold.ttf
+-rw-r--r--    1 root   wheel    144820 Oct 24  2015 Trebuchet MS Italic.ttf
+-rw-r--r--    1 root   wheel    138848 Oct 24  2015 Trebuchet MS.ttf
+-rw-r--r--    1 root   wheel   7916648 Oct 24  2015 TsukushiAMaruGothic.ttc
+-rw-r--r--    1 root   wheel   7980496 Oct 24  2015 TsukushiBMaruGothic.ttc
+-rw-r--r--    1 root   wheel    173132 Oct 24  2015 Verdana Bold Italic.ttf
+-rw-r--r--    1 root   wheel    153260 Oct 24  2015 Verdana Bold.ttf
+-rw-r--r--    1 root   wheel    174612 Oct 24  2015 Verdana Italic.ttf
+-rw-r--r--    1 root   wheel    186188 Oct 24  2015 Verdana.ttf
+-rw-r--r--    1 root   wheel    368184 Aug  1  2015 Waseem.ttc
+-rw-r--r--    1 root   wheel  17435944 Oct 24  2015 WawaSC-Regular.otf
+-rw-r--r--    1 root   wheel  17488424 Oct 24  2015 WawaTC-Regular.otf
+-rw-r--r--    1 root   wheel    124308 Oct 24  2015 Webdings.ttf
+-rw-r--r--    1 root   wheel  24058332 Oct 24  2015 WeibeiSC-Bold.otf
+-rw-r--r--    1 root   wheel  14896268 Oct 24  2015 WeibeiTC-Bold.otf
+-rw-r--r--    1 root   wheel     68768 Oct 24  2015 Wingdings 2.ttf
+-rw-r--r--    1 root   wheel     38308 Oct 24  2015 Wingdings 3.ttf
+-rw-r--r--    1 root   wheel     86384 Oct 24  2015 Wingdings.ttf
+-rw-r--r--    1 root   wheel  14454688 Oct 24  2015 Xingkai.ttc
+-rw-r--r--    1 root   wheel   8160676 Oct 24  2015 Yu Gothic Bold.otf
+-rw-r--r--    1 root   wheel   8218324 Oct 24  2015 Yu Gothic Medium.otf
+-rw-r--r--    1 root   wheel  21174132 Oct 24  2015 YuMincho.ttc
+-rw-r--r--    1 root   wheel  78417612 Oct 24  2015 Yuanti.ttc
+-rw-r--r--    1 root   wheel   3509868 Oct 24  2015 YuppySC-Regular.otf
+-rw-r--r--    1 root   wheel   5320088 Oct 24  2015 YuppyTC-Regular.otf
+-rw-r--r--    1 root   wheel    398884 Oct 24  2015 Zapfino.ttf
+-rw-r--r--    1 diana  admin       151 Feb  8 11:02 diana.txt
+-rw-r--r--    1 root   admin      4268 Jul 19  2018 encodings.dir
+-rw-r--r--    1 root   admin    144213 Jul 19  2018 fonts.dir
+-rw-r--r--    1 root   admin      7043 Jul 19  2018 fonts.list
+-rw-r--r--    1 root   admin    144025 Jul 19  2018 fonts.scale
+-rw-r--r--    1 root   wheel  11409608 Oct 24  2015 ヒラギノ丸ゴ ProN W4.ttc
+-rw-r--r--    1 root   wheel  14119008 Oct 24  2015 儷宋 Pro.ttf
+-rw-r--r--    1 root   wheel   6977160 Oct 24  2015 儷黑 Pro.ttf
+-rw-r--r--    1 root   wheel  15884236 Oct 24  2015 华文仿宋.ttf
+-rw-r--r--    1 root   wheel  15642136 Oct 24  2015 华文细黑.ttf
+-rw-r--r--    1 root   wheel  13631780 Oct 24  2015 华文黑体.ttf
+|11:02:28|diana@Dianas-iMac:[Fonts]> more diana.txt
+Arial Italic.ttf
+Arial Narrow Italic.ttf
+Courier New Italic.ttf
+Georgia Italic.ttf
+STIXGeneralItalic.otf
+Times New Roman Italic.ttf
+Verdana Italic.ttf
+|11:02:41|diana@Dianas-iMac:[Fonts]> sort diana.txt
+Arial Italic.ttf
+Arial Narrow Italic.ttf
+Courier New Italic.ttf
+Georgia Italic.ttf
+STIXGeneralItalic.otf
+Times New Roman Italic.ttf
+Verdana Italic.ttf
+|11:03:03|diana@Dianas-iMac:[Fonts]> sort -r diana.txt
+Verdana Italic.ttf
+Times New Roman Italic.ttf
+STIXGeneralItalic.otf
+Georgia Italic.ttf
+Courier New Italic.ttf
+Arial Narrow Italic.ttf
+Arial Italic.ttf
+|11:03:13|diana@Dianas-iMac:[Fonts]> sort -rf diana.txt
+Verdana Italic.ttf
+Times New Roman Italic.ttf
+STIXGeneralItalic.otf
+Georgia Italic.ttf
+Courier New Italic.ttf
+Arial Narrow Italic.ttf
+Arial Italic.ttf
+|11:03:29|diana@Dianas-iMac:[Fonts]> sort -rf <diana.txt >horia.txt
+|11:04:20|diana@Dianas-iMac:[Fonts]> cat horia.txt
+Verdana Italic.ttf
+Times New Roman Italic.ttf
+STIXGeneralItalic.otf
+Georgia Italic.ttf
+Courier New Italic.ttf
+Arial Narrow Italic.ttf
+Arial Italic.ttf
+|11:08:21|diana@Dianas-iMac:[Fonts]> cat horia.txt horia.txt
+Verdana Italic.ttf
+Times New Roman Italic.ttf
+STIXGeneralItalic.otf
+Georgia Italic.ttf
+Courier New Italic.ttf
+Arial Narrow Italic.ttf
+Arial Italic.ttf
+Verdana Italic.ttf
+Times New Roman Italic.ttf
+STIXGeneralItalic.otf
+Georgia Italic.ttf
+Courier New Italic.ttf
+Arial Narrow Italic.ttf
+Arial Italic.ttf
+|11:09:22|diana@Dianas-iMac:[Fonts]> cat horia.txt horia.txt | sort 
+Arial Italic.ttf
+Arial Italic.ttf
+Arial Narrow Italic.ttf
+Arial Narrow Italic.ttf
+Courier New Italic.ttf
+Courier New Italic.ttf
+Georgia Italic.ttf
+Georgia Italic.ttf
+STIXGeneralItalic.otf
+STIXGeneralItalic.otf
+Times New Roman Italic.ttf
+Times New Roman Italic.ttf
+Verdana Italic.ttf
+Verdana Italic.ttf
+|11:09:42|diana@Dianas-iMac:[Fonts]> cat horia.txt horia.txt | sort | uniq -c
+   2 Arial Italic.ttf
+   2 Arial Narrow Italic.ttf
+   2 Courier New Italic.ttf
+   2 Georgia Italic.ttf
+   2 STIXGeneralItalic.otf
+   2 Times New Roman Italic.ttf
+   2 Verdana Italic.ttf
+|11:09:57|diana@Dianas-iMac:[Fonts]> rm diana.txt horia. txt
+rm: horia.: No such file or directory
+rm: txt: No such file or directory
+|11:11:50|diana@Dianas-iMac:[Fonts]> rm diana.txt horia.txt
+rm: diana.txt: No such file or directory
+|11:11:58|diana@Dianas-iMac:[Fonts]> cd
+|11:12:07|diana@Dianas-iMac:[~]> cd python
+-bash: cd: python: No such file or directory
+|11:12:15|diana@Dianas-iMac:[~]> cd Python
+-bash: cd: Python: No such file or directory
+|11:12:20|diana@Dianas-iMac:[~]> ls -al
+total 144
+drwxrwxrwx+ 41 diana  staff   1394 Feb  8 10:26 .
+drwxr-xr-x   7 diana  staff    238 May  5  2019 ..
+-r--------   1 diana  staff      7 Mar  3  2016 .CFUserTextEncoding
+-rw-r--r--@  1 diana  staff  14340 Feb  8 09:56 .DS_Store
+drwx------  15 diana  staff    510 Feb  6 23:52 .Trash
+-rw-------   1 diana  staff      0 Jul 19  2018 .Xauthority
+drwxr-xr-x   5 diana  staff    170 Sep 29  2018 .android
+-rw-r--r--   1 diana  staff  26660 Feb  8 10:26 .bash_history
+-rw-r--r--   1 diana  staff    553 Jan 18 12:16 .bash_profile
+drwxr-xr-x  40 diana  staff   1360 Feb  8 10:39 .bash_sessions
+drwxr-xr-x   3 diana  staff    102 May 29  2019 .cache
+drwxr-xr-x   6 diana  staff    204 Dec 28 12:25 .config
+drwx------   3 diana  staff    102 May 25  2016 .cups
+drwxr-xr-x   3 diana  staff    102 Feb  2 16:34 .dvisvgm
+drwxr-xr-x   5 diana  staff    170 Nov  9 11:04 .ipython
+-rw-------   1 diana  staff    483 Dec 28 12:14 .joe_state
+drwxr-xr-x   3 diana  staff    102 Jan 18 12:37 .jupyter
+-rw-------   1 diana  staff     35 Feb  8 10:26 .lesshst
+drwxr-xr-x  11 diana  staff    374 Jan 12  2017 .litwrl
+drwxr-xr-x   3 diana  staff    102 Jul  4  2016 .local
+drwxr-xr-x   3 diana  staff    102 Jun 27  2019 .mono
+drwxr-xr-x   6 diana  staff    204 Jul  5  2019 .oracle_jre_usage
+-rw-------   1 diana  staff     25 Dec 28 11:16 .python_history
+-rw-------   1 diana  staff   1024 Jul 19  2018 .rnd
+drwxr-xr-x   4 diana  staff    136 Dec 21 00:30 .vscode
+drwxrwxrwx   9 diana  staff    306 Jan 13 22:13 Applications
+drwxr-xr-x   9 diana  staff    306 May 22  2019 Calibre Library
+drwxrwxr-x@  4 diana  staff    136 Sep  7  2017 Creative Cloud Files
+drwx------+  3 diana  staff    102 Feb  6 23:52 Desktop
+drwx------+  8 diana  staff    272 Feb  3 23:15 Documents
+drwx------+  3 diana  staff    102 Feb  2 20:41 Downloads
+drwx------@ 80 diana  staff   2720 Feb  3 00:57 Library
+drwxr-xr-x   2 diana  staff     68 Feb 25  2018 MacKeeper Backups
+drwx------+  4 diana  staff    136 Jun 26  2019 Movies
+drwx------+  7 diana  staff    238 Jan 27  2018 Music
+drwx------+  9 diana  staff    306 Feb  2 20:41 Pictures
+drwxr-xrwx+  5 diana  staff    170 Mar  3  2016 Public
+drwxr-xr-x   4 diana  staff    136 Feb  2 14:58 Security
+drwxr-xr-x   3 diana  staff    102 Jul 23  2019 Twitch
+drwxr-xr-x   3 diana  staff    102 Jul  4  2016 VirtualBox VMs
+-rw-r--r--   1 diana  staff     13 Dec 21 11:59 diana.txt
+|11:12:25|diana@Dianas-iMac:[~]> cd Documents/
+.DS_Store                 School+/                  Untitled.tex              
+Electronic Arts/          The Philosophy Book.epub  facebook-Deeana325.zip    
+|11:12:25|diana@Dianas-iMac:[~]> cd Documents/School+/Python/
+|11:13:19|diana@Dianas-iMac:[Python]> ls -al
+total 544
+drwxr-xr-x  18 diana  staff     612 Feb  2 14:52 .
+drwxr-xr-x   7 diana  staff     238 Feb  2 15:00 ..
+-rw-r--r--@  1 diana  staff   10244 Feb  2 15:02 .DS_Store
+drwxr-xr-x   2 diana  staff      68 Jan 18 12:38 .ipynb_checkpoints
+drwxr-xr-x  94 diana  staff    3196 Feb  8 08:58 Python intro problems
+-rw-r--r--   1 diana  staff  109329 Dec 29 00:16 bash3
+-rw-r--r--   1 diana  staff   12890 Feb  1 20:08 bash5
+-rw-r--r--   1 diana  staff    2585 Nov 22 16:27 hist1.py
+-rw-r--r--   1 diana  staff     203 Nov  9 10:42 lectia1.py
+-rw-r--r--   1 diana  staff   24732 Dec  7 12:10 lectia2.py
+-rw-r--r--   1 diana  staff   33484 Dec 23 12:15 lectia3.py
+-rw-r--r--   1 diana  staff    1453 Dec 29 00:17 lectia4.py
+-rwxr-xr-x   1 diana  staff     360 Dec 28 11:08 listaFisiere.py
+-rw-r--r--   1 diana  staff     119 Dec 21 10:42 my_repl.py
+-rw-r--r--   1 diana  staff     257 Nov 17 10:20 tema1.py
+-rw-r--r--   1 diana  staff      47 Dec 28 12:14 test_input.py
+-rw-r--r--   1 diana  staff      44 Dec 28 12:13 test_input.py~
+-rw-r--r--   1 diana  staff   40746 Dec 23 12:17 ~bash
+|11:13:24|diana@Dianas-iMac:[Python]> code . 
+|11:14:06|diana@Dianas-iMac:[Python]> 

@@ -1,0 +1,2138 @@
+Last login: Sat Dec 28 11:07:38 on ttys000
+You have new mail.
+Dianas-iMac:~ diana$ code .
+Dianas-iMac:~ diana$ echo $PATH
+/Users/diana/Desktop/Python:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+Dianas-iMac:~ diana$ python3
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> exit()
+Dianas-iMac:~ diana$ cd Desktop/Python/
+Dianas-iMac:Python diana$ ll
+-bash: ll: command not found
+Dianas-iMac:Python diana$ ls -al 
+total 728
+drwxr-xr-x  70 diana  staff   2380 Dec 28 02:26 .
+drwx------+  9 diana  staff    306 Dec 23 12:14 ..
+-rw-r--r--@  1 diana  staff   6148 Nov 17 09:28 .DS_Store
+-rw-r--r--   1 diana  staff     52 Nov 17 11:59 1.1.py
+-rw-r--r--   1 diana  staff     50 Nov 22 21:54 1.10.py
+-rw-r--r--   1 diana  staff     18 Nov 22 22:00 1.11.py
+-rw-r--r--   1 diana  staff     59 Nov 22 22:02 1.12.py
+-rw-r--r--   1 diana  staff    115 Nov 22 22:06 1.13.py
+-rw-r--r--   1 diana  staff    111 Nov 22 22:11 1.14.py
+-rw-r--r--   1 diana  staff     79 Nov 22 22:16 1.15.py
+-rw-r--r--   1 diana  staff     84 Nov 22 22:19 1.16.py
+-rw-r--r--   1 diana  staff    154 Nov 22 22:29 1.17.py
+-rw-r--r--   1 diana  staff    175 Nov 23 10:39 1.18.py
+-rw-r--r--   1 diana  staff    116 Nov 23 10:50 1.19.py
+-rw-r--r--   1 diana  staff     35 Nov 17 12:03 1.2.py
+-rw-r--r--   1 diana  staff    215 Nov 23 11:24 1.20.py
+-rw-r--r--   1 diana  staff    264 Dec  7 08:33 1.21-done.py
+-rw-r--r--   1 diana  staff    324 Dec  7 10:05 1.22.py
+-rw-r--r--   1 diana  staff    414 Dec  7 10:40 1.23.py
+-rw-r--r--   1 diana  staff    156 Dec  7 10:40 1.24.py
+-rw-r--r--   1 diana  staff    385 Dec  7 10:41 1.25.py
+-rw-r--r--   1 diana  staff    281 Dec  7 10:51 1.26.py
+-rw-r--r--   1 diana  staff    253 Dec  7 09:52 1.27.py
+-rw-r--r--   1 diana  staff    590 Dec  7 10:00 1.28.py
+-rw-r--r--   1 diana  staff    264 Dec 21 00:33 1.29-done.py
+-rw-r--r--   1 diana  staff     50 Nov 17 12:07 1.3.py
+-rw-r--r--   1 diana  staff    148 Dec 21 00:41 1.30.py
+-rw-r--r--   1 diana  staff    469 Dec 21 10:32 1.31.py
+-rw-r--r--   1 diana  staff    253 Dec 21 10:34 1.32.py
+-rw-r--r--   1 diana  staff    289 Dec 21 10:35 1.33.py
+-rw-r--r--   1 diana  staff    242 Dec 21 10:44 1.34.py
+-rw-r--r--   1 diana  staff    283 Dec 21 10:45 1.35.py
+-rw-r--r--   1 diana  staff    268 Dec 21 10:50 1.36.py
+-rw-r--r--   1 diana  staff    323 Dec 21 10:59 1.37.py
+-rw-r--r--   1 diana  staff    128 Dec 21 01:44 1.38.py
+-rw-r--r--   1 diana  staff    227 Dec 21 11:31 1.39?.py
+-rw-r--r--   1 diana  staff     82 Nov 22 22:12 1.4.py
+-rw-r--r--   1 diana  staff    235 Dec 21 01:53 1.40?.py
+-rw-r--r--   1 diana  staff    134 Dec 21 11:55 1.41?.py
+-rw-r--r--   1 diana  staff    149 Dec 21 09:03 1.42.py
+-rw-r--r--   1 diana  staff    169 Dec 21 09:06 1.43.py
+-rw-r--r--   1 diana  staff    216 Dec 21 09:21 1.44.py
+-rw-r--r--   1 diana  staff    113 Dec 21 09:24 1.45?.py
+-rw-r--r--   1 diana  staff    139 Dec 21 09:20 1.46?.py
+-rw-r--r--   1 diana  staff    125 Dec 21 09:20 1.47.py
+-rw-r--r--   1 diana  staff    112 Dec 21 09:24 1.48?.py
+-rw-r--r--   1 diana  staff    197 Dec 21 09:35 1.49?.py
+-rw-r--r--   1 diana  staff     61 Nov 22 16:47 1.5.py
+-rw-r--r--   1 diana  staff    259 Dec 21 09:41 1.50.py
+-rw-r--r--   1 diana  staff    462 Dec 28 02:04 1.51.py
+-rw-r--r--   1 diana  staff     84 Dec 28 02:06 1.52.py
+-rw-r--r--   1 diana  staff     90 Dec 28 02:10 1.53.py
+-rw-r--r--   1 diana  staff     98 Dec 28 02:12 1.54.py
+-rw-r--r--   1 diana  staff    135 Dec 28 02:14 1.55.py
+-rw-r--r--   1 diana  staff    169 Dec 28 02:17 1.56.py
+-rw-r--r--   1 diana  staff    153 Dec 28 02:21 1.57.py
+-rw-r--r--   1 diana  staff    132 Dec 28 02:26 1.58.py
+-rw-r--r--   1 diana  staff      0 Dec 28 02:26 1.59.py
+-rw-r--r--   1 diana  staff     87 Nov 22 21:34 1.6.py
+-rw-r--r--   1 diana  staff     82 Nov 22 21:38 1.7.py
+-rw-r--r--   1 diana  staff     98 Nov 22 21:43 1.8.py
+-rw-r--r--   1 diana  staff     97 Nov 22 21:51 1.9.py
+-rw-r--r--   1 diana  staff   2585 Nov 22 16:27 hist1.py
+-rw-r--r--   1 diana  staff    203 Nov  9 10:42 lectia1.py
+-rw-r--r--   1 diana  staff  24732 Dec  7 12:10 lectia2.py
+-rw-r--r--   1 diana  staff  33484 Dec 23 12:15 lectia3.py
+-rwxr-xr-x   1 diana  staff    360 Dec 28 11:08 listaFisiere.py
+-rw-r--r--   1 diana  staff    119 Dec 21 10:42 my_repl.py
+-rw-r--r--   1 diana  staff    257 Nov 17 10:20 tema1.py
+-rw-r--r--   1 diana  staff  40746 Dec 23 12:17 ~bash
+Dianas-iMac:Python diana$ alias ll='ls -al'
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ ll
+total 728
+drwxr-xr-x  70 diana  staff   2380 Dec 28 02:26 .
+drwx------+  9 diana  staff    306 Dec 23 12:14 ..
+-rw-r--r--@  1 diana  staff   6148 Nov 17 09:28 .DS_Store
+-rw-r--r--   1 diana  staff     52 Nov 17 11:59 1.1.py
+-rw-r--r--   1 diana  staff     50 Nov 22 21:54 1.10.py
+-rw-r--r--   1 diana  staff     18 Nov 22 22:00 1.11.py
+-rw-r--r--   1 diana  staff     59 Nov 22 22:02 1.12.py
+-rw-r--r--   1 diana  staff    115 Nov 22 22:06 1.13.py
+-rw-r--r--   1 diana  staff    111 Nov 22 22:11 1.14.py
+-rw-r--r--   1 diana  staff     79 Nov 22 22:16 1.15.py
+-rw-r--r--   1 diana  staff     84 Nov 22 22:19 1.16.py
+-rw-r--r--   1 diana  staff    154 Nov 22 22:29 1.17.py
+-rw-r--r--   1 diana  staff    175 Nov 23 10:39 1.18.py
+-rw-r--r--   1 diana  staff    116 Nov 23 10:50 1.19.py
+-rw-r--r--   1 diana  staff     35 Nov 17 12:03 1.2.py
+-rw-r--r--   1 diana  staff    215 Nov 23 11:24 1.20.py
+-rw-r--r--   1 diana  staff    264 Dec  7 08:33 1.21-done.py
+-rw-r--r--   1 diana  staff    324 Dec  7 10:05 1.22.py
+-rw-r--r--   1 diana  staff    414 Dec  7 10:40 1.23.py
+-rw-r--r--   1 diana  staff    156 Dec  7 10:40 1.24.py
+-rw-r--r--   1 diana  staff    385 Dec  7 10:41 1.25.py
+-rw-r--r--   1 diana  staff    281 Dec  7 10:51 1.26.py
+-rw-r--r--   1 diana  staff    253 Dec  7 09:52 1.27.py
+-rw-r--r--   1 diana  staff    590 Dec  7 10:00 1.28.py
+-rw-r--r--   1 diana  staff    264 Dec 21 00:33 1.29-done.py
+-rw-r--r--   1 diana  staff     50 Nov 17 12:07 1.3.py
+-rw-r--r--   1 diana  staff    148 Dec 21 00:41 1.30.py
+-rw-r--r--   1 diana  staff    469 Dec 21 10:32 1.31.py
+-rw-r--r--   1 diana  staff    253 Dec 21 10:34 1.32.py
+-rw-r--r--   1 diana  staff    289 Dec 21 10:35 1.33.py
+-rw-r--r--   1 diana  staff    242 Dec 21 10:44 1.34.py
+-rw-r--r--   1 diana  staff    283 Dec 21 10:45 1.35.py
+-rw-r--r--   1 diana  staff    268 Dec 21 10:50 1.36.py
+-rw-r--r--   1 diana  staff    323 Dec 21 10:59 1.37.py
+-rw-r--r--   1 diana  staff    128 Dec 21 01:44 1.38.py
+-rw-r--r--   1 diana  staff    227 Dec 21 11:31 1.39?.py
+-rw-r--r--   1 diana  staff     82 Nov 22 22:12 1.4.py
+-rw-r--r--   1 diana  staff    235 Dec 21 01:53 1.40?.py
+-rw-r--r--   1 diana  staff    134 Dec 21 11:55 1.41?.py
+-rw-r--r--   1 diana  staff    149 Dec 21 09:03 1.42.py
+-rw-r--r--   1 diana  staff    169 Dec 21 09:06 1.43.py
+-rw-r--r--   1 diana  staff    216 Dec 21 09:21 1.44.py
+-rw-r--r--   1 diana  staff    113 Dec 21 09:24 1.45?.py
+-rw-r--r--   1 diana  staff    139 Dec 21 09:20 1.46?.py
+-rw-r--r--   1 diana  staff    125 Dec 21 09:20 1.47.py
+-rw-r--r--   1 diana  staff    112 Dec 21 09:24 1.48?.py
+-rw-r--r--   1 diana  staff    197 Dec 21 09:35 1.49?.py
+-rw-r--r--   1 diana  staff     61 Nov 22 16:47 1.5.py
+-rw-r--r--   1 diana  staff    259 Dec 21 09:41 1.50.py
+-rw-r--r--   1 diana  staff    462 Dec 28 02:04 1.51.py
+-rw-r--r--   1 diana  staff     84 Dec 28 02:06 1.52.py
+-rw-r--r--   1 diana  staff     90 Dec 28 02:10 1.53.py
+-rw-r--r--   1 diana  staff     98 Dec 28 02:12 1.54.py
+-rw-r--r--   1 diana  staff    135 Dec 28 02:14 1.55.py
+-rw-r--r--   1 diana  staff    169 Dec 28 02:17 1.56.py
+-rw-r--r--   1 diana  staff    153 Dec 28 02:21 1.57.py
+-rw-r--r--   1 diana  staff    132 Dec 28 02:26 1.58.py
+-rw-r--r--   1 diana  staff      0 Dec 28 02:26 1.59.py
+-rw-r--r--   1 diana  staff     87 Nov 22 21:34 1.6.py
+-rw-r--r--   1 diana  staff     82 Nov 22 21:38 1.7.py
+-rw-r--r--   1 diana  staff     98 Nov 22 21:43 1.8.py
+-rw-r--r--   1 diana  staff     97 Nov 22 21:51 1.9.py
+-rw-r--r--   1 diana  staff   2585 Nov 22 16:27 hist1.py
+-rw-r--r--   1 diana  staff    203 Nov  9 10:42 lectia1.py
+-rw-r--r--   1 diana  staff  24732 Dec  7 12:10 lectia2.py
+-rw-r--r--   1 diana  staff  33484 Dec 23 12:15 lectia3.py
+-rwxr-xr-x   1 diana  staff    360 Dec 28 11:08 listaFisiere.py
+-rw-r--r--   1 diana  staff    119 Dec 21 10:42 my_repl.py
+-rw-r--r--   1 diana  staff    257 Nov 17 10:20 tema1.py
+-rw-r--r--   1 diana  staff  40746 Dec 23 12:17 ~bash
+Dianas-iMac:Python diana$ list
+listaFisiere.py  listres          
+Dianas-iMac:Python diana$ listaFisiere.py 
+.DS_Store        1.18.py          1.27.py          1.36.py          1.45?.py         1.54.py          hist1.py
+1.1.py           1.19.py          1.28.py          1.37.py          1.46?.py         1.55.py          lectia1.py
+1.10.py          1.2.py           1.29-done.py     1.38.py          1.47.py          1.56.py          lectia2.py
+1.11.py          1.20.py          1.3.py           1.39?.py         1.48?.py         1.57.py          lectia3.py
+1.12.py          1.21-done.py     1.30.py          1.4.py           1.49?.py         1.58.py          listaFisiere.py
+1.13.py          1.22.py          1.31.py          1.40?.py         1.5.py           1.59.py          my_repl.py
+1.14.py          1.23.py          1.32.py          1.41?.py         1.50.py          1.6.py           tema1.py
+1.15.py          1.24.py          1.33.py          1.42.py          1.51.py          1.7.py           ~bash
+1.16.py          1.25.py          1.34.py          1.43.py          1.52.py          1.8.py           
+1.17.py          1.26.py          1.35.py          1.44.py          1.53.py          1.9.py           
+Dianas-iMac:Python diana$ listaFisiere.py 
+Traceback (most recent call last):
+  File "/Users/diana/Desktop/Python/listaFisiere.py", line 5, in <module>
+    pattern = sys.argv[1]
+IndexError: list index out of range
+Dianas-iMac:Python diana$ listaFisiere.py '*'
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+Dianas-iMac:Python diana$ listaFisiere.py '.*' 
+.DS_Store                         6148 Bytes
+total: 6148 Bytes
+Dianas-iMac:Python diana$ listaFisiere.py '*' 
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+Dianas-iMac:Python diana$ listaFisiere.py '*' 
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+Dianas-iMac:Python diana$ listaFisiere.py '*' >o1
+Dianas-iMac:Python diana$ listaFisiere.py '*' | nl
+     1	1.1.py                            52 Bytes
+     2	1.10.py                           50 Bytes
+     3	1.11.py                           18 Bytes
+     4	1.12.py                           59 Bytes
+     5	1.13.py                           115 Bytes
+     6	1.14.py                           111 Bytes
+     7	1.15.py                           79 Bytes
+     8	1.16.py                           84 Bytes
+     9	1.17.py                           154 Bytes
+    10	1.18.py                           175 Bytes
+    11	1.19.py                           116 Bytes
+    12	1.2.py                            35 Bytes
+    13	1.20.py                           215 Bytes
+    14	1.21-done.py                      264 Bytes
+    15	1.22.py                           324 Bytes
+    16	1.23.py                           414 Bytes
+    17	1.24.py                           156 Bytes
+    18	1.25.py                           385 Bytes
+    19	1.26.py                           281 Bytes
+    20	1.27.py                           253 Bytes
+    21	1.28.py                           590 Bytes
+    22	1.29-done.py                      264 Bytes
+    23	1.3.py                            50 Bytes
+    24	1.30.py                           148 Bytes
+    25	1.31.py                           469 Bytes
+    26	1.32.py                           253 Bytes
+    27	1.33.py                           289 Bytes
+    28	1.34.py                           242 Bytes
+    29	1.35.py                           283 Bytes
+    30	1.36.py                           268 Bytes
+    31	1.37.py                           323 Bytes
+    32	1.38.py                           128 Bytes
+    33	1.39?.py                          227 Bytes
+    34	1.4.py                            82 Bytes
+    35	1.40?.py                          235 Bytes
+    36	1.41?.py                          134 Bytes
+    37	1.42.py                           149 Bytes
+    38	1.43.py                           169 Bytes
+    39	1.44.py                           216 Bytes
+    40	1.45?.py                          113 Bytes
+    41	1.46?.py                          139 Bytes
+    42	1.47.py                           125 Bytes
+    43	1.48?.py                          112 Bytes
+    44	1.49?.py                          197 Bytes
+    45	1.5.py                            61 Bytes
+    46	1.50.py                           259 Bytes
+    47	1.51.py                           462 Bytes
+    48	1.52.py                           84 Bytes
+    49	1.53.py                           90 Bytes
+    50	1.54.py                           98 Bytes
+    51	1.55.py                           135 Bytes
+    52	1.56.py                           169 Bytes
+    53	1.57.py                           153 Bytes
+    54	1.58.py                           132 Bytes
+    55	1.59.py                           0 Bytes
+    56	1.6.py                            87 Bytes
+    57	1.7.py                            82 Bytes
+    58	1.8.py                            98 Bytes
+    59	1.9.py                            97 Bytes
+    60	hist1.py                          2585 Bytes
+    61	lectia1.py                        203 Bytes
+    62	lectia2.py                        24732 Bytes
+    63	lectia3.py                        33484 Bytes
+    64	listaFisiere.py                   360 Bytes
+    65	my_repl.py                        119 Bytes
+    66	o1                                2998 Bytes
+    67	tema1.py                          257 Bytes
+    68	~bash                             40746 Bytes
+    69	total: 116036 Bytes
+Dianas-iMac:Python diana$ listaFisiere.py '*' | sort
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+o1                                2998 Bytes
+tema1.py                          257 Bytes
+total: 116036 Bytes
+~bash                             40746 Bytes
+Dianas-iMac:Python diana$ listaFisiere.py '*' | wc -l
+      69
+Dianas-iMac:Python diana$ listaFisiere.py '*' | wc -l | wc -l
+       1
+Dianas-iMac:Python diana$ say 'Hello Diana'
+Dianas-iMac:Python diana$ say 'What do you think of bash?'
+Dianas-iMac:Python diana$ ipy
+ipy       ipy64     ipython   ipython3  ipyw      ipyw64    
+Dianas-iMac:Python diana$ ipy
+ipy       ipy64     ipython   ipython3  ipyw      ipyw64    
+Dianas-iMac:Python diana$ which ipython
+/Library/Frameworks/Python.framework/Versions/3.7/bin/ipython
+Dianas-iMac:Python diana$ more /Library/Frameworks/Python.framework/Versions/3.7/bin/ipython
+#!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from IPython import start_ipython
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(start_ipython())
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ ipy
+ipy       ipy64     ipython   ipython3  ipyw      ipyw64    
+Dianas-iMac:Python diana$ ipy
+ipy       ipy64     ipython   ipython3  ipyw      ipyw64    
+Dianas-iMac:Python diana$ ipy
+ipy       ipy64     ipython   ipython3  ipyw      ipyw64    
+Dianas-iMac:Python diana$ ipython
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.9.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]:                                                                                                                 
+
+In [1]:                                                                                                                 
+
+In [1]: s = 'aa bb cc'                                                                                                  
+
+In [2]:                                                                                                                 
+
+In [2]:                                                                                                                 
+
+In [2]: s.split()                                                                                                       
+Out[2]: ['aa', 'bb', 'cc']
+
+In [3]: ''.join(s.split())                                                                                              
+Out[3]: 'aabbcc'
+
+In [4]: '<>'.join(s.split())                                                                                            
+Out[4]: 'aa<>bb<>cc'
+
+In [5]: '<dewdwedw>'.join(s.split())                                                                                    
+Out[5]: 'aa<dewdwedw>bb<dewdwedw>cc'
+
+In [6]: ''.join(s.split())                                                                                              
+Out[6]: 'aabbcc'
+
+In [7]: print('ana', 'are', 5, 'mere')                                                                                  
+ana are 5 mere
+
+In [8]: print('ana', 'are', 5, 'mere', sep='')                                                                          
+anaare5mere
+
+In [9]: print('ana', 'are', 5, 'mere', sep='', end='')                                                                  
+anaare5mere
+In [10]:                                                                                                                
+
+In [10]:                                                                                                                
+
+In [10]: with open('o1', 'r') as f: 
+    ...:     for line in f: 
+    ...:         print(line, end='') 
+    ...:                                                                                                                
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+o1                                0 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+
+In [11]: with open('o1', 'r') as f: 
+    ...:     print(list(f)) 
+    ...:                                                                                                                
+['1.1.py                            52 Bytes\n', '1.10.py                           50 Bytes\n', '1.11.py                           18 Bytes\n', '1.12.py                           59 Bytes\n', '1.13.py                           115 Bytes\n', '1.14.py                           111 Bytes\n', '1.15.py                           79 Bytes\n', '1.16.py                           84 Bytes\n', '1.17.py                           154 Bytes\n', '1.18.py                           175 Bytes\n', '1.19.py                           116 Bytes\n', '1.2.py                            35 Bytes\n', '1.20.py                           215 Bytes\n', '1.21-done.py                      264 Bytes\n', '1.22.py                           324 Bytes\n', '1.23.py                           414 Bytes\n', '1.24.py                           156 Bytes\n', '1.25.py                           385 Bytes\n', '1.26.py                           281 Bytes\n', '1.27.py                           253 Bytes\n', '1.28.py                           590 Bytes\n', '1.29-done.py                      264 Bytes\n', '1.3.py                            50 Bytes\n', '1.30.py                           148 Bytes\n', '1.31.py                           469 Bytes\n', '1.32.py                           253 Bytes\n', '1.33.py                           289 Bytes\n', '1.34.py                           242 Bytes\n', '1.35.py                           283 Bytes\n', '1.36.py                           268 Bytes\n', '1.37.py                           323 Bytes\n', '1.38.py                           128 Bytes\n', '1.39?.py                          227 Bytes\n', '1.4.py                            82 Bytes\n', '1.40?.py                          235 Bytes\n', '1.41?.py                          134 Bytes\n', '1.42.py                           149 Bytes\n', '1.43.py                           169 Bytes\n', '1.44.py                           216 Bytes\n', '1.45?.py                          113 Bytes\n', '1.46?.py                          139 Bytes\n', '1.47.py                           125 Bytes\n', '1.48?.py                          112 Bytes\n', '1.49?.py                          197 Bytes\n', '1.5.py                            61 Bytes\n', '1.50.py                           259 Bytes\n', '1.51.py                           462 Bytes\n', '1.52.py                           84 Bytes\n', '1.53.py                           90 Bytes\n', '1.54.py                           98 Bytes\n', '1.55.py                           135 Bytes\n', '1.56.py                           169 Bytes\n', '1.57.py                           153 Bytes\n', '1.58.py                           132 Bytes\n', '1.59.py                           0 Bytes\n', '1.6.py                            87 Bytes\n', '1.7.py                            82 Bytes\n', '1.8.py                            98 Bytes\n', '1.9.py                            97 Bytes\n', 'hist1.py                          2585 Bytes\n', 'lectia1.py                        203 Bytes\n', 'lectia2.py                        24732 Bytes\n', 'lectia3.py                        33484 Bytes\n', 'listaFisiere.py                   360 Bytes\n', 'my_repl.py                        119 Bytes\n', 'o1                                0 Bytes\n', 'tema1.py                          257 Bytes\n', '~bash                             40746 Bytes\n', 'total: 113038 Bytes\n']
+
+In [12]: with open('o1', 'r') as f: 
+    ...:     for line in f: 
+    ...:         print(line) 
+    ...:          
+    ...:                                                                                                                
+1.1.py                            52 Bytes
+
+1.10.py                           50 Bytes
+
+1.11.py                           18 Bytes
+
+1.12.py                           59 Bytes
+
+1.13.py                           115 Bytes
+
+1.14.py                           111 Bytes
+
+1.15.py                           79 Bytes
+
+1.16.py                           84 Bytes
+
+1.17.py                           154 Bytes
+
+1.18.py                           175 Bytes
+
+1.19.py                           116 Bytes
+
+1.2.py                            35 Bytes
+
+1.20.py                           215 Bytes
+
+1.21-done.py                      264 Bytes
+
+1.22.py                           324 Bytes
+
+1.23.py                           414 Bytes
+
+1.24.py                           156 Bytes
+
+1.25.py                           385 Bytes
+
+1.26.py                           281 Bytes
+
+1.27.py                           253 Bytes
+
+1.28.py                           590 Bytes
+
+1.29-done.py                      264 Bytes
+
+1.3.py                            50 Bytes
+
+1.30.py                           148 Bytes
+
+1.31.py                           469 Bytes
+
+1.32.py                           253 Bytes
+
+1.33.py                           289 Bytes
+
+1.34.py                           242 Bytes
+
+1.35.py                           283 Bytes
+
+1.36.py                           268 Bytes
+
+1.37.py                           323 Bytes
+
+1.38.py                           128 Bytes
+
+1.39?.py                          227 Bytes
+
+1.4.py                            82 Bytes
+
+1.40?.py                          235 Bytes
+
+1.41?.py                          134 Bytes
+
+1.42.py                           149 Bytes
+
+1.43.py                           169 Bytes
+
+1.44.py                           216 Bytes
+
+1.45?.py                          113 Bytes
+
+1.46?.py                          139 Bytes
+
+1.47.py                           125 Bytes
+
+1.48?.py                          112 Bytes
+
+1.49?.py                          197 Bytes
+
+1.5.py                            61 Bytes
+
+1.50.py                           259 Bytes
+
+1.51.py                           462 Bytes
+
+1.52.py                           84 Bytes
+
+1.53.py                           90 Bytes
+
+1.54.py                           98 Bytes
+
+1.55.py                           135 Bytes
+
+1.56.py                           169 Bytes
+
+1.57.py                           153 Bytes
+
+1.58.py                           132 Bytes
+
+1.59.py                           0 Bytes
+
+1.6.py                            87 Bytes
+
+1.7.py                            82 Bytes
+
+1.8.py                            98 Bytes
+
+1.9.py                            97 Bytes
+
+hist1.py                          2585 Bytes
+
+lectia1.py                        203 Bytes
+
+lectia2.py                        24732 Bytes
+
+lectia3.py                        33484 Bytes
+
+listaFisiere.py                   360 Bytes
+
+my_repl.py                        119 Bytes
+
+o1                                0 Bytes
+
+tema1.py                          257 Bytes
+
+~bash                             40746 Bytes
+
+total: 113038 Bytes
+
+
+In [13]: with open('o1', 'r') as f: 
+    ...:     for line in f: 
+    ...:         line = line.strip() 
+    ...:         print(line) 
+    ...:          
+    ...:                                                                                                                
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+o1                                0 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+
+In [14]: with open('o1', 'r') as f: 
+    ...:     for line in f: 
+    ...:         line = line.strip() 
+    ...:         print(line) 
+    ...:          
+    ...:                                                                                                                
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+o1                                0 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+
+In [15]:                                                                                                                
+
+In [15]: f = open('o1', 'r')                                                                                            
+
+In [16]: lines = list(f)                                                                                                
+
+In [17]: close(f)                                                                                                       
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-17-957aa0c7b877> in <module>
+----> 1 close(f)
+
+NameError: name 'close' is not defined
+
+In [18]: f.close()                                                                                                      
+
+In [19]: f2 = open('o2', 'w')                                                                                           
+
+In [20]: print('hei!!!!', file=f2)                                                                                      
+
+In [21]: f2.close()                                                                                                     
+
+In [22]: f3 = open('o2', 'r')                                                                                           
+
+In [23]: print(str(f3))                                                                                                 
+<_io.TextIOWrapper name='o2' mode='r' encoding='UTF-8'>
+
+In [24]: print(list(f3))                                                                                                
+['hei!!!!\n']
+
+In [25]: f2.close()                                                                                                     
+
+In [26]: with open('o2', 'r') as f: 
+    ...:     print(list(f)) 
+    ...:                                                                                                                
+['hei!!!!\n']
+
+In [27]: with open('o2', 'a') as f: 
+    ...:     print('inca o linie', file=f) 
+    ...:      
+    ...:                                                                                                                
+
+In [28]: with open('o1', 'r') as f: 
+    ...:     print(''.join(f)) 
+    ...:      
+    ...:          
+    ...:                                                                                                                
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+o1                                0 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+
+
+In [29]: with open('o1', 'r') as f: 
+    ...:     continut = ''.join(f) 
+    ...:      
+    ...:      
+    ...:          
+    ...:                                                                                                                
+
+In [30]: continut                                                                                                       
+Out[30]: '1.1.py                            52 Bytes\n1.10.py                           50 Bytes\n1.11.py                           18 Bytes\n1.12.py                           59 Bytes\n1.13.py                           115 Bytes\n1.14.py                           111 Bytes\n1.15.py                           79 Bytes\n1.16.py                           84 Bytes\n1.17.py                           154 Bytes\n1.18.py                           175 Bytes\n1.19.py                           116 Bytes\n1.2.py                            35 Bytes\n1.20.py                           215 Bytes\n1.21-done.py                      264 Bytes\n1.22.py                           324 Bytes\n1.23.py                           414 Bytes\n1.24.py                           156 Bytes\n1.25.py                           385 Bytes\n1.26.py                           281 Bytes\n1.27.py                           253 Bytes\n1.28.py                           590 Bytes\n1.29-done.py                      264 Bytes\n1.3.py                            50 Bytes\n1.30.py                           148 Bytes\n1.31.py                           469 Bytes\n1.32.py                           253 Bytes\n1.33.py                           289 Bytes\n1.34.py                           242 Bytes\n1.35.py                           283 Bytes\n1.36.py                           268 Bytes\n1.37.py                           323 Bytes\n1.38.py                           128 Bytes\n1.39?.py                          227 Bytes\n1.4.py                            82 Bytes\n1.40?.py                          235 Bytes\n1.41?.py                          134 Bytes\n1.42.py                           149 Bytes\n1.43.py                           169 Bytes\n1.44.py                           216 Bytes\n1.45?.py                          113 Bytes\n1.46?.py                          139 Bytes\n1.47.py                           125 Bytes\n1.48?.py                          112 Bytes\n1.49?.py                          197 Bytes\n1.5.py                            61 Bytes\n1.50.py                           259 Bytes\n1.51.py                           462 Bytes\n1.52.py                           84 Bytes\n1.53.py                           90 Bytes\n1.54.py                           98 Bytes\n1.55.py                           135 Bytes\n1.56.py                           169 Bytes\n1.57.py                           153 Bytes\n1.58.py                           132 Bytes\n1.59.py                           0 Bytes\n1.6.py                            87 Bytes\n1.7.py                            82 Bytes\n1.8.py                            98 Bytes\n1.9.py                            97 Bytes\nhist1.py                          2585 Bytes\nlectia1.py                        203 Bytes\nlectia2.py                        24732 Bytes\nlectia3.py                        33484 Bytes\nlistaFisiere.py                   360 Bytes\nmy_repl.py                        119 Bytes\no1                                0 Bytes\ntema1.py                          257 Bytes\n~bash                             40746 Bytes\ntotal: 113038 Bytes\n'
+
+In [31]: with open('o1', 'r') as f: 
+    ...:     print(''.join(f)) 
+    ...:     print('eeeee', file=f) 
+    ...:      
+    ...:          
+    ...:                                                                                                                
+1.1.py                            52 Bytes
+1.10.py                           50 Bytes
+1.11.py                           18 Bytes
+1.12.py                           59 Bytes
+1.13.py                           115 Bytes
+1.14.py                           111 Bytes
+1.15.py                           79 Bytes
+1.16.py                           84 Bytes
+1.17.py                           154 Bytes
+1.18.py                           175 Bytes
+1.19.py                           116 Bytes
+1.2.py                            35 Bytes
+1.20.py                           215 Bytes
+1.21-done.py                      264 Bytes
+1.22.py                           324 Bytes
+1.23.py                           414 Bytes
+1.24.py                           156 Bytes
+1.25.py                           385 Bytes
+1.26.py                           281 Bytes
+1.27.py                           253 Bytes
+1.28.py                           590 Bytes
+1.29-done.py                      264 Bytes
+1.3.py                            50 Bytes
+1.30.py                           148 Bytes
+1.31.py                           469 Bytes
+1.32.py                           253 Bytes
+1.33.py                           289 Bytes
+1.34.py                           242 Bytes
+1.35.py                           283 Bytes
+1.36.py                           268 Bytes
+1.37.py                           323 Bytes
+1.38.py                           128 Bytes
+1.39?.py                          227 Bytes
+1.4.py                            82 Bytes
+1.40?.py                          235 Bytes
+1.41?.py                          134 Bytes
+1.42.py                           149 Bytes
+1.43.py                           169 Bytes
+1.44.py                           216 Bytes
+1.45?.py                          113 Bytes
+1.46?.py                          139 Bytes
+1.47.py                           125 Bytes
+1.48?.py                          112 Bytes
+1.49?.py                          197 Bytes
+1.5.py                            61 Bytes
+1.50.py                           259 Bytes
+1.51.py                           462 Bytes
+1.52.py                           84 Bytes
+1.53.py                           90 Bytes
+1.54.py                           98 Bytes
+1.55.py                           135 Bytes
+1.56.py                           169 Bytes
+1.57.py                           153 Bytes
+1.58.py                           132 Bytes
+1.59.py                           0 Bytes
+1.6.py                            87 Bytes
+1.7.py                            82 Bytes
+1.8.py                            98 Bytes
+1.9.py                            97 Bytes
+hist1.py                          2585 Bytes
+lectia1.py                        203 Bytes
+lectia2.py                        24732 Bytes
+lectia3.py                        33484 Bytes
+listaFisiere.py                   360 Bytes
+my_repl.py                        119 Bytes
+o1                                0 Bytes
+tema1.py                          257 Bytes
+~bash                             40746 Bytes
+total: 113038 Bytes
+
+---------------------------------------------------------------------------
+UnsupportedOperation                      Traceback (most recent call last)
+<ipython-input-31-095fd692460c> in <module>
+      1 with open('o1', 'r') as f:
+      2     print(''.join(f))
+----> 3     print('eeeee', file=f)
+      4 
+      5 
+
+UnsupportedOperation: not writable
+
+In [32]: with open('o4', 'r') as f: 
+    ...:     print(''.join(f)) 
+    ...:      
+    ...:          
+    ...:                                                                                                                
+---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+<ipython-input-32-f44d6a767c96> in <module>
+----> 1 with open('o4', 'r') as f:
+      2     print(''.join(f))
+      3 
+      4 
+      5 
+
+FileNotFoundError: [Errno 2] No such file or directory: 'o4'
+
+In [33]:                                                                                                                
+Do you really want to exit ([y]/n)? y
+Dianas-iMac:Python diana$ ls -al 
+total 744
+drwxr-xr-x  72 diana  staff   2448 Dec 28 11:38 .
+drwx------+  9 diana  staff    306 Dec 23 12:14 ..
+-rw-r--r--@  1 diana  staff   6148 Nov 17 09:28 .DS_Store
+-rw-r--r--   1 diana  staff     52 Nov 17 11:59 1.1.py
+-rw-r--r--   1 diana  staff     50 Nov 22 21:54 1.10.py
+-rw-r--r--   1 diana  staff     18 Nov 22 22:00 1.11.py
+-rw-r--r--   1 diana  staff     59 Nov 22 22:02 1.12.py
+-rw-r--r--   1 diana  staff    115 Nov 22 22:06 1.13.py
+-rw-r--r--   1 diana  staff    111 Nov 22 22:11 1.14.py
+-rw-r--r--   1 diana  staff     79 Nov 22 22:16 1.15.py
+-rw-r--r--   1 diana  staff     84 Nov 22 22:19 1.16.py
+-rw-r--r--   1 diana  staff    154 Nov 22 22:29 1.17.py
+-rw-r--r--   1 diana  staff    175 Nov 23 10:39 1.18.py
+-rw-r--r--   1 diana  staff    116 Nov 23 10:50 1.19.py
+-rw-r--r--   1 diana  staff     35 Nov 17 12:03 1.2.py
+-rw-r--r--   1 diana  staff    215 Nov 23 11:24 1.20.py
+-rw-r--r--   1 diana  staff    264 Dec  7 08:33 1.21-done.py
+-rw-r--r--   1 diana  staff    324 Dec  7 10:05 1.22.py
+-rw-r--r--   1 diana  staff    414 Dec  7 10:40 1.23.py
+-rw-r--r--   1 diana  staff    156 Dec  7 10:40 1.24.py
+-rw-r--r--   1 diana  staff    385 Dec  7 10:41 1.25.py
+-rw-r--r--   1 diana  staff    281 Dec  7 10:51 1.26.py
+-rw-r--r--   1 diana  staff    253 Dec  7 09:52 1.27.py
+-rw-r--r--   1 diana  staff    590 Dec  7 10:00 1.28.py
+-rw-r--r--   1 diana  staff    264 Dec 21 00:33 1.29-done.py
+-rw-r--r--   1 diana  staff     50 Nov 17 12:07 1.3.py
+-rw-r--r--   1 diana  staff    148 Dec 21 00:41 1.30.py
+-rw-r--r--   1 diana  staff    469 Dec 21 10:32 1.31.py
+-rw-r--r--   1 diana  staff    253 Dec 21 10:34 1.32.py
+-rw-r--r--   1 diana  staff    289 Dec 21 10:35 1.33.py
+-rw-r--r--   1 diana  staff    242 Dec 21 10:44 1.34.py
+-rw-r--r--   1 diana  staff    283 Dec 21 10:45 1.35.py
+-rw-r--r--   1 diana  staff    268 Dec 21 10:50 1.36.py
+-rw-r--r--   1 diana  staff    323 Dec 21 10:59 1.37.py
+-rw-r--r--   1 diana  staff    128 Dec 21 01:44 1.38.py
+-rw-r--r--   1 diana  staff    227 Dec 21 11:31 1.39?.py
+-rw-r--r--   1 diana  staff     82 Nov 22 22:12 1.4.py
+-rw-r--r--   1 diana  staff    235 Dec 21 01:53 1.40?.py
+-rw-r--r--   1 diana  staff    134 Dec 21 11:55 1.41?.py
+-rw-r--r--   1 diana  staff    149 Dec 21 09:03 1.42.py
+-rw-r--r--   1 diana  staff    169 Dec 21 09:06 1.43.py
+-rw-r--r--   1 diana  staff    216 Dec 21 09:21 1.44.py
+-rw-r--r--   1 diana  staff    113 Dec 21 09:24 1.45?.py
+-rw-r--r--   1 diana  staff    139 Dec 21 09:20 1.46?.py
+-rw-r--r--   1 diana  staff    125 Dec 21 09:20 1.47.py
+-rw-r--r--   1 diana  staff    112 Dec 21 09:24 1.48?.py
+-rw-r--r--   1 diana  staff    197 Dec 21 09:35 1.49?.py
+-rw-r--r--   1 diana  staff     61 Nov 22 16:47 1.5.py
+-rw-r--r--   1 diana  staff    259 Dec 21 09:41 1.50.py
+-rw-r--r--   1 diana  staff    468 Dec 28 12:07 1.51.py
+-rw-r--r--   1 diana  staff    125 Dec 28 12:10 1.52.py
+-rw-r--r--   1 diana  staff     90 Dec 28 02:10 1.53.py
+-rw-r--r--   1 diana  staff     98 Dec 28 02:12 1.54.py
+-rw-r--r--   1 diana  staff    135 Dec 28 02:14 1.55.py
+-rw-r--r--   1 diana  staff    169 Dec 28 02:17 1.56.py
+-rw-r--r--   1 diana  staff    153 Dec 28 02:21 1.57.py
+-rw-r--r--   1 diana  staff    132 Dec 28 02:26 1.58.py
+-rw-r--r--   1 diana  staff      0 Dec 28 02:26 1.59.py
+-rw-r--r--   1 diana  staff     87 Nov 22 21:34 1.6.py
+-rw-r--r--   1 diana  staff     82 Nov 22 21:38 1.7.py
+-rw-r--r--   1 diana  staff     98 Nov 22 21:43 1.8.py
+-rw-r--r--   1 diana  staff     97 Nov 22 21:51 1.9.py
+-rw-r--r--   1 diana  staff   2585 Nov 22 16:27 hist1.py
+-rw-r--r--   1 diana  staff    203 Nov  9 10:42 lectia1.py
+-rw-r--r--   1 diana  staff  24732 Dec  7 12:10 lectia2.py
+-rw-r--r--   1 diana  staff  33484 Dec 23 12:15 lectia3.py
+-rwxr-xr-x   1 diana  staff    360 Dec 28 11:08 listaFisiere.py
+-rw-r--r--   1 diana  staff    119 Dec 21 10:42 my_repl.py
+-rw-r--r--   1 diana  staff   2998 Dec 28 11:22 o1
+-rw-r--r--   1 diana  staff     21 Dec 28 11:41 o2
+-rw-r--r--   1 diana  staff    257 Nov 17 10:20 tema1.py
+-rw-r--r--   1 diana  staff  40746 Dec 23 12:17 ~bash
+Dianas-iMac:Python diana$ python3
+python3            python3-config     python3.7          python3.7-config   python3.7m         python3.7m-config
+Dianas-iMac:Python diana$ python3
+python3            python3-config     python3.7          python3.7-config   python3.7m         python3.7m-config
+Dianas-iMac:Python diana$ python3
+python3            python3-config     python3.7          python3.7-config   python3.7m         python3.7m-config
+Dianas-iMac:Python diana$ python3
+python3            python3-config     python3.7          python3.7-config   python3.7m         python3.7m-config
+Dianas-iMac:Python diana$ python3 1.53.py 
+environ({'TERM_PROGRAM': 'Apple_Terminal', 'SHELL': '/bin/bash', 'TERM': 'xterm-256color', 'TMPDIR': '/var/folders/z8/jl5m00bj5519vwmnqxjbf5nw0000gp/T/', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.zjEx9uRnwH/Render', 'TERM_PROGRAM_VERSION': '361.2', 'OLDPWD': '/Users/diana', 'TERM_SESSION_ID': 'B1A4879E-6274-4853-B712-189896DB7769', 'USER': 'diana', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.PWYjMGO4hk/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0', 'PATH': '/Users/diana/Desktop/Python:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands', 'PWD': '/Users/diana/Desktop/Python', 'XPC_FLAGS': '0x0', 'XPC_SERVICE_NAME': '0', 'SHLVL': '1', 'HOME': '/Users/diana', 'LOGNAME': 'diana', 'LC_CTYPE': 'UTF-8', 'DISPLAY': '/private/tmp/com.apple.launchd.CGBabadNA9/org.macosforge.xquartz:0', '_': '/Library/Frameworks/Python.framework/Versions/3.7/bin/python3', '__PYVENV_LAUNCHER__': '/Library/Frameworks/Python.framework/Versions/3.7/bin/python3'})
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ python3 1.52.py 
+balu e mic
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ 
+Dianas-iMac:Python diana$ python3 1.52.py | wc -l
+balu e mic
+       0
+Dianas-iMac:Python diana$ python3 1.52.py | wc -l
+       1
+Dianas-iMac:Python diana$ python3 1.52.py 
+balu e mic
+Dianas-iMac:Python diana$ python3 1.52.py | wc -l
+       1
+Dianas-iMac:Python diana$ python3 1.52.py | wc -l
+balu e mic
+       0
+Dianas-iMac:Python diana$ python3 1.52.py  2>&1  | wc -l
+       1
+Dianas-iMac:Python diana$ python3 1.52.py  2>&1  
+balu e mic
+Dianas-iMac:Python diana$ python3 1.52.py  2>&1  | wc -l
+       1
+Dianas-iMac:Python diana$ python3 1.52.py | wc -l
+balu e mic
+       0
+Dianas-iMac:Python diana$ joe test_input.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^K  I A  test_input.py (Modified)(python)                                                              Row 3    Col 1   
+a = input('da un numar')
+print('ai dat', a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File test_input.py saved
+Dianas-iMac:Python diana$ python  test_input.py
+da un numar5
+('ai dat', 5)
+Dianas-iMac:Python diana$ joe test_input.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^K  I A  test_input.py (Modified)(python)  print('ai dat', a)                                          Row 3    Col 1   
+a = input('da un numar: ')
+print('ai dat', a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File test_input.py saved
+Dianas-iMac:Python diana$ python3 test_input.py
+da un numar: 3
+ai dat 3
+Dianas-iMac:Python diana$ joe o4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^K  I    o4 (Modified)                                                                                 Row 1    Col 5   
+1234
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File o4 saved
+Dianas-iMac:Python diana$ python3 test_input.py <o4
+da un numar: ai dat 1234
+Dianas-iMac:Python diana$ python3 test_input.py <o4 >o5
+Dianas-iMac:Python diana$ more o5
+da un numar: ai dat 1234
+Dianas-iMac:Python diana$ ipython\
+> 
+
+
+
+
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.9.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]:                                                                                                                 
+
+In [1]:                                                                                                                 
+
+In [1]:                                                                                                                 
+
+In [1]:                                                                                                                 
+
+In [1]: import os                                                                                                       
+
+In [2]: os.envior                                                                                                       
+
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-2-5031ce028d28> in <module>
+----> 1 os.envior
+
+AttributeError: module 'os' has no attribute 'envior'
+
+In [3]:                                                                                                                 
+
+In [3]:                                                                                                                 
+
+In [3]: os.envioron                                                                                                     
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-3-4f443e87fa49> in <module>
+----> 1 os.envioron
+
+AttributeError: module 'os' has no attribute 'envioron'
+
+In [4]: os.environ                                                                                                      
+Out[4]: 
+environ{'TERM_PROGRAM': 'Apple_Terminal',
+        'SHELL': '/bin/bash',
+        'TERM': 'xterm-256color',
+        'TMPDIR': '/var/folders/z8/jl5m00bj5519vwmnqxjbf5nw0000gp/T/',
+        'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.zjEx9uRnwH/Render',
+        'TERM_PROGRAM_VERSION': '361.2',
+        'OLDPWD': '/Users/diana',
+        'TERM_SESSION_ID': 'B1A4879E-6274-4853-B712-189896DB7769',
+        'USER': 'diana',
+        'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.PWYjMGO4hk/Listeners',
+        '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0',
+        'PATH': '/Users/diana/Desktop/Python:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands',
+        'PWD': '/Users/diana/Desktop/Python',
+        'XPC_FLAGS': '0x0',
+        'XPC_SERVICE_NAME': '0',
+        'SHLVL': '1',
+        'HOME': '/Users/diana',
+        'LOGNAME': 'diana',
+        'LC_CTYPE': 'UTF-8',
+        'DISPLAY': '/private/tmp/com.apple.launchd.CGBabadNA9/org.macosforge.xquartz:0',
+        '_': '/Library/Frameworks/Python.framework/Versions/3.7/bin/ipython',
+        '__PYVENV_LAUNCHER__': '/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7'}
+
+In [5]: os.environ['USER']                                                                                              
+Out[5]: 'diana'
+
+In [6]: os.environ['USER'] ='bubu'                                                                                      
+
+In [7]: os.environ                                                                                                      
+Out[7]: 
+environ{'TERM_PROGRAM': 'Apple_Terminal',
+        'SHELL': '/bin/bash',
+        'TERM': 'xterm-256color',
+        'TMPDIR': '/var/folders/z8/jl5m00bj5519vwmnqxjbf5nw0000gp/T/',
+        'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.zjEx9uRnwH/Render',
+        'TERM_PROGRAM_VERSION': '361.2',
+        'OLDPWD': '/Users/diana',
+        'TERM_SESSION_ID': 'B1A4879E-6274-4853-B712-189896DB7769',
+        'USER': 'bubu',
+        'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.PWYjMGO4hk/Listeners',
+        '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0',
+        'PATH': '/Users/diana/Desktop/Python:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands',
+        'PWD': '/Users/diana/Desktop/Python',
+        'XPC_FLAGS': '0x0',
+        'XPC_SERVICE_NAME': '0',
+        'SHLVL': '1',
+        'HOME': '/Users/diana',
+        'LOGNAME': 'diana',
+        'LC_CTYPE': 'UTF-8',
+        'DISPLAY': '/private/tmp/com.apple.launchd.CGBabadNA9/org.macosforge.xquartz:0',
+        '_': '/Library/Frameworks/Python.framework/Versions/3.7/bin/ipython',
+        '__PYVENV_LAUNCHER__': '/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7'}
+
+In [8]:                                                                                                                 
+
+In [8]:                                                                                                                 
+
+In [8]:                                                                                                                 
+
+In [8]: os                                                                                                              
+Out[8]: <module 'os' from '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py'>
+
+In [9]: os.system                                                                                                       
+Out[9]: <function posix.system(command)>
+
+In [10]: os.system('whoami')                                                                                            
+diana
+Out[10]: 0
+
+In [11]: hhh=os.system('whoami')                                                                                        
+diana
+
+In [12]: hhh                                                                                                            
+Out[12]: 0
+
+In [13]: hhh=os.system('whoami')                                                                                        
+diana
+
+In [14]: os.run                                                                                                         
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-14-53ce2948d802> in <module>
+----> 1 os.run
+
+AttributeError: module 'os' has no attribute 'run'
+
+In [15]: import subprocess                                                                                              
+
+In [16]: subprocess.check_output('whoami'.split())                                                                      
+Out[16]: b'diana\n'
+
+In [17]: str(subprocess.check_output('whoami'.split()))                                                                 
+Out[17]: "b'diana\\n'"
+
+In [18]: subprocess.check_output('whoami'.split())                                                                      
+Out[18]: b'diana\n'
+
+In [19]: subprocess.check_output('whoami'.split()).encode                                                               
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-19-28e161398fd8> in <module>
+----> 1 subprocess.check_output('whoami'.split()).encode
+
+AttributeError: 'bytes' object has no attribute 'encode'
+
+In [20]: subprocess.check_output('whoami'.split()).decode()                                                             
+Out[20]: 'diana\n'
+
+In [21]: def bash(cmd): 
+    ...:     return subprocess.check_output(cmd.split()).decode() 
+    ...:                                                                                                                
+
+In [22]: bash('pwd')                                                                                                    
+Out[22]: '/Users/diana/Desktop/Python\n'
+
+In [23]: def bash(cmd): 
+    ...:     return subprocess.check_output(cmd.split()).decode().strip() 
+    ...:                                                                                                                
+
+In [24]: bash('pwd')                                                                                                    
+Out[24]: '/Users/diana/Desktop/Python'
+
+In [25]: bash('whoami')                                                                                                 
+Out[25]: 'diana'
+
+In [26]: bash('ls -al')                                                                                                 
+Out[26]: 'total 776\ndrwxr-xr-x  76 diana  staff   2584 Dec 28 12:14 .\ndrwx------+  9 diana  staff    306 Dec 23 12:14 ..\n-rw-r--r--@  1 diana  staff   6148 Nov 17 09:28 .DS_Store\n-rw-r--r--   1 diana  staff     52 Nov 17 11:59 1.1.py\n-rw-r--r--   1 diana  staff     50 Nov 22 21:54 1.10.py\n-rw-r--r--   1 diana  staff     18 Nov 22 22:00 1.11.py\n-rw-r--r--   1 diana  staff     59 Nov 22 22:02 1.12.py\n-rw-r--r--   1 diana  staff    115 Nov 22 22:06 1.13.py\n-rw-r--r--   1 diana  staff    111 Nov 22 22:11 1.14.py\n-rw-r--r--   1 diana  staff     79 Nov 22 22:16 1.15.py\n-rw-r--r--   1 diana  staff     84 Nov 22 22:19 1.16.py\n-rw-r--r--   1 diana  staff    154 Nov 22 22:29 1.17.py\n-rw-r--r--   1 diana  staff    175 Nov 23 10:39 1.18.py\n-rw-r--r--   1 diana  staff    116 Nov 23 10:50 1.19.py\n-rw-r--r--   1 diana  staff     35 Nov 17 12:03 1.2.py\n-rw-r--r--   1 diana  staff    215 Nov 23 11:24 1.20.py\n-rw-r--r--   1 diana  staff    264 Dec  7 08:33 1.21-done.py\n-rw-r--r--   1 diana  staff    324 Dec  7 10:05 1.22.py\n-rw-r--r--   1 diana  staff    414 Dec  7 10:40 1.23.py\n-rw-r--r--   1 diana  staff    156 Dec  7 10:40 1.24.py\n-rw-r--r--   1 diana  staff    385 Dec  7 10:41 1.25.py\n-rw-r--r--   1 diana  staff    281 Dec  7 10:51 1.26.py\n-rw-r--r--   1 diana  staff    253 Dec  7 09:52 1.27.py\n-rw-r--r--   1 diana  staff    590 Dec  7 10:00 1.28.py\n-rw-r--r--   1 diana  staff    264 Dec 21 00:33 1.29-done.py\n-rw-r--r--   1 diana  staff     50 Nov 17 12:07 1.3.py\n-rw-r--r--   1 diana  staff    148 Dec 21 00:41 1.30.py\n-rw-r--r--   1 diana  staff    469 Dec 21 10:32 1.31.py\n-rw-r--r--   1 diana  staff    253 Dec 21 10:34 1.32.py\n-rw-r--r--   1 diana  staff    289 Dec 21 10:35 1.33.py\n-rw-r--r--   1 diana  staff    242 Dec 21 10:44 1.34.py\n-rw-r--r--   1 diana  staff    283 Dec 21 10:45 1.35.py\n-rw-r--r--   1 diana  staff    268 Dec 21 10:50 1.36.py\n-rw-r--r--   1 diana  staff    323 Dec 21 10:59 1.37.py\n-rw-r--r--   1 diana  staff    128 Dec 21 01:44 1.38.py\n-rw-r--r--   1 diana  staff    227 Dec 21 11:31 1.39?.py\n-rw-r--r--   1 diana  staff     82 Nov 22 22:12 1.4.py\n-rw-r--r--   1 diana  staff    235 Dec 21 01:53 1.40?.py\n-rw-r--r--   1 diana  staff    134 Dec 21 11:55 1.41?.py\n-rw-r--r--   1 diana  staff    149 Dec 21 09:03 1.42.py\n-rw-r--r--   1 diana  staff    169 Dec 21 09:06 1.43.py\n-rw-r--r--   1 diana  staff    216 Dec 21 09:21 1.44.py\n-rw-r--r--   1 diana  staff    113 Dec 21 09:24 1.45?.py\n-rw-r--r--   1 diana  staff    139 Dec 21 09:20 1.46?.py\n-rw-r--r--   1 diana  staff    125 Dec 21 09:20 1.47.py\n-rw-r--r--   1 diana  staff    112 Dec 21 09:24 1.48?.py\n-rw-r--r--   1 diana  staff    197 Dec 21 09:35 1.49?.py\n-rw-r--r--   1 diana  staff     61 Nov 22 16:47 1.5.py\n-rw-r--r--   1 diana  staff    259 Dec 21 09:41 1.50.py\n-rw-r--r--   1 diana  staff    468 Dec 28 12:07 1.51.py\n-rw-r--r--   1 diana  staff    126 Dec 28 12:11 1.52.py\n-rw-r--r--   1 diana  staff    131 Dec 28 12:17 1.53.py\n-rw-r--r--   1 diana  staff     98 Dec 28 02:12 1.54.py\n-rw-r--r--   1 diana  staff    135 Dec 28 02:14 1.55.py\n-rw-r--r--   1 diana  staff    169 Dec 28 02:17 1.56.py\n-rw-r--r--   1 diana  staff    153 Dec 28 02:21 1.57.py\n-rw-r--r--   1 diana  staff    132 Dec 28 02:26 1.58.py\n-rw-r--r--   1 diana  staff      0 Dec 28 02:26 1.59.py\n-rw-r--r--   1 diana  staff     87 Nov 22 21:34 1.6.py\n-rw-r--r--   1 diana  staff     82 Nov 22 21:38 1.7.py\n-rw-r--r--   1 diana  staff     98 Nov 22 21:43 1.8.py\n-rw-r--r--   1 diana  staff     97 Nov 22 21:51 1.9.py\n-rw-r--r--   1 diana  staff   2585 Nov 22 16:27 hist1.py\n-rw-r--r--   1 diana  staff    203 Nov  9 10:42 lectia1.py\n-rw-r--r--   1 diana  staff  24732 Dec  7 12:10 lectia2.py\n-rw-r--r--   1 diana  staff  33484 Dec 23 12:15 lectia3.py\n-rwxr-xr-x   1 diana  staff    360 Dec 28 11:08 listaFisiere.py\n-rw-r--r--   1 diana  staff    119 Dec 21 10:42 my_repl.py\n-rw-r--r--   1 diana  staff   2998 Dec 28 11:22 o1\n-rw-r--r--   1 diana  staff     21 Dec 28 11:41 o2\n-rw-r--r--   1 diana  staff      4 Dec 28 12:14 o4\n-rw-r--r--   1 diana  staff     25 Dec 28 12:14 o5\n-rw-r--r--   1 diana  staff    257 Nov 17 10:20 tema1.py\n-rw-r--r--   1 diana  staff     47 Dec 28 12:14 test_input.py\n-rw-r--r--   1 diana  staff     44 Dec 28 12:13 test_input.py~\n-rw-r--r--   1 diana  staff  40746 Dec 23 12:17 ~bash'
+
+In [27]: def bash(cmd): 
+    ...:     return subprocess.check_output(cmd.split()).decode().strip() 
+    ...:  
+
+
+
+
+
+    Last login: Sat Dec 28 11:11:43 on ttys000
+You have new mail.
+Dianas-iMac:Python diana$ pwd
+/Users/diana/Desktop/Python
+Dianas-iMac:Python diana$ list
+listaFisiere.py  listres          
+Dianas-iMac:Python diana$ list
+listaFisiere.py  listres          
+Dianas-iMac:Python diana$ list
+listaFisiere.py  listres          
+Dianas-iMac:Python diana$ list
+listaFisiere.py  listres          
+Dianas-iMac:Python diana$ list
+listaFisiere.py  listres          
+Dianas-iMac:Python diana$ top
+Dianas-iMac:Python diana$ htop
+-bash: htop: command not found
+Dianas-iMac:Python diana$ brew
+Example usage:
+  brew search [TEXT|/REGEX/]
+  brew info [FORMULA...]
+  brew install FORMULA...
+  brew update
+  brew upgrade [FORMULA...]
+  brew uninstall FORMULA...
+  brew list [FORMULA...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA
+
+Contributing:
+  brew create [URL [--no-fetch]]
+  brew edit [FORMULA...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+Dianas-iMac:Python diana$ brew install htop
+hUpdating Homebrew...
+top==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+baidupcs-go         devdash             gnirehtet           mavsdk              powerline-go        texlab
+bingrep             diesel              helm@2              meilisearch         prover9             tio
+blis                docker-slim         hpack               monolith            pympress            trader
+cargo-c             dune                imgproxy            mysql-client@5.7    python@3.8          uni
+cartridge-cli       ensmallen           instalooter         nebula              rav1e               vale
+ccfits              fastlane            kind                nift                run                 virustotal-cli
+cf-tool             ffuf                krew                node-sass           samurai             wordgrinder
+corral              fileicon            libffcall           node@12             sentencepiece       xlearn
+crc                 findent             liblouis            okteto              skymaker
+cups                flint               libserdes           onnxruntime         sniffglue
+db-vcs              gimme-aws-creds     libtorch            php@7.3             talisman
+detekt              git-remote-gcrypt   liquidctl           postgresql@11       terrahelp
+==> Updated Formulae
+git ✔                         freeciv                       libxlsxwriter                 radare2
+pcre2 ✔                       freeradius-server             libxml2                       rancher-cli
+python ✔                      freerdp                       libxslt                       rargs
+abcl                          frei0r                        libzdb                        rbspy
+abcm2ps                       fribidi                       lightgbm                      rclone
+abcmidi                       frotz                         lilv                          re2
+abyss                         frpc                          linkerd                       re2c
+ace                           frps                          lmod                          rebar3
+activemq                      frugal                        logstash                      recon-ng
+alexjs                        fs-uae                        logtalk                       redis
+aliyun-cli                    fselect                       makensis                      remarshal
+allure                        fuseki                        mame                          remctl
+alure                         futhark                       manticoresearch               remind
+amazon-ecs-cli                fwup                          mapserver                     reminiscence
+ammonite-repl                 fx                            mariadb                       repo
+ampl-mp                       fzf                           mariadb-connector-c           restic
+angular-cli                   gatsby-cli                    mariadb-connector-odbc        rethinkdb
+ansible                       gauche                        mariadb@10.1                  rex
+ansible-lint                  gcc                           mariadb@10.2                  riemann
+ansifilter                    gcc@6                         mariadb@10.3                  rke
+ansiweather                   gcc@7                         math-comp                     rom-tools
+antlr4-cpp-runtime            gcc@8                         maven                         root
+apache-arrow                  gdal                          maxwell                       rpm
+apache-arrow-glib             gedit                         mdbook                        rsnapshot
+apktool                       geogram                       memcached                     ruby-build
+appscale-tools                geographiclib                 menhir                        rust
+arangodb                      get_iplayer                   mercurial                     rustup-init
+arduino-cli                   ghq                           mesa                          salt
+arm-linux-gnueabihf-binutils  giflib                        mesos                         samtools
+armadillo                     gifski                        metricbeat                    sbcl
+arp-scan                      git-annex                     micronaut                     sbt
+asciidoctorj                  git-archive-all               minetest                      scalapack
+asdf                          git-cola                      mingw-w64                     scamper
+asio                          git-delta                     minica                        scc
+ask-cli                       git-extras                    minikube                      sceptre
+aspectj                       git-plus                      minizip2                      scipy
+assimp                        git-revise                    mitmproxy                     scons
+astrometry-net                gitfs                         mkcert                        scrcpy
+atlantis                      gitlab-runner                 mkvtomp4                      screenfetch
+audacious                     gitleaks                      mkvtoolnix                    sdb
+auditbeat                     gitmoji                       mlt                           serverless
+avro-cpp                      gitversion                    mockserver                    sfst
+aws-cdk                       gjs                           monero                        shairport-sync
+aws-elasticbeanstalk          gleam                         monetdb                       shfmt
+aws-google-auth               glew                          mongo-c-driver                shogun
+aws-okta                      glib                          mono                          simple-scan
+aws-sdk-cpp                   glib-networking               mono-libgdiplus               simutrans
+awscli                        glooctl                       mosh                          singular
+awsume                        gloox                         mosquitto                     sip
+azure-cli                     glslang                       mpich                         skaffold
+babel                         gmic                          msgpack                       skafos
+babeld                        gmime                         mutt                          skopeo
+badtouch                      gmsh                          mydumper                      smali
+balena-cli                    gnome-autoar                  mysql                         sn0int
+ballerina                     gnunet                        mysql++                       snakemake
+basex                         gnupg                         mysql-client                  snapcraft
+bash-completion@2             gnuplot                       mysql-connector-c++           soci
+bashdb                        gnuradio                      mysql-connector-c++@1.1       solr
+batik                         gnutls                        mytop                         sonarqube
+bazel                         go                            n                             sonobuoy
+bazelisk                      go@1.12                       nano                          sops
+bcftools                      gocr                          nats-server                   sord
+bedtools                      godep                         navi                          source-highlight
+bee                           golang-migrate                ncmpc                         spades
+bento4                        gomplate                      ncmpcpp                       sparkey
+berglas                       goofys                        nco                           sphinx-doc
+bibutils                      google-authenticator-libpam   ncview                        spin
+binaryen                      googler                       neo4j                         sqlcipher
+bind                          goreleaser                    neomutt                       sqlmap
+bindfs                        goreman                       netdata                       sratom
+binutils                      gource                        nethack                       sratoolkit
+bison                         gradle                        netlify-cli                   srt
+bit                           grafana                       netpbm                        ssh-audit
+bitcoin                       grakn                         newlisp                       ssh-copy-id
+bitrise                       graph-tool                    newman                        ssh-vault
+bitwise                       groonga                       newsboat                      ssldump
+blastem                       grpc                          nghttp2                       sslyze
+bluepill                      gst-editing-services          nginx                         sstp-client
+bnd                           gst-libav                     ngt                           stanford-corenlp
+boost                         gst-plugins-bad               nifi-registry                 starship
+boost-bcp                     gst-plugins-base              nim                           statik
+boost-build                   gst-plugins-good              nlohmann-json                 stellar-core
+boost-mpi                     gst-plugins-ugly              nnn                           stolon
+boost-python                  gst-python                    node                          streamlink
+boost-python3                 gst-rtsp-server               node-build                    stress-ng
+borgmatic                     gst-validate                  node@10                       strongswan
+breezy                        gstreamer                     node@8                        stunnel
+brew-php-switcher             gtk-mac-integration           node_exporter                 subliminal
+broot                         gts                           nomad                         subversion
+buildkit                      gwyddion                      norm                          suil
+bullet                        h3                            noti                          sundials
+bumpversion                   handbrake                     notmuch                       suricata
+bundletool                    hapi-fhir-cli                 now-cli                       swagger-codegen
+bup                           haproxy                       nsd                           swagger-codegen@2
+byacc                         haxe                          nspr                          swiftformat
+byteman                       hcloud                        nss                           swiftlint
+bzt                           helmfile                      ntopng                        sxiv
+c-blosc                       helmsman                      numpy                         syncthing
+cabal-install                 highlight                     numpy@1.16                    synscan
+caddy                         hledger                       nushell                       sysbench
+caf                           hlint                         nvm                           talloc
+caffe                         homeassistant-cli             ocaml-num                     taskell
+calceph                       howdoi                        ocrmypdf                      tbb
+calicoctl                     hstr                          octave                        tcsh
+cargo-completion              htslib                        octomap                       tectonic
+carla                         hugo                          omega                         tektoncd-cli
+cash-cli                      hydra                         onefetch                      telegraf
+cassandra@2.1                 hyperfine                     oniguruma                     teleport
+cassandra@2.2                 i2p                           onioncat                      temporal_tables
+catch2                        icecream                      onscripter                    tepl
+ccache                        imagemagick                   opa                           termshark
+ccls                          imagemagick@6                 open-scene-graph              termtosvg
+certbot                       imapsync                      open-zwave                    terraform
+cfn-lint                      imlib2                        openal-soft                   terraform-docs
+cfssl                         include-what-you-use          openapi-generator             terraformer
+chamber                       infer                         opencascade                   terragrunt
+charm-tools                   inlets                        opencv@2                      terrahub
+cheat                         innotop                       openfortivpn                  tesseract
+checkstyle                    ios-deploy                    openimageio                   tflint
+chromaprint                   ios-webkit-debug-proxy        operator-sdk                  thrift
+cimg                          iozone                        orc                           thrift@0.9
+citus                         ipmiutil                      orc-tools                     tig
+ckan                          ipopt                         ortp                          tiger-vnc
+clac                          ispc                          osc                           tile38
+clamav                        istioctl                      osm2pgsql                     timewarrior
+cling                         ivy                           osmium-tool                   tintin
+cln                           jadx                          osquery                       tmate
+clojure                       jailkit                       osslsigncode                  tmux
+cmake                         janet                         overmind                      tmuxinator
+cminpack                      javacc                        pachi                         tnef
+cointop                       jboss-forge                   packer                        todoman
+comby                         jenkins                       paket                         tokei
+conan                         jenkins-lts                   pandoc                        tomcat
+console_bridge                jetty                         pandoc-citeproc               tomcat@7
+consul                        jfrog-cli-go                  pandoc-crossref               tomcat@8
+consul-template               jhipster                      paps                          tomee-plus
+contentful-cli                jmeter                        parallel                      tomee-webprofile
+convox                        jo                            partio                        topgrade
+cookiecutter                  joplin                        passenger                     tor
+coq                           juju                          pcapplusplus                  tox
+cppcheck                      jupyterlab                    pdf-redact-tools              traefik
+cppunit                       just                          pdf2htmlex                    traefik@1
+crc32c                        k6                            pdftoipe                      transmission-cli
+crystal                       kakoune                       pdns                          triton
+cstore_fdw                    kallisto                      pdnsrec                       ttyd
+csvq                          kepubify                      peco                          tunnel
+cucumber-cpp                  khard                         percona-server                twine-pypi
+dafny                         kibana                        percona-toolkit               typescript
+darksky-weather               kitchen-sync                  percona-xtrabackup            um
+dartsim                       kompose                       perl-build                    unbound
+dashing                       kops                          petsc                         uncrustify
+dav1d                         kotlin                        petsc-complex                 ungit
+dcos-cli                      krb5                          pgbouncer                     unrar
+debianutils                   ktlint                        pgcli                         urbit
+deno                          kube-aws                      pgloader                      urh
+dependency-check              kubebuilder                   pgpool-ii                     uwsgi
+deployer                      kubecfg                       pgroonga                      v8
+devspace                      kubectx                       pgrouting                     vala
+dhall                         kubernetes-cli                phoronix-test-suite           vamp-plugin-sdk
+dhall-bash                    kubeseal                      php                           vault
+dhall-json                    kustomize                     php-code-sniffer              verilator
+di                            kyma-cli                      php-cs-fixer                  vert.x
+diamond                       landscaper                    php@7.2                       vfuse
+diff-pdf                      laszip                        phpmyadmin                    vice
+diffr                         launch_socket_server          phpstan                       vim
+dive                          lazydocker                    phpunit                       vips
+django-completion             lazygit                       pianobar                      virgil
+dlib                          ldc                           pianod                        virtuoso
+dmd                           ledger                        picard-tools                  vit
+dnscrypt-proxy                lego                          pioneer                       vte3
+dnstwist                      leptonica                     plantuml                      vtk
+dnsviz                        lerna                         pmd                           vulkan-headers
+docfx                         lgogdownloader                pnpm                          wal2json
+docker                        libbitcoin                    ponyc                         watchexec
+docker-completion             libbitcoin-client             poppler                       wavpack
+docker-compose                libbitcoin-explorer           postgis                       wdc
+docker-compose-completion     libbitcoin-protocol           postgresql                    weaver
+doctl                         libbitcoin-server             postgresql@10                 webpack
+doitlive                      libcapn                       postgresql@9.4                wget
+drafter                       libcoap                       postgresql@9.5                whois
+duck                          libde265                      postgresql@9.6                widelands
+duplicity                     libebml                       prestodb                      wiiuse
+dvc                           libedit                       prestosql                     wiki
+dxpy                          libepoxy                      prettier                      wildfly-as
+easyengine                    libev                         procs                         winetricks
+eccodes                       libevhtp                      proftpd                       wireguard-tools
+elasticsearch                 libftdi                       proj                          wireshark
+elektra                       libgit2                       protobuf                      wolfssl
+elm                           libgr                         protobuf-c                    wp-cli
+embulk                        libgraphqlparser              pspg                          wtf
+ephemeralpg                   libgusb                       psqlodbc                      wtfutil
+erlang                        libheif                       pugixml                       wxmaxima
+erlang@20                     libical                       pulumi                        wxpython
+eslint                        libidn2                       pumba                         xa
+ethereum                      libimobiledevice              purescript                    xapian
+euler-py                      libmagic                      pushpin                       xcodegen
+evince                        libming                       py2cairo                      xctool
+exploitdb                     libosinfo                     pyinvoke                      xmake
+eye-d3                        libosmium                     pylint                        xmrig
+faas-cli                      libphonenumber                pypy                          xplanet
+fabio                         libplist                      pypy3                         xrootd
+fauna-shell                   libpq                         pyqt                          xvid
+faust                         libpqxx                       python@2                      yadm
+fceux                         libpulsar                     qalculate-gtk                 yaml-cpp
+ffsend                        libqalculate                  qbs                           yamllint
+fibjs                         librdkafka                    qemu                          yapf
+file-formula                  libre                         qjackctl                      yarn
+file-roller                   librealsense                  qmmp                          yelp-tools
+fio                           libressl                      qpdf                          youtube-dl
+firebase-cli                  librsvg                       qpid-proton                   z3
+flow                          libsixel                      qscintilla2                   zabbix
+fluxctl                       libsodium                     qstat                         zbackup
+fmt                           libsoup                       qt                            zint
+folly                         libssh                        qtkeychain                    zopfli
+fontforge                     libtasn1                      quantlib                      zrepl
+fonttools                     libtorrent-rasterbar          r                             zstd
+fop                           libtrace                      rabbitmq
+fork-cleaner                  libvpx                        rabbitmq-c
+==> Renamed Formulae
+bro -> zeek                                                  kubernetes-helm -> helm
+i386-elf-binutils -> x86_64-elf-binutils                     usbmuxd -> libusbmuxd
+i386-elf-gcc -> x86_64-elf-gcc
+==> Deleted Formulae
+aap                 bubbros             docker-cloud        headphones          nicotine-plus       shocco
+ansible@1.9         bzr-fastimport      erlang@17           ino                 openssl             sshconfigfs
+ansible@2.0         closure-linter      erlang@19           iron-functions      php@7.1             tnote
+apm-server          cockroach           euca2ools           llvm@4              pound               vim@7.4
+archivemail         curlish             gost                logentries          raine               warp
+boost-python@1.59   cvs2svn             grib-api            muttils             riak                wine
+borg                ddar                hana                mysql-connector-c   ruby@2.0
+
+Warning: You are using macOS 10.11.
+We (and Apple) do not provide support for this old version.
+You will encounter build failures with some formulae.
+Please create pull requests instead of asking for help on Homebrew's GitHub,
+Discourse, Twitter or IRC. You are responsible for resolving any issues you
+experience while you are running this old version.
+
+==> Installing dependencies for htop: ncurses
+==> Installing htop dependency: ncurses
+==> Downloading https://homebrew.bintray.com/bottles/ncurses-6.1.el_capitan.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/5e/5e3d98b211de89b9c750d627bdd66e42bf1fa77ad1528e4db8a4de33ed419c28?__gd
+######################################################################## 100.0%
+==> Pouring ncurses-6.1.el_capitan.bottle.tar.gz
+==> Caveats
+ncurses is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ncurses first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ncurses/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find ncurses you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+  export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+
+For pkg-config to find ncurses you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/ncurses/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/ncurses/6.1: 3,869 files, 8.4MB
+==> Installing htop
+==> Downloading https://hisham.hm/htop/releases/2.2.0/htop-2.2.0.tar.gz
+######################################################################## 100.0%
+==> ./configure --prefix=/usr/local/Cellar/htop/2.2.0_1
+==> make install
+==> Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+==> Summary
+🍺  /usr/local/Cellar/htop/2.2.0_1: 11 files, 192.0KB, built in 39 seconds
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /Users/diana/Library/Caches/Homebrew/git--2.24.0.tar.xz... (5.5MB)
+Removing: /Users/diana/Library/Caches/Homebrew/git--html--2.24.0.tar.xz... (1.2MB)
+Removing: /Users/diana/Library/Caches/Homebrew/git--man--2.24.0.tar.xz... (443.0KB)
+Removing: /Users/diana/Library/Caches/Homebrew/pcre2--10.33.tar.bz2... (1.6MB)
+Removing: /Users/diana/Library/Caches/Homebrew/python--3.7.5.tar.xz... (16.4MB)
+Removing: /Users/diana/Library/Caches/Homebrew/python--setuptools--41.6.0.zip... (832.6KB)
+Removing: /Users/diana/Library/Caches/Homebrew/java_cache... (287B)
+Removing: /Users/diana/Library/Logs/Homebrew/gdbm... (6 files, 267.6KB)
+Removing: /Users/diana/Library/Logs/Homebrew/gettext... (7 files, 3.3MB)
+Removing: /Users/diana/Library/Logs/Homebrew/git... (10 files, 1MB)
+Removing: /Users/diana/Library/Logs/Homebrew/joe... (68B)
+Removing: /Users/diana/Library/Logs/Homebrew/openssl@1.1... (7 files, 3.2MB)
+Removing: /Users/diana/Library/Logs/Homebrew/pcre2... (7 files, 244.8KB)
+Removing: /Users/diana/Library/Logs/Homebrew/pkg-config... (8 files, 423.4KB)
+Removing: /Users/diana/Library/Logs/Homebrew/python... (12 files, 3MB)
+Removing: /Users/diana/Library/Logs/Homebrew/readline... (6 files, 240.8KB)
+Removing: /Users/diana/Library/Logs/Homebrew/sqlite... (6 files, 147.3KB)
+Removing: /Users/diana/Library/Logs/Homebrew/xz... (68B)
+Pruned 0 symbolic links and 4 directories from /usr/local
+==> Caveats
+==> ncurses
+ncurses is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ncurses first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ncurses/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find ncurses you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+  export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+
+For pkg-config to find ncurses you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/ncurses/lib/pkgconfig"
+
+==> htop
+htop requires root privileges to correctly display all running processes,
+so you will need to run `sudo htop`.
+You should be certain that you trust any software you grant root privileges.
+Dianas-iMac:Python diana$ htop
+Dianas-iMac:Python diana$ htop
+Dianas-iMac:Python diana$ whoami
+diana
+Dianas-iMac:Python diana$ 

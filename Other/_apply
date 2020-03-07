@@ -1,0 +1,15 @@
+#!/Library/Frameworks/Python.framework/Versions/3.7/bin/python3
+
+import sys, os
+
+if len(sys.argv) == 1:
+    print('Error: need at least one argument')
+    sys.exit()
+
+cmd = sys.argv[1]
+for line in sys.stdin:
+    line = line.strip()
+    os.system(f'{cmd} "{line}"')
+
+
+

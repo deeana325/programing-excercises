@@ -1,0 +1,5 @@
+i= input('scrie lista de numere aici: ')
+l= i.split(', ')
+t= tuple(l)
+print(l)
+print(t)

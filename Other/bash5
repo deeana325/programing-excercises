@@ -1,0 +1,1020 @@
+  72  -rw-r--r--    1 diana  staff      82 Nov 22 21:38 1.7.py
+    73  -rw-r--r--    1 diana  staff     201 Jan 11 09:44 1.70?.py
+    74  -rw-r--r--    1 diana  staff     105 Jan 11 09:49 1.72.py
+    75  -rw-r--r--    1 diana  staff     195 Jan 11 09:56 1.73.py
+    76  -rw-r--r--    1 diana  staff      87 Jan 11 09:59 1.74.py
+    77  -rw-r--r--    1 diana  staff      96 Jan 26 10:00 1.75---.py
+    78  -rw-r--r--    1 diana  staff     120 Feb  1 10:14 1.76.2.py
+    79  -rw-r--r--    1 diana  staff     344 Feb  1 10:38 1.76.3.py
+    80  -rw-r--r--    1 diana  staff     272 Feb  1 10:08 1.76.py
+    81  -rw-r--r--    1 diana  staff     260 Jan 26 10:04 1.77.py
+    82  -rw-r--r--    1 diana  staff     248 Jan 26 10:18 1.78--?.py
+    83  -rw-r--r--    1 diana  staff     138 Jan 26 10:25 1.79.py
+    84  -rw-r--r--    1 diana  staff      98 Nov 22 21:43 1.8.py
+    85  -rw-r--r--    1 diana  staff     123 Jan 26 10:33 1.80.py
+    86  -rw-r--r--    1 diana  staff     152 Jan 26 10:45 1.81.py
+    87  -rw-r--r--    1 diana  staff     139 Jan 26 10:48 1.82.py
+    88  -rw-r--r--    1 diana  staff     347 Jan 26 10:54 1.83.py
+    89  -rw-r--r--    1 diana  staff     376 Jan 26 11:04 1.84.py
+    90  -rw-r--r--    1 diana  staff     276 Jan 26 12:30 1.85.py
+    91  -rw-r--r--    1 diana  staff     130 Feb  1 00:30 1.86.py
+    92  -rw-r--r--    1 diana  staff     156 Feb  1 00:36 1.87--?.py
+    93  -rw-r--r--    1 diana  staff     133 Feb  1 00:42 1.88.py
+    94  -rw-r--r--    1 diana  staff     274 Feb  1 00:45 1.89.py
+    95  -rw-r--r--    1 diana  staff      97 Nov 22 21:51 1.9.py
+    96  -rw-r--r--    1 diana  staff     175 Feb  1 01:00 1.90--?.py
+    97  -rw-r--r--    1 diana  staff  109329 Dec 29 00:16 bash3
+    98  -rw-r--r--    1 diana  staff    2585 Nov 22 16:27 hist1.py
+    99  -rw-r--r--    1 diana  staff     203 Nov  9 10:42 lectia1.py
+   100  -rw-r--r--    1 diana  staff   24732 Dec  7 12:10 lectia2.py
+   101  -rw-r--r--    1 diana  staff   33484 Dec 23 12:15 lectia3.py
+   102  -rw-r--r--    1 diana  staff    1453 Dec 29 00:17 lectia4.py
+   103  -rwxr-xr-x    1 diana  staff     360 Dec 28 11:08 listaFisiere.py
+   104  -rw-r--r--    1 diana  staff     119 Dec 21 10:42 my_repl.py
+   105  -rw-r--r--    1 diana  staff    2998 Dec 28 11:22 o1
+   106  -rw-r--r--    1 diana  staff      21 Dec 28 11:41 o2
+   107  -rw-r--r--    1 diana  staff       4 Dec 28 12:14 o4
+   108  -rw-r--r--    1 diana  staff      25 Dec 28 12:14 o5
+   109  -rw-r--r--    1 diana  staff     257 Nov 17 10:20 tema1.py
+   110  -rw-r--r--    1 diana  staff      47 Dec 28 12:14 test_input.py
+   111  -rw-r--r--    1 diana  staff      44 Dec 28 12:13 test_input.py~
+   112  -rw-r--r--    1 diana  staff   40746 Dec 23 12:17 ~bash
+|10:45:14|diana@Dianas-iMac:[Python]> ls -al | wc -l
+     112
+|10:45:38|diana@Dianas-iMac:[Python]> ls | sort
+1.1.py
+1.10.py
+1.11.py
+1.12.py
+1.13.py
+1.14.py
+1.15.py
+1.16.py
+1.17.py
+1.18.py
+1.19.py
+1.2.py
+1.20.py
+1.21---.py
+1.22.py
+1.23.py
+1.24.py
+1.25.py
+1.26.py
+1.27.py
+1.28.py
+1.29---.py
+1.3.py
+1.30.py
+1.31.py
+1.32.py
+1.33.py
+1.34.py
+1.35.py
+1.36.py
+1.37---.py
+1.38.py
+1.39?.py
+1.4.py
+1.40?.py
+1.41?.py
+1.42.py
+1.43.py
+1.44.py
+1.45?.py
+1.46?.py
+1.47.py
+1.48?.py
+1.49?.py
+1.5.py
+1.50.py
+1.51.py
+1.52.py
+1.53.py
+1.54.py
+1.55.py
+1.56.py
+1.57.py
+1.58.py
+1.59---*.py
+1.6.py
+1.60.py
+1.61.py
+1.62.py
+1.63.py
+1.64?-nu merge.py
+1.65.py
+1.66.py
+1.67.py
+1.68.py
+1.69.py
+1.7.py
+1.70?.py
+1.72.py
+1.73.py
+1.74.py
+1.75---.py
+1.76.2.py
+1.76.3.py
+1.76.py
+1.77.py
+1.78--?.py
+1.79.py
+1.8.py
+1.80.py
+1.81.py
+1.82.py
+1.83.py
+1.84.py
+1.85.py
+1.86.py
+1.87--?.py
+1.88.py
+1.89.py
+1.9.py
+1.90--?.py
+bash3
+hist1.py
+lectia1.py
+lectia2.py
+lectia3.py
+lectia4.py
+listaFisiere.py
+my_repl.py
+o1
+o2
+o4
+o5
+tema1.py
+test_input.py
+test_input.py~
+~bash
+|10:45:56|diana@Dianas-iMac:[Python]> ls | sort -r
+~bash
+test_input.py~
+test_input.py
+tema1.py
+o5
+o4
+o2
+o1
+my_repl.py
+listaFisiere.py
+lectia4.py
+lectia3.py
+lectia2.py
+lectia1.py
+hist1.py
+bash3
+1.90--?.py
+1.9.py
+1.89.py
+1.88.py
+1.87--?.py
+1.86.py
+1.85.py
+1.84.py
+1.83.py
+1.82.py
+1.81.py
+1.80.py
+1.8.py
+1.79.py
+1.78--?.py
+1.77.py
+1.76.py
+1.76.3.py
+1.76.2.py
+1.75---.py
+1.74.py
+1.73.py
+1.72.py
+1.70?.py
+1.7.py
+1.69.py
+1.68.py
+1.67.py
+1.66.py
+1.65.py
+1.64?-nu merge.py
+1.63.py
+1.62.py
+1.61.py
+1.60.py
+1.6.py
+1.59---*.py
+1.58.py
+1.57.py
+1.56.py
+1.55.py
+1.54.py
+1.53.py
+1.52.py
+1.51.py
+1.50.py
+1.5.py
+1.49?.py
+1.48?.py
+1.47.py
+1.46?.py
+1.45?.py
+1.44.py
+1.43.py
+1.42.py
+1.41?.py
+1.40?.py
+1.4.py
+1.39?.py
+1.38.py
+1.37---.py
+1.36.py
+1.35.py
+1.34.py
+1.33.py
+1.32.py
+1.31.py
+1.30.py
+1.3.py
+1.29---.py
+1.28.py
+1.27.py
+1.26.py
+1.25.py
+1.24.py
+1.23.py
+1.22.py
+1.21---.py
+1.20.py
+1.2.py
+1.19.py
+1.18.py
+1.17.py
+1.16.py
+1.15.py
+1.14.py
+1.13.py
+1.12.py
+1.11.py
+1.10.py
+1.1.py
+|10:46:35|diana@Dianas-iMac:[Python]> ls
+1.1.py                  1.3.py                  1.5.py                  1.7.py                  1.89.py
+1.10.py                 1.30.py                 1.50.py                 1.70?.py                1.9.py
+1.11.py                 1.31.py                 1.51.py                 1.72.py                 1.90--?.py
+1.12.py                 1.32.py                 1.52.py                 1.73.py                 bash3
+1.13.py                 1.33.py                 1.53.py                 1.74.py                 hist1.py
+1.14.py                 1.34.py                 1.54.py                 1.75---.py              lectia1.py
+1.15.py                 1.35.py                 1.55.py                 1.76.2.py               lectia2.py
+1.16.py                 1.36.py                 1.56.py                 1.76.3.py               lectia3.py
+1.17.py                 1.37---.py              1.57.py                 1.76.py                 lectia4.py
+1.18.py                 1.38.py                 1.58.py                 1.77.py                 listaFisiere.py
+1.19.py                 1.39?.py                1.59---*.py             1.78--?.py              my_repl.py
+1.2.py                  1.4.py                  1.6.py                  1.79.py                 o1
+1.20.py                 1.40?.py                1.60.py                 1.8.py                  o2
+1.21---.py              1.41?.py                1.61.py                 1.80.py                 o4
+1.22.py                 1.42.py                 1.62.py                 1.81.py                 o5
+1.23.py                 1.43.py                 1.63.py                 1.82.py                 tema1.py
+1.24.py                 1.44.py                 1.64?-nu merge.py       1.83.py                 test_input.py
+1.25.py                 1.45?.py                1.65.py                 1.84.py                 test_input.py~
+1.26.py                 1.46?.py                1.66.py                 1.85.py                 ~bash
+1.27.py                 1.47.py                 1.67.py                 1.86.py
+1.28.py                 1.48?.py                1.68.py                 1.87--?.py
+1.29---.py              1.49?.py                1.69.py                 1.88.py
+|10:46:58|diana@Dianas-iMac:[Python]> ls | cut 1-2
+usage: cut -b list [-n] [file ...]
+       cut -c list [file ...]
+       cut -f list [-s] [-d delim] [file ...]
+|10:47:22|diana@Dianas-iMac:[Python]> ls | cut -c 1-2
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+1.
+ba
+hi
+le
+le
+le
+le
+li
+my
+o1
+o2
+o4
+o5
+te
+te
+te
+~b
+|10:47:27|diana@Dianas-iMac:[Python]> ls | cut -c 1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+b
+h
+l
+l
+l
+l
+l
+m
+o
+o
+o
+o
+t
+t
+t
+~
+|10:47:33|diana@Dianas-iMac:[Python]> ls | cut -c 1 | sort
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+b
+h
+l
+l
+l
+l
+l
+m
+o
+o
+o
+o
+t
+t
+t
+~
+|10:47:44|diana@Dianas-iMac:[Python]> ls | cut -c 1 | sort | uniq -c
+  91 1
+   1 b
+   1 h
+   5 l
+   1 m
+   4 o
+   3 t
+   1 ~
+|10:47:54|diana@Dianas-iMac:[Python]> ls | cut -c 1 | sort | uniq -c | sort -n -r
+  91 1
+   5 l
+   4 o
+   3 t
+   1 ~
+   1 m
+   1 h
+   1 b
+|10:48:10|diana@Dianas-iMac:[Python]> ls | cut -c 1,2 | sort | uniq -c | sort -n -r
+  91 1.
+   4 le
+   3 te
+   1 ~b
+   1 o5
+   1 o4
+   1 o2
+   1 o1
+   1 my
+   1 li
+   1 hi
+   1 ba
+|10:48:26|diana@Dianas-iMac:[Python]> ls | cut -c 1,2 | sort | uniq -c | sort -n -r
+  91 1.
+   4 le
+   3 te
+   1 ~b
+   1 o5
+   1 o4
+   1 o2
+   1 o1
+   1 my
+   1 li
+   1 hi
+   1 ba
+|10:56:30|diana@Dianas-iMac:[Python]> cat 1.76.3.py
+# Write a program that will accept a path and list the files like ls.
+
+import glob, sys, os
+
+def myls(path):
+    print('\n'.join(glob.glob(path)))
+
+# print('\n'.join(glob.glob('../Books/*.pdf')))
+if len(sys.argv) > 1:
+    myls(sys.argv[1])
+    # print()
+    # print(sys.argv)
+else:
+    # myls(os.getcwd() + '/*')    
+    myls('../'*2 + '*')    
+
+'''
+
+# ls | cut -c 1,2 | sort | uniq -c | sort -n -r
+
+x = ls
+x = cut -c 1,2 (x)
+x = sort (x) 
+x = uniq -c (x)
+x = sort -n -t (x)
+print(x)
+
+'''|10:57:00|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2 -d ' '
+Write
+
+glob,
+
+myls(path):
+
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv)
+
+
+
+else:
+
+
+
+'''
+
+ls
+
+=
+=
+=
+=
+=
+print(x)
+
+'''|10:57:56|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2- -d ' '
+Write a program that will accept a path and list the files like ls.
+
+glob, sys, os
+
+myls(path):
+   print('\n'.join(glob.glob(path)))
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv) > 1:
+   myls(sys.argv[1])
+   # print()
+   # print(sys.argv)
+else:
+   # myls(os.getcwd() + '/*')    
+   myls('../'*2 + '*')    
+
+'''
+
+ls | cut -c 1,2 | sort | uniq -c | sort -n -r
+
+= ls
+= cut -c 1,2 (x)
+= sort (x) 
+= uniq -c (x)
+= sort -n -t (x)
+print(x)
+
+'''|10:58:30|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 3- -d ' '
+a program that will accept a path and list the files like ls.
+
+sys, os
+
+
+  print('\n'.join(glob.glob(path)))
+
+
+> 1:
+  myls(sys.argv[1])
+  # print()
+  # print(sys.argv)
+else:
+  # myls(os.getcwd() + '/*')    
+  myls('../'*2 + '*')    
+
+'''
+
+| cut -c 1,2 | sort | uniq -c | sort -n -r
+
+ls
+cut -c 1,2 (x)
+sort (x) 
+uniq -c (x)
+sort -n -t (x)
+print(x)
+
+'''|10:58:33|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 3-4 -d ' '
+a program
+
+sys, os
+
+
+ 
+
+
+> 1:
+ 
+ 
+ 
+else:
+ 
+ 
+
+'''
+
+| cut
+
+ls
+cut -c
+sort (x)
+uniq -c
+sort -n
+print(x)
+
+'''|10:58:36|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 3,4 -d ' '
+a program
+
+sys, os
+
+
+ 
+
+
+> 1:
+ 
+ 
+ 
+else:
+ 
+ 
+
+'''
+
+| cut
+
+ls
+cut -c
+sort (x)
+uniq -c
+sort -n
+print(x)
+
+'''|10:58:41|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2-4 -d ' '
+Write a program
+
+glob, sys, os
+
+myls(path):
+  
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv) > 1:
+  
+  
+  
+else:
+  
+  
+
+'''
+
+ls | cut
+
+= ls
+= cut -c
+= sort (x)
+= uniq -c
+= sort -n
+print(x)
+
+'''|10:58:46|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2-3,5 -d ' '
+Write a that
+
+glob, sys,
+
+myls(path):
+  print('\n'.join(glob.glob(path)))
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv) >
+  myls(sys.argv[1])
+  #
+  #
+else:
+  #
+  myls('../'*2
+
+'''
+
+ls | -c
+
+= ls
+= cut 1,2
+= sort 
+= uniq (x)
+= sort -t
+print(x)
+
+'''|10:58:57|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' '
+Write
+
+glob,
+
+myls(path):
+
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv)
+
+
+
+else:
+
+
+
+'''
+
+ls
+
+=
+=
+=
+=
+=
+print(x)
+
+'''|10:59:19|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' | sort 
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+'''
+=
+=
+=
+=
+=
+Write
+else:
+glob,
+len(sys.argv)
+ls
+myls(path):
+print('\n'.join(glob.glob('../Books/*.pdf')))
+print(x)
+|10:59:25|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' | sort | uniq -c
+  13 
+   2 '''
+   5 =
+   1 Write
+   1 else:
+   1 glob,
+   1 len(sys.argv)
+   1 ls
+   1 myls(path):
+   1 print('\n'.join(glob.glob('../Books/*.pdf')))
+   1 print(x)
+|10:59:35|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' | sort | uniq 
+
+'''
+=
+Write
+else:
+glob,
+len(sys.argv)
+ls
+myls(path):
+print('\n'.join(glob.glob('../Books/*.pdf')))
+print(x)
+|10:59:40|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' | uniq 
+Write
+
+glob,
+
+myls(path):
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv)
+
+else:
+
+'''
+
+ls
+
+=
+print(x)
+
+'''
+|11:00:07|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' 
+Write
+
+glob,
+
+myls(path):
+
+
+print('\n'.join(glob.glob('../Books/*.pdf')))
+len(sys.argv)
+
+
+
+else:
+
+
+
+'''
+
+ls
+
+=
+=
+=
+=
+=
+print(x)
+
+'''|11:00:15|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' | sort | uniq 
+
+'''
+=
+Write
+else:
+glob,
+len(sys.argv)
+ls
+myls(path):
+print('\n'.join(glob.glob('../Books/*.pdf')))
+print(x)
+|11:00:21|diana@Dianas-iMac:[Python]> cat 1.76.3.py | cut -f 2  -d ' ' | sort | uniq 
