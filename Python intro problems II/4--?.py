@@ -1,8 +1,8 @@
 # 4. Write a Python program to find unique triplets whose three elements gives the
 #  sum of zero from an array of n integers.
 
-sample = [1, -1, 5, 3, 0, 83, -83, 2, -5, 4, 52, 1, 35, 4, 4, -8]
-# sample = [1, -1, 0, 1]
+# sample = [1, -1, 5, 3, 0, 83, -83, 2, -5, 4, 52, 1, 35, 4, 4, -8]
+sample = [1, -1, 0, 1]
 
 
 # def triplets_sum_0(solution:list, triplet:tuple, i):
