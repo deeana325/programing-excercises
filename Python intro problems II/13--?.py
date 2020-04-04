@@ -12,3 +12,7 @@ string_maps = {
 "9": "z"
 }
 
+
+def combinations():
+    for i in range(1,9):
+        if string_maps[i]
