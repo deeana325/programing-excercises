@@ -3,16 +3,16 @@ import requests
 
 url = 'https://www.tocilar.ro/sitemaps/referate2.txt'
 
-text = requests.get(url)
-text = text.content.decode()
 
 def crawl(url, n):
+    resp = requests.get(url)
+    text = resp.content.decode()
     if n == 0:
         return
-    for word in text.split(' '):
-        if 'https://' in word:
-            print(n, word)
-            crawl(word, n-1)
+    for url in text.split('\n'):
+        if 'https://' == url[:8] or 'http://' == url[:7]:
+            print(n, url)
+            crawl(url, n-1)
 
 crawl(url, 2)
 
