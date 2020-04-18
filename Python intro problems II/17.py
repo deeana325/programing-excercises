@@ -11,4 +11,5 @@ def strobogrammatic_or_not(x):
     vect_x = list(str(x))
     if len(vect_x) % 2 == 0:
         
+    
     else:
