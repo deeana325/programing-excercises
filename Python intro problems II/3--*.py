@@ -7,7 +7,7 @@ l = [3, 56, 2, 63, 1, 46, 143, 65124, 412]
 def remove_print_3(l, n):
     for i in l:
         if sum(l) == 0:
-            print('Lista este goala!')
+            print("Lista este goala!")
             print(l)
         else:
             if n >= len(l):

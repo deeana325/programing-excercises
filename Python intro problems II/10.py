@@ -1,10 +1,10 @@
-#10. Write a Python program to display some information about the OS where the script is running.
+# 10. Write a Python program to display some information about the OS where the script is running.
 
 
 import platform
 
 
-print("="*40, "System Information", "="*40)
+print("=" * 40, "System Information", "=" * 40)
 uname = platform.uname()
 print(f"System: {uname.system}")
 print(f"Node Name: {uname.node}")

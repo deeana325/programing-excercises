@@ -14,10 +14,11 @@ sample = [1, -1, 0, 1]
 #         if sum(triplet) == 0 and triplet not in solution:
 #             return solution + triplet #nu sunt sigura daca asta o sa faca solutia sa fie retinuta
 #         else:
-#             break 
+#             break
 #     else:
 #         for n in sample[i:]:
 #             triplets_sum_0(solution, triplet + n, i + #pozitia lui n in sample(nu stiu cum sa scriu asta) + 1)
+
 
 def triplets_sum_0(triplet):
     if len(triplet) == 3:
@@ -28,12 +29,10 @@ def triplets_sum_0(triplet):
     else:
         rez = []
         for i in range(len(sample)):
-            if len(triplet) > 0 and i <= max(triplet): continue
+            if len(triplet) > 0 and i <= max(triplet):
+                continue
             rez += triplets_sum_0(triplet + [i])
         return rez
 
 
 print(triplets_sum_0([]))
-
-
-

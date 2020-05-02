@@ -1,5 +1,5 @@
-#9. Write a Python program to get a list of locally installed Python modules.
+# 9. Write a Python program to get a list of locally installed Python modules.
 
-#toate rasp erau de command line
+# toate rasp erau de command line
 
-help('modules')
+help("modules")

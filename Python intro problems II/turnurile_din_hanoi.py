@@ -1,5 +1,3 @@
-
-
 def hanoi_complexity(n_max):
     a = list(range(n_max, 0, -1))
     b = []
@@ -12,10 +10,10 @@ def hanoi_complexity(n_max):
         nr += 1
         if n > 1:
             hanoi(n - 1, origine, destinatie, rezerva)
-        if n >= 1:    
+        if n >= 1:
             destinatie.append(origine.pop())
         if n > 1:
-            hanoi(n-1, rezerva, origine, destinatie)
+            hanoi(n - 1, rezerva, origine, destinatie)
 
     hanoi(len(a), a, b, c)
     # print(a, b, c)
@@ -25,4 +23,4 @@ def hanoi_complexity(n_max):
 comp = [1]
 for level in range(3, 31):
     comp.append(hanoi_complexity(level))
-    print(level, comp[-1], comp[-1]/comp[-2])            
+    print(level, comp[-1], comp[-1] / comp[-2])

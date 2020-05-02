@@ -1,5 +1,5 @@
+operators = list("+-*/")
 
-operators = list('+-*/')
 
 def prepare_input(expr):
     input = expr.split()
@@ -8,26 +8,32 @@ def prepare_input(expr):
             input[i] = int(input[i])
     return input
 
+
 def calcul(operator, primul_nr, al_doilea_nr):
-    if operator == '+':
+    if operator == "+":
         return primul_nr + al_doilea_nr
-    elif operator == '-':
-        return  primul_nr - al_doilea_nr
-    elif operator == '*':
+    elif operator == "-":
+        return primul_nr - al_doilea_nr
+    elif operator == "*":
         return primul_nr * al_doilea_nr
-    elif operator == '/':
+    elif operator == "/":
         return primul_nr / al_doilea_nr
     else:
-        raise Exception(f'invalid operator: {operator}')
+        raise Exception(f"invalid operator: {operator}")
 
 
 def parse_d(input, operator=0, al_doilea_nr=-1):
     if len(input[operator:al_doilea_nr]) == 2:
         return calcul(input[operator], input[al_doilea_nr - 1], input[al_doilea_nr])
     else:
-        return calcul(input[operator], parse_d(input, operator + 1, al_doilea_nr - 1), input[al_doilea_nr]) 
+        return calcul(
+            input[operator],
+            parse_d(input, operator + 1, al_doilea_nr - 1),
+            input[al_doilea_nr],
+        )
 
-print(parse_d(prepare_input('* + 1 2 3')))
+
+print(parse_d(prepare_input("* + 1 2 3")))
 
 
 # def parse(input):
