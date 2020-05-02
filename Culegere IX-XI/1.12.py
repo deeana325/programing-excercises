@@ -1,12 +1,7 @@
 
 
 def test_patrat_perfect(numar):
-    i = 1
-    while i**2 <= numar:
-        if i**2 == numar:
-            return True
-        i += 1
-    return False
+    return int(x ** 0.5) ** 2 == x
 
 
 x = 123201 
