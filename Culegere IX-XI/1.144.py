@@ -10,7 +10,7 @@ def cat_timp(procent_dorit: float, timp: int = 0, procent_izotop: float = 100) -
     if procent_izotop <= procent_dorit:
         return timp
     else:
-        cat_timp(procent_dorit, timp + 26, procent_izotop / 2)
+        return cat_timp(procent_dorit, timp + 26, procent_izotop / 2)
         
 
 def cat_ii_ia_izotopului_plutoniu_135_sa_ajunga_la_procentul_dorit(procent_dorit: float):

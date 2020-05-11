@@ -10,7 +10,7 @@ def timp_pana_in_tara_uriasului(lungimea_vrejului: float, timp:int, x:float) -> 
     if lungimea_vrejului >= x:
         return timp
     else:
-        timp_pana_in_tara_uriasului(lungimea_vrejului + lungimea_vrejului / (timp + 2), timp + 1, x)
+        return timp_pana_in_tara_uriasului(lungimea_vrejului + lungimea_vrejului / (timp + 2), timp + 1, x)
 
 
 def cat_ii_ia_lui_jack_sa_urce(distanta_pana_in_tara_uriasului:float):

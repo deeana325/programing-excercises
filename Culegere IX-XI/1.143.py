@@ -6,9 +6,9 @@
 
 def cati_ani(rata_de_crestere: float, pop:float = 5480, ani:int = 0) -> int:
     if pop >= 2 * 5480:
-       return ani
+        return ani
     else:
-        cati_ani(rata_de_crestere, pop + pop * rata_de_crestere, ani + 1)
+        return cati_ani(rata_de_crestere, pop + pop * rata_de_crestere, ani + 1)
 
 #assert cati_ani(0.05) == 15, "Wrong answer"
 
