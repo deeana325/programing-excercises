@@ -11,11 +11,11 @@ def lungime(z: int, p: float, x: float, y: float, d:int = 1) -> float:
         return p
     elif z in [6, 7]:
         if z == 7:
-            lungime(z - 1, p + y, x, y, d = 1)
+            return lungime(z - 1, p + y, x, y, d = 1)
         else:
-            lungime(z - 1, p + y, x, y, d + 1)
+            return lungime(z - 1, p + y, x, y, d + 1)
     else:
-        lungime(z - 1, p + x, x, y, d + 1)
+        return lungime(z - 1, p + x, x, y, d + 1)
 
 
 def cat_de_mare_e_nasul_lui_pinochio(z: int, p: float, x: float, y: float):
