@@ -1,3 +1,7 @@
+# merge sort
+# ala bala
+
+
 def merge_sort(l: list) -> list:
     if len(l) <= 1:
         return l
