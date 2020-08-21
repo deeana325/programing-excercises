@@ -1,4 +1,5 @@
 # merge sort
+# ala bala
 
 
 def merge_sort(l: list) -> list:
