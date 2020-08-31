@@ -1,6 +1,6 @@
 def insertion_sort(l: list):
     l = [] + l
-    for i in range(len(l) - 1):
+    for i in range(len(l)):
         j = i
         while j > 0 and l[j] < l[j - 1]:
             l[j], l[j - 1] = l[j - 1], l[j]
@@ -12,6 +12,7 @@ assert insertion_sort([1, 0, 4]) == [0, 1, 4]
 assert insertion_sort([]) == []
 assert insertion_sort([4]) == [4]
 assert insertion_sort([2, 2, 2]) == [2, 2, 2]
+assert insertion_sort([3, 2, 1]) == [1, 2, 3]
 
 
 def timer(function, arg):
