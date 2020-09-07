@@ -1,0 +1,172 @@
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:54:52) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.9.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import md5                                                                                                                                                                   
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+<ipython-input-1-83cee62efe40> in <module>
+----> 1 import md5
+
+ModuleNotFoundError: No module named 'md5'
+
+In [2]: !pip install md5                                                                                                                                                             
+/bin/bash: pip: command not found
+
+In [3]: !python -m pip install md5                                                                                                                                                   
+/usr/bin/python: No module named pip
+
+In [4]: !python3 -m pip install md5                                                                                                                                                  
+Collecting md5
+  Could not find a version that satisfies the requirement md5 (from versions: )
+No matching distribution found for md5
+You are using pip version 19.0.3, however version 20.2.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+In [5]: import hashlib                                                                                                                                                               
+
+In [6]: hashlib.md5                                                                                                                                                                  
+Out[6]: <function _hashlib.openssl_md5>
+
+In [7]: hashlib.md5("test")                                                                                                                                                          
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-7-39a67a91668d> in <module>
+----> 1 hashlib.md5("test")
+
+TypeError: Unicode-objects must be encoded before hashing
+
+In [8]: hashlib.md5("test".encode())                                                                                                                                                 
+Out[8]: <md5 HASH object @ 0x105c5e030>
+
+IIn [9]: "😊🥺😉😍😘😚😜😂😝😳😁😣😢😭".encode                                                                                                                                       
+Out[9]: <function str.encode(encoding='utf-8', errors='strict')>
+
+IIn [10]: "😊🥺😉😍😘😚😜😂😝😳😁😣😢😭".encode()                                                                                                                                    
+Out[10]: b'\xf0\x9f\x98\x8a\xf0\x9f\xa5\xba\xf0\x9f\x98\x89\xf0\x9f\x98\x8d\xf0\x9f\x98\x98\xf0\x9f\x98\x9a\xf0\x9f\x98\x9c\xf0\x9f\x98\x82\xf0\x9f\x98\x9d\xf0\x9f\x98\xb3\xf0\x9f\x98\x81\xf0\x9f\x98\xa3\xf0\x9f\x98\xa2\xf0\x9f\x98\xad'
+
+In In [11]: import hashlib                                                                                                                                                           
+
+In [12]:                                                                                                                                                                             
+
+IIn [12]: len("😊🥺😉😍😘😚😜😂😝😳😁😣😢😭")                                                                                                                                        
+Out[12]: 14
+
+In [13]: len 
+    ...: "😊🥺😉😍😘😚😜😂😝😳😁😣😢😭")                                                                                                                                             
+  File "<ipython-input-13-a9e96edc4847>", line 2
+    "😊🥺😉😍😘😚😜😂😝😳😁😣😢😭")
+                    ^
+SyntaxError: invalid syntax
+
+
+In [14]: len("😊🥺😉😍😘😚😜😂😝😳😁😣😢😭")                                                                                                                                         
+Out[14]: 14
+
+In [15]:                                                                                                                                                                             
+
+IIn [15]: len("😊🥺😉😍😘😚😜😂😝😳😁😣😢😭".encode)                                                                                                                                 
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-15-fc6b66c6f3f9> in <module>
+----> 1 len("😊🥺😉😍😘😚😜😂😝😳😁😣😢😭".encode)
+
+TypeError: object of type 'builtin_function_or_method' has no len()
+
+IIn [16]: len("😊🥺😉😍😘😚😜😂😝😳😁😣😢😭".encode())                                                                                                                               
+Out[16]: 56
+
+In [17]: 56/14                                                                                                                                                                       
+Out[17]: 4.0
+
+IIIn [18]: hashlib.md5("test")                                                                                                                                                       
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-18-39a67a91668d> in <module>
+----> 1 hashlib.md5("test")
+
+TypeError: Unicode-objects must be encoded before hashing
+
+In [19]: hashlib.md5("text")                                                                                                                                                         
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-19-66b486c06e67> in <module>
+----> 1 hashlib.md5("text")
+
+TypeError: Unicode-objects must be encoded before hashing
+
+In [20]: hashlib.md5("text".encode)                                                                                                                                                  
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-20-66e3e4b7bf33> in <module>
+----> 1 hashlib.md5("text".encode)
+
+TypeError: object supporting the buffer API required
+
+In [21]: hashlib.md5("text".encode())                                                                                                                                                
+Out[21]: <md5 HASH object @ 0x10594f840>
+
+In [22]: hashlib.md5("text".encode()).digest                                                                                                                                         
+Out[22]: <function HASH.digest>
+
+In [23]: hashlib.md5("text".encode()).digest()                                                                                                                                       
+Out[23]: b'\x1c\xb2Q\xec\rV\x8d\xe6\xa9)\xb5 \xc4\xae\xd8\xd1'
+
+In [24]: hashlib.md5("text".encode()).hexdigest()                                                                                                                                    
+Out[24]: '1cb251ec0d568de6a929b520c4aed8d1'
+
+In [25]: hex(hashlib.md5("text".encode()).hexdigest())                                                                                                                               
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-25-9d8321d6a13b> in <module>
+----> 1 hex(hashlib.md5("text".encode()).hexdigest())
+
+TypeError: 'str' object cannot be interpreted as an integer
+
+In [26]: int(hashlib.md5("text".encode()).hexdigest(), 16)                                                                                                                           
+Out[26]: 38144274299949035767652076432594491601
+
+In [27]: "text".encode()                                                                                                                                                             
+Out[27]: b'text'
+
+In [28]: def hash_str(s, max_value=1000000): 
+    ...:     h = int(hashlib.md5(s.encode()).hexdigest(), 16) 
+    ...:     return h % max_value 
+    ...:                                                                                                                                                                             
+
+In [29]: hash_str("cucu")                                                                                                                                                            
+Out[29]: 306923
+
+In [30]: hash_str("cucu ")                                                                                                                                                           
+Out[30]: 312505
+
+In [31]: hash_str("cuco")                                                                                                                                                            
+Out[31]: 598298
+
+In [32]: hash_str(" cucu")                                                                                                                                                           
+Out[32]: 491366
+
+In [33]:                                                                                                                                                                             
+
+In [33]:                                                                                                                                                                             
+
+In [33]:                                                                                                                                                                             
+
+In [33]: bloom = [0]*1000000                                                                                                                                                         
+
+In [34]: def log_str(s): 
+    ...:     bloom[hash_str(s)] += 1 
+    ...:                                                                                                                                                                             
+
+In [35]: def check_str(s): 
+    ...:     return bloom[hash_str(s)] 
+    ...:                                                                                                                                                                             
+
+In [36]: log_str("cucu")                                                                                                                                                             
+
+In [37]: check_str("cucu")                                                                                                                                                           
+Out[37]: 1
+
+In [38]: check_str("cucubau")                                                                                                                                                        
+Out[38]: 0
+ 

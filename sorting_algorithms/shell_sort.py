@@ -52,3 +52,21 @@ assert shell_sort([1, 1, 0, 3, 2, 2, 3, 0, 4, 7, 4]) == [
     7,
 ]
 
+
+def timer(function, arg):
+    import time
+
+    t0 = time.time()
+    rez = function(arg)
+    dt = time.time() - t0
+    print("time=", round(dt, 3))
+    return rez
+
+
+import random
+
+test_list = [random.randint(0, 1000) for i in range(10000)]
+
+timer(shell_sort, test_list)
+# timer(sorted, test_list)
+

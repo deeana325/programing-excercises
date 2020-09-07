@@ -31,3 +31,21 @@ assert quick_sort([2, 2, 2]) == [2, 2, 2]
 
 l = [2, 5, 4, 0, 1, 3]
 print(quick_sort(l, len(l) - 1))
+
+
+def timer(function, arg):
+    import time
+
+    t0 = time.time()
+    rez = function(arg)
+    dt = time.time() - t0
+    print("time=", round(dt, 3))
+    return rez
+
+
+import random
+
+test_list = [random.randint(0, 1000) for i in range(10000)]
+
+timer(quick_sort, test_list)
+
