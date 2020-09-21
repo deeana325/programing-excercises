@@ -21,14 +21,13 @@ def check_str(s):
     return bloom[hash_str(s)]
 
 
-# !!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!! 
 
 
 def tokenize(s):
-    return [re.sub("[,;:\.]+", "", x) for x in re.sub("([A-Z]+)", "\L$1\E", s).strip().split()]
+    return [re.sub(r"([,;:\.()_]+|^[\W_]*|[\W_]*$)", "", x) for x in re.split(r'(!| )+', re.sub(r'^[ \s]*|[ \s]*$', '', s.lower()))]
+    # return [re.sub(r'[,;:\/.()]+', '', x) for x in s.lower().strip().split()]
 
-
-# nu merge...
 
 with open(dest_file, "w") as file2:
     with open(src_file, "r") as file1:
@@ -37,4 +36,4 @@ with open(dest_file, "w") as file2:
                 if check_str(word) == 0:
                     log_str(word)
                     file2.write(word + "\n")
-                    print(word, file=file2)
+                    # print(word, file=file2)
