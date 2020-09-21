@@ -1,0 +1,471 @@
+In [1]: import re                                                                                                                                                         
+
+In [2]: re.match(r'[\$£]?[0-9,\.]+$', x)                                                                                                                                  
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-2-70e670932182> in <module>
+----> 1 re.match(r'[\$£]?[0-9,\.]+$', x)
+
+NameError: name 'x' is not defined
+
+In [3]: x = '2.03'                                                                                                                                                        
+
+In [4]: re.match(r'[\$£]?[0-9,\.]+$', x)                                                                                                                                  
+Out[4]: <re.Match object; span=(0, 4), match='2.03'>
+
+In [5]: re.match(r'[\$£]?[0-9,\.]+$', '2.03')                                                                                                                             
+Out[5]: <re.Match object; span=(0, 4), match='2.03'>
+
+In [6]: re.match(r'[\$£]?[0-9,\.]+$', '2.03 ')                                                                                                                            
+
+In [7]: re.match(r'[\$£]?[0-9,\.]+', '2.03 ')                                                                                                                             
+Out[7]: <re.Match object; span=(0, 4), match='2.03'>
+
+In [8]: re.match(r'[a-z]', ' ana ')                                                                                                                                       
+
+In [9]: re.match(r' [a-z]', ' ana ')                                                                                                                                      
+Out[9]: <re.Match object; span=(0, 2), match=' a'>
+
+In [10]: re.match(r'^ [a-z]', ' ana ')                                                                                                                                    
+Out[10]: <re.Match object; span=(0, 2), match=' a'>
+
+In [11]: re.search(r'^ [a-z]', ' ana ')                                                                                                                                   
+Out[11]: <re.Match object; span=(0, 2), match=' a'>
+
+In [12]: re.search(r'[a-z]', ' ana ')                                                                                                                                     
+Out[12]: <re.Match object; span=(1, 2), match='a'>
+
+In [13]: re.search(r'^ (a|n)+', ' ana ')                                                                                                                                  
+Out[13]: <re.Match object; span=(0, 4), match=' ana'>
+
+In [14]: re.sub(r'([0-9]+)[\.,]([0-9]*)', 'real', '23.45')                                                                                                                
+Out[14]: 'real'
+
+In [15]: re.sub(r'([0-9]+)[\.,]([0-9]*)', 'tot=\0 intreg=\1 fractional=\2', '23.45')                                                                                      
+Out[15]: 'tot=\x00 intreg=\x01 fractional=\x02'
+
+In [16]: re.sub(r'([0-9]+)[\.,]([0-9]*)', r'tot=\0 intreg=\1 fractional=\2', '23.45')                                                                                     
+Out[16]: 'tot=\x00 intreg=23 fractional=45'
+
+In [17]: re.sub(r'(([0-9]+)[\.,]([0-9]*))', r'tot=\0 intreg=\1 fractional=\2', '23.45')                                                                                   
+Out[17]: 'tot=\x00 intreg=23.45 fractional=23'
+
+In [18]: re.sub(r'(([0-9]+)[\.,]([0-9]*))', r'tot=\1 intreg=\2 fractional=\3', '23.45')                                                                                   
+Out[18]: 'tot=23.45 intreg=23 fractional=45'
+
+In [19]: re.search(r'(([0-9]+)[\.,]([0-9]*))', '23.45')                                                                                                                   
+Out[19]: <re.Match object; span=(0, 5), match='23.45'>
+
+In [20]: g = re.search(r'(([0-9]+)[\.,]([0-9]*))', '23.45')                                                                                                               
+
+In [21]: g.group(1)                                                                                                                                                       
+Out[21]: '23.45'
+
+In [22]: g.group(2)                                                                                                                                                       
+Out[22]: '23'
+
+In [23]: g.group(3)                                                                                                                                                       
+Out[23]: '45'
+
+In [24]: bool(g)                                                                                                                                                          
+Out[24]: True
+
+In [25]: g = re.search(r'(([0-9]+)[\.,]?([0-9]*))', '23')                                                                                                                 
+
+In [26]: bool(g)                                                                                                                                                          
+Out[26]: True
+
+In [27]: g = re.search(r'(([0-9]+)[\.,]?([0-9]*))', '')                                                                                                                   
+
+In [28]: bool(g)                                                                                                                                                          
+Out[28]: False
+
+In [29]:                                                                                                                                                                  
+
+In [29]: if g: 
+    ...:     print(g.group(1), g.group(2)) 
+    ...:                                                                                                                                                                  
+
+In [30]: g = re.search(r'(([0-9]+)[\.,]?([0-9]*))', '23.45')                                                                                                              
+
+In [31]:                                                                                                                                                                  
+
+In [31]: if g: 
+    ...:     print(g.group(1), g.group(2)) 
+    ...:                                                                                                                                                                  
+23.45 23
+
+In [32]: re.sub(r'([0-9]{2})', r'\1', '22 33 44')                                                                                                                         
+Out[32]: '22 33 44'
+
+In [33]: re.sub(r'([0-9]{2})', r'(\1)', '22 33 44')                                                                                                                       
+Out[33]: '(22) (33) (44)'
+
+In [34]: re.sub(r'([0-9]{2})', r'99-\1', '22 33 44')                                                                                                                      
+Out[34]: '99-22 99-33 99-44'
+
+In [35]: def invers(x:str): 
+    ...:     x = 99 - int(x) 
+    ...:     return str(x) 
+    ...:                                                                                                                                                                  
+
+In [36]: re.sub(r'([0-9]{2})', invers, '22 33 44')                                                                                                                        
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-36-95d9f9a2c2f1> in <module>
+----> 1 re.sub(r'([0-9]{2})', invers, '22 33 44')
+
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py in sub(pattern, repl, string, count, flags)
+    190     a callable, it's passed the Match object and must return
+    191     a replacement string to be used."""
+--> 192     return _compile(pattern, flags).sub(repl, string, count)
+    193 
+    194 def subn(pattern, repl, string, count=0, flags=0):
+
+<ipython-input-35-79347d6c5412> in invers(x)
+      1 def invers(x:str):
+----> 2     x = 99 - int(x)
+      3     return str(x)
+      4 
+
+TypeError: int() argument must be a string, a bytes-like object or a number, not 're.Match'
+
+In [37]:                                                                                                                                                                  
+
+In [37]: def invers(x): 
+    ...:     x = 99 - int(x.group(1)) 
+    ...:     return str(x) 
+    ...:      
+    ...:                                                                                                                                                                  
+
+In [38]: re.sub(r'([0-9]{2})', invers, '22 33 44')                                                                                                                        
+Out[38]: '77 66 55'
+
+In [39]: re.sub(r'([0-9]{2})', lambda x: str(99 - int(x.group(1))), '22 33 44')                                                                                           
+Out[39]: '77 66 55'
+
+In [40]: l = [4, 3, 23, 1, 0, 999]                                                                                                                                        
+
+In [41]: sort(l)                                                                                                                                                          
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-41-cf8a3a09ad64> in <module>
+----> 1 sort(l)
+
+NameError: name 'sort' is not defined
+
+In [42]: sorted(l)                                                                                                                                                        
+Out[42]: [0, 1, 3, 4, 23, 999]
+
+In [43]: sorted(l, reversed=True)                                                                                                                                         
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-43-d82af4e1f147> in <module>
+----> 1 sorted(l, reversed=True)
+
+TypeError: 'reversed' is an invalid keyword argument for sort()
+
+In [44]: sorted(l, reverse=True)                                                                                                                                          
+Out[44]: [999, 23, 4, 3, 1, 0]
+
+In [45]: sorted(l, key=lambda x: x)                                                                                                                                       
+Out[45]: [0, 1, 3, 4, 23, 999]
+
+In [46]: sorted(l, key=lambda x: -x)                                                                                                                                      
+Out[46]: [999, 23, 4, 3, 1, 0]
+
+In [47]: sorted(l, key=lambda x: -len(str(x)))                                                                                                                            
+Out[47]: [999, 23, 4, 3, 1, 0]
+
+In [48]: l = [4, 3, 23, 1, 0, 999, 0.001, 3.02831089]                                                                                                                     
+
+In [49]: sorted(l, key=lambda x: -len(str(x)))                                                                                                                            
+Out[49]: [3.02831089, 0.001, 999, 23, 4, 3, 1, 0]
+
+In [50]: l.map(str)                                                                                                                                                       
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-50-a685d02f69e6> in <module>
+----> 1 l.map(str)
+
+AttributeError: 'list' object has no attribute 'map'
+
+In [51]: map(l, str)                                                                                                                                                      
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-51-b95891aa347c> in <module>
+----> 1 map(l, str)
+
+TypeError: 'type' object is not iterable
+
+In [52]: map(str, l)                                                                                                                                                      
+Out[52]: <map at 0x10db6e0d0>
+
+In [53]: list(map(str, l))                                                                                                                                                
+Out[53]: ['4', '3', '23', '1', '0', '999', '0.001', '3.02831089']
+
+In [54]: [str(x) for x in l]                                                                                                                                              
+Out[54]: ['4', '3', '23', '1', '0', '999', '0.001', '3.02831089']
+
+In [55]: list(map(list, map(str, l)))                                                                                                                                     
+Out[55]: 
+[['4'],
+ ['3'],
+ ['2', '3'],
+ ['1'],
+ ['0'],
+ ['9', '9', '9'],
+ ['0', '.', '0', '0', '1'],
+ ['3', '.', '0', '2', '8', '3', '1', '0', '8', '9']]
+
+In [56]: type(invers)                                                                                                                                                     
+Out[56]: function
+
+In [57]: type(str)                                                                                                                                                        
+Out[57]: type
+
+In [58]: a = invers                                                                                                                                                       
+
+In [59]: a('23')                                                                                                                                                          
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-59-1b0740d95104> in <module>
+----> 1 a('23')
+
+<ipython-input-37-2e52fabe1f4a> in invers(x)
+      1 def invers(x):
+----> 2     x = 99 - int(x.group(1))
+      3     return str(x)
+      4 
+      5 
+
+AttributeError: 'str' object has no attribute 'group'
+
+In [60]: def invers(x:str): 
+    ...:     x = 99 - int(x) 
+    ...:     return str(x) 
+    ...:                                                                                                                                                                  
+
+In [61]: a('23')                                                                                                                                                          
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-61-1b0740d95104> in <module>
+----> 1 a('23')
+
+<ipython-input-37-2e52fabe1f4a> in invers(x)
+      1 def invers(x):
+----> 2     x = 99 - int(x.group(1))
+      3     return str(x)
+      4 
+      5 
+
+AttributeError: 'str' object has no attribute 'group'
+
+In [62]: a = invers                                                                                                                                                       
+
+In [63]: a('23')                                                                                                                                                          
+Out[63]: '76'
+
+In [64]: [a, str]                                                                                                                                                         
+Out[64]: [<function __main__.invers(x: str)>, str]
+
+In [65]: fn = [a, str]                                                                                                                                                    
+
+In [66]: fn[0]('23')                                                                                                                                                      
+Out[66]: '76'
+
+In [67]: def facator(n): 
+    ...:     def child(x): 
+    ...:         return x + n 
+    ...:                                                                                                                                                                  
+
+In [68]: def parent(n): 
+    ...:     def child(x): 
+    ...:         return x + n 
+    ...:     return child 
+    ...:                                                                                                                                                                  
+
+In [69]: parent(0)                                                                                                                                                        
+Out[69]: <function __main__.parent.<locals>.child(x)>
+
+In [70]: parent(0)(10)                                                                                                                                                    
+Out[70]: 10
+
+In [71]: parent(5)(10)                                                                                                                                                    
+Out[71]: 15
+
+In [72]: add5 = parent(5)                                                                                                                                                 
+
+In [73]: add5(2)                                                                                                                                                          
+Out[73]: 7
+
+In [74]: fn = [parent(1), parent(2), parent(3)]                                                                                                                           
+
+In [75]: [f(10) for f in fn]                                                                                                                                              
+Out[75]: [11, 12, 13]
+
+In [76]: def person(first_name, last_name, age): 
+    ...:     def full_name(): 
+    ...:         return first_name+' '+last_name 
+    ...:     def first_name_and_age(): 
+    ...:         return full_name()+' '+str(age) 
+    ...:     return full_name, first_name_and_age 
+    ...:         
+    ...:                                                                                                                                                                  
+
+In [77]: p1 = person('Diana', 'Cristescu', 18)                                                                                                                            
+
+In [78]: type(p1)                                                                                                                                                         
+Out[78]: tuple
+
+In [79]: p1                                                                                                                                                               
+Out[79]: 
+(<function __main__.person.<locals>.full_name()>,
+ <function __main__.person.<locals>.first_name_and_age()>)
+
+In [80]: p1[0]                                                                                                                                                            
+Out[80]: <function __main__.person.<locals>.full_name()>
+
+In [81]: p1[0]()                                                                                                                                                          
+Out[81]: 'Diana Cristescu'
+
+In [82]: p1[1]()                                                                                                                                                          
+Out[82]: 'Diana Cristescu 18'
+
+In [83]: p2 = person('Abc', 'Def', 28)                                                                                                                                    
+
+In [84]: p2[0]()                                                                                                                                                          
+Out[84]: 'Abc Def'
+
+In [85]: p2[2]()                                                                                                                                                          
+---------------------------------------------------------------------------
+IndexError                                Traceback (most recent call last)
+<ipython-input-85-f19d087cdc7d> in <module>
+----> 1 p2[2]()
+
+IndexError: tuple index out of range
+
+In [86]: p2[1]()                                                                                                                                                          
+Out[86]: 'Abc Def 28'
+
+In [87]: p2                                                                                                                                                               
+Out[87]: 
+(<function __main__.person.<locals>.full_name()>,
+ <function __main__.person.<locals>.first_name_and_age()>)
+
+In [88]: def make_counter(): 
+    ...:     c = 0 
+    ...:     def my_counter(): 
+    ...:         c += 1 
+    ...:         return c 
+    ...:     return my_counter 
+    ...:                                                                                                                                                                  
+
+In [89]: c1 = make_counter()                                                                                                                                              
+
+In [90]: c1                                                                                                                                                               
+Out[90]: <function __main__.make_counter.<locals>.my_counter()>
+
+In [91]: c1()                                                                                                                                                             
+---------------------------------------------------------------------------
+UnboundLocalError                         Traceback (most recent call last)
+<ipython-input-91-028390c191d7> in <module>
+----> 1 c1()
+
+<ipython-input-88-862fe6f38464> in my_counter()
+      2     c = 0
+      3     def my_counter():
+----> 4         c += 1
+      5         return c
+      6     return my_counter
+
+UnboundLocalError: local variable 'c' referenced before assignment
+
+In [92]: def make_counter(c=0): 
+    ...:     def my_counter(): 
+    ...:         c += 1 
+    ...:         return c 
+    ...:     return my_counter 
+    ...:                                                                                                                                                                  
+
+In [93]: c1()                                                                                                                                                             
+---------------------------------------------------------------------------
+UnboundLocalError                         Traceback (most recent call last)
+<ipython-input-93-028390c191d7> in <module>
+----> 1 c1()
+
+<ipython-input-88-862fe6f38464> in my_counter()
+      2     c = 0
+      3     def my_counter():
+----> 4         c += 1
+      5         return c
+      6     return my_counter
+
+UnboundLocalError: local variable 'c' referenced before assignment
+
+In [94]: c1 = make_counter()                                                                                                                                              
+
+In [95]: c1()                                                                                                                                                             
+---------------------------------------------------------------------------
+UnboundLocalError                         Traceback (most recent call last)
+<ipython-input-95-028390c191d7> in <module>
+----> 1 c1()
+
+<ipython-input-92-22e9c9ab2614> in my_counter()
+      1 def make_counter(c=0):
+      2     def my_counter():
+----> 3         c += 1
+      4         return c
+      5     return my_counter
+
+UnboundLocalError: local variable 'c' referenced before assignment
+
+In [96]: def make_counter(c=0): 
+    ...:     def my_counter(): 
+    ...:         nonlocal c 
+    ...:         c += 1 
+    ...:         return c 
+    ...:     return my_counter 
+    ...:                                                                                                                                                                  
+
+In [97]: c1 = make_counter()                                                                                                                                              
+
+In [98]: c1()                                                                                                                                                             
+Out[98]: 1
+
+In [99]: c1()                                                                                                                                                             
+Out[99]: 2
+
+In [100]: c1()                                                                                                                                                            
+Out[100]: 3
+
+In [101]: c2 = make_counter()                                                                                                                                             
+
+In [102]: c2()                                                                                                                                                            
+Out[102]: 1
+
+In [103]: c2()                                                                                                                                                            
+Out[103]: 2
+
+In [104]: c1()                                                                                                                                                            
+Out[104]: 4
+
+In [105]: s = ' abc '                                                                                                                                                     
+
+In [106]: re.sub(r'^ +', '', s)                                                                                                                                           
+Out[106]: 'abc '
+
+In [107]: re.sub(r' +$', '', s)                                                                                                                                           
+Out[107]: ' abc'
+
+In [108]: re.sub(r'^ +$', '', s)                                                                                                                                          
+Out[108]: ' abc '
+
+In [109]: re.sub(r'^ +| +$', '', s)                                                                                                                                       
+Out[109]: 'abc'
+
+In [110]: re.sub(r'(^ +| +$)', '', s)                                                                                                                                     
+Out[110]: 'abc'
+
+In [111]: re.split(r'[,\.]', '1, 2.3')                                                                                                                                    
+Out[111]: ['1', ' 2', '3']

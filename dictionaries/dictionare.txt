@@ -1,0 +1,20 @@
+word
+'the'
+unigram = {}
+unigram
+{}
+unigram[word] = 1
+unigram
+{'the': 1}
+word in unigram
+True
+'cucu' in unigram
+False
+len(unigram)
+1
+unigram.keys
+<built-in method keys of dict object at 0x1095ab2d0>
+unigram.keys()
+dict_keys(['the'])
+unigram.values()
+dict_values([1])
